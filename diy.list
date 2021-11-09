@@ -1,6 +1,6 @@
 # 本地
-IP-CIDR,157.245.49.0/24,🇸🇬 狮城节点
-IP-CIDR,104.27.207.0/24,🇭🇰 香港节点
+#IP-CIDR,157.245.49.0/24,🇸🇬 狮城节点
+#IP-CIDR,104.27.207.0/24,🇭🇰 香港节点
 DOMAIN-KEYWORD,sg.odysseyplus.site,🇸🇬 狮城节点
 DOMAIN-KEYWORD,sg2.odysseyplus.site,🇸🇬 狮城节点
 DOMAIN-KEYWORD,cf.odysseyplus,🇺🇲 美国节点
