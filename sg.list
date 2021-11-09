@@ -1,3 +1,9 @@
 IP-CIDR,157.245.49.0/24
+USER-AGENT,*g.odysseyplus*
+USER-AGENT,sg.odysseyplus*
+DOMAIN-KEYWORD,sg.odysseyplus
+DOMAIN-KEYWORD,sg2.odysseyplus
+DOMAIN-SUFFIX,sg2.odysseyplus.site
+DOMAIN-SUFFIX,sg.odysseyplus.site
 DOMAIN,sg.odysseyplus.site
 DOMAIN,sg2.odysseyplus.site
