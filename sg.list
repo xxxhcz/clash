@@ -8,3 +8,9 @@ DOMAIN-SUFFIX,sg2.odysseyplus.site
 DOMAIN-SUFFIX,sg.odysseyplus.site
 DOMAIN,sg.odysseyplus.site
 DOMAIN,sg2.odysseyplus.site
+
+USER-AGENT,*g.jmsooo.com*
+USER-AGENT,sg.jmsooo.com*
+DOMAIN-KEYWORD,sg.jmsooo.com
+DOMAIN-SUFFIX,sg.jmsooo.com
+DOMAIN,sg.jmsooo.com
