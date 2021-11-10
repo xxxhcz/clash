@@ -1,4 +1,4 @@
-IP-CIDR,157.245.49.0/24
+IP-CIDR,157.245.49.0/24,no-resolve
 USER-AGENT,*g.odysseyplus*
 USER-AGENT,sg.odysseyplus*
 DOMAIN-KEYWORD,sg.odysseyplus
