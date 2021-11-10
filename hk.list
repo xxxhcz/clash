@@ -17,3 +17,9 @@ USER-AGENT,pub1.emby*
 DOMAIN-KEYWORD,pub1.emby
 DOMAIN-SUFFIX,pub1.emby
 DOMAIN,pub1.emby
+
+USER-AGENT,*k.jmsooo.com*
+USER-AGENT,hk.jmsooo.com*
+DOMAIN-KEYWORD,hk.jmsooo.com
+DOMAIN-SUFFIX,hk.jmsooo.com
+DOMAIN,hk.jmsooo.com
