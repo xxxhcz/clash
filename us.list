@@ -12,6 +12,12 @@ DOMAIN-KEYWORD,us.odysseyplus
 DOMAIN-SUFFIX,us.odysseyplus.site
 DOMAIN,us.odysseyplus.site
 
+USER-AGENT,*p.odysseyplus*
+USER-AGENT,sp.odysseyplus.site*
+DOMAIN-KEYWORD,sp.odysseyplus.site
+DOMAIN-SUFFIX,sp.odysseyplus.site
+DOMAIN,sp.odysseyplus.site
+
 USER-AGENT,*otakudrive*
 USER-AGENT,otakudrive*
 DOMAIN-KEYWORD,otakudrive
@@ -23,3 +29,9 @@ USER-AGENT,cf1.jmsooo*
 DOMAIN-KEYWORD,cf1.jmsooo
 DOMAIN-SUFFIX,cf1.jmsooo
 DOMAIN,cf1.jmsooo
+
+USER-AGENT,*ub1back.emby.wtfs*
+USER-AGENT,pub1back.emby.wtf*
+DOMAIN-KEYWORD,pub1back.emby.wtf
+DOMAIN-SUFFIX,pub1back.emby.wtf
+DOMAIN,pub1back.emby.wtf
