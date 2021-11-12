@@ -4,8 +4,8 @@ payload:
  - DOMAIN-SUFFIX,fast.com,Speedtest
  - DOMAIN-KEYWORD,speedtest,Speedtest
  - DOMAIN-SUFFIX,ooklaserver.net,Speedtest
-USER-AGENT,*peedtest.com*
-USER-AGENT,Speedtest.co*
-DOMAIN-KEYWORD,Speedtest.com
-DOMAIN-SUFFIX,Speedtest.com
-DOMAIN,Speedtest.com
+USER-AGENT,*peedtes*
+USER-AGENT,Speedtes*
+DOMAIN-KEYWORD,Speedtest
+DOMAIN-SUFFIX,Speedtest
+DOMAIN,Speedtest
