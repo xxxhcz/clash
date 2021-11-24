@@ -6,12 +6,6 @@ DOMAIN-KEYWORD,hkdtmb.com
 DOMAIN-SUFFIX,hkdtmb.com
 DOMAIN,hkdtmb.com
 
-USER-AGENT,*ornemby.club*
-USER-AGENT,pornemby.club*
-DOMAIN-KEYWORD,pornemby.club
-DOMAIN-SUFFIX,pornemby.club
-DOMAIN,pornemby.club
-
 USER-AGENT,*pub1.emby*
 USER-AGENT,pub1.emby*
 DOMAIN-KEYWORD,pub1.emby
