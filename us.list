@@ -6,6 +6,12 @@ DOMAIN-KEYWORD,cf.odysseyplus
 DOMAIN-SUFFIX,cf.odysseyplus.site
 DOMAIN,cf.odysseyplus.site
 
+USER-AGENT,*mby.ssky.m*
+USER-AGENT,emby.ssky.m*
+DOMAIN-KEYWORD,emby.ssky.me
+DOMAIN-SUFFIX,emby.ssky.me
+DOMAIN,emby.ssky.me
+
 USER-AGENT,*ornemby.club*
 USER-AGENT,pornemby.club*
 DOMAIN-KEYWORD,pornemby.club
