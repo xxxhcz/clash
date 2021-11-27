@@ -17,3 +17,9 @@ USER-AGENT,hk.jmsooo.com*
 DOMAIN-KEYWORD,hk.jmsooo.com
 DOMAIN-SUFFIX,hk.jmsooo.com
 DOMAIN,hk.jmsooo.com
+
+USER-AGENT,*mby.cjpc.c*
+USER-AGENT,emby.cjpc.c*
+DOMAIN-KEYWORD,emby.cjpc.cc
+DOMAIN-SUFFIX,emby.cjpc.cc
+DOMAIN,emby.cjpc.cc
