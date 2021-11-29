@@ -18,6 +18,18 @@ DOMAIN-KEYWORD,emby.ssky.me
 DOMAIN-SUFFIX,emby.ssky.me
 DOMAIN,emby.ssky.me
 
+USER-AGENT,*mby-us.ssky.m*
+USER-AGENT,emby-us.ssky.m*
+DOMAIN-KEYWORD,emby-us.ssky.me
+DOMAIN-SUFFIX,emby-us.ssky.me
+DOMAIN,emby-us.ssky.me
+
+USER-AGENT,*mby.cjpc.c*
+USER-AGENT,emby.cjpc.c*
+DOMAIN-KEYWORD,emby.cjpc.cc
+DOMAIN-SUFFIX,emby.cjpc.cc
+DOMAIN,emby.cjpc.cc
+
 USER-AGENT,*ornemby.club*
 USER-AGENT,pornemby.club*
 DOMAIN-KEYWORD,pornemby.club
