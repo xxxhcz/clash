@@ -24,11 +24,11 @@ DOMAIN-KEYWORD,emby-us.ssky.me
 DOMAIN-SUFFIX,emby-us.ssky.me
 DOMAIN,emby-us.ssky.me
 
-USER-AGENT,*mby.cjpc.c*
-USER-AGENT,emby.cjpc.c*
-DOMAIN-KEYWORD,emby.cjpc.cc
-DOMAIN-SUFFIX,emby.cjpc.cc
-DOMAIN,emby.cjpc.cc
+USER-AGENT,*mby.riches.clou*
+USER-AGENT,emby.riches.clou*
+DOMAIN-KEYWORD,emby.riches.cloud
+DOMAIN-SUFFIX,emby.riches.cloud
+DOMAIN,emby.riches.cloud
 
 USER-AGENT,*ornemby.club*
 USER-AGENT,pornemby.club*
