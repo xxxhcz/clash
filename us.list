@@ -49,7 +49,7 @@ DOMAIN-SUFFIX,sp.odysseyplus.site
 DOMAIN,sp.odysseyplus.site
 
 IP-CIDR,172.65.60.104/32
-IP-CIDR,198.204.247.0/32
+IP-CIDR,198.204.247.154/32
 
 USER-AGENT,*otakudrive*
 USER-AGENT,otakudrive*
