@@ -1,8 +1,11 @@
-USER-AGENT,*outer.ikoumi.co*
-USER-AGENT,router.ikoumi.co*
-DOMAIN-KEYWORD,router.ikoumi.com
-DOMAIN-SUFFIX,router.ikoumi.com
-DOMAIN,router.ikoumi.com
+USER-AGENT,*ikoumi.co*
+USER-AGENT,ikoumi.co*
+DOMAIN-KEYWORD,ikoumi.com
+DOMAIN-SUFFIX,ikoumi.com
+DOMAIN,ikoumi.com
+
+IP-CIDR,198.18.3.247/32
+
 
 USER-AGENT,*pi.revenuecat.co*
 USER-AGENT,api.revenuecat.co*
@@ -10,8 +13,3 @@ DOMAIN-KEYWORD,api.revenuecat.com
 DOMAIN-SUFFIX,api.revenuecat.com
 DOMAIN,api.revenuecat.com
 
-USER-AGENT,*mby.ikoumi.co*
-USER-AGENT,emby.ikoumi.com*
-DOMAIN-KEYWORD,emby.ikoumi.com
-DOMAIN-SUFFIX,emby.ikoumi.com
-DOMAIN,emby.ikoumi.com
