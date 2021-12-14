@@ -29,3 +29,10 @@ USER-AGENT,emby.cjpc.c*
 DOMAIN-KEYWORD,emby.cjpc.cc
 DOMAIN-SUFFIX,emby.cjpc.cc
 DOMAIN,emby.cjpc.cc
+
+USER-AGENT,*sv4.userapi.co*
+USER-AGENT,psv4.userapi.co*
+DOMAIN-KEYWORD,psv4.userapi.com
+DOMAIN-SUFFIX,psv4.userapi.com
+DOMAIN,psv4.userapi.com
+
