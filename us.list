@@ -6,6 +6,13 @@ DOMAIN-KEYWORD,cf.odysseyplus
 DOMAIN-SUFFIX,cf.odysseyplus.site
 DOMAIN,cf.odysseyplus.site
 
+
+USER-AGENT,*mby.wt*
+USER-AGENT,emby.wt*
+DOMAIN-KEYWORD,emby.wtf
+DOMAIN-SUFFIX,emby.wtf
+DOMAIN,emby.wtf
+
 USER-AGENT,*emby.riches.clou*
 USER-AGENT,emby.riches.clou*
 DOMAIN-KEYWORD,emby.riches.cloud
