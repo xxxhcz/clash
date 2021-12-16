@@ -1,7 +1,7 @@
 #香港自定义
 IP-CIDR,104.27.207.0/24,no-resolve
 #hkdtmb
-HOST-KEYWORD,hkdtmb.com
+DOMAIN-KEYWORD,hkdtmb.com
 
 #超级跑车公益服
 HOST-KEYWORD,emby.cjpc.cc
@@ -10,4 +10,4 @@ HOST-KEYWORD,emby.cjpc.cc
 DOMAIN-KEYWORD,psv4.userapi.com
 
 #pornemby
-HOST-KEYWORD,pornemby.club
+DOMAIN-KEYWORD,pornemby.club
