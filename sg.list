@@ -4,9 +4,9 @@ IP-CIDR,157.245.49.0/24,no-resolve
 IP-CIDR,143.198.94.163/32
 
 #奥德赛
-HOST-KEYWORD,sg.odysseyplus.site
-HOST-KEYWORD,sg2.odysseyplus.site
+DOMAIN-KEYWORD,sg.odysseyplus.site
+DOMAIN-KEYWORD,sg2.odysseyplus.site
 
 #卷毛鼠
-HOST-KEYWORD,sg1.jmsooo
-HOST-KEYWORD,sg2.jmsooo
+DOMAIN-KEYWORD,sg1.jmsooo
+DOMAIN-KEYWORD,sg2.jmsooo
