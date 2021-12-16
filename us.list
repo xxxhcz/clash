@@ -2,25 +2,25 @@
 IP-CIDR,157.245.49.0/24,no-resolve
 
 #奥德赛
-HOST-KEYWORD,cf.odysseyplus.site
-HOST-KEYWORD,us.odysseyplus.site
-HOST-KEYWORD,sp.odysseyplus.site
+DOMAIN-KEYWORD,cf.odysseyplus.site
+DOMAIN-KEYWORD,us.odysseyplus.site
+DOMAIN-KEYWORD,sp.odysseyplus.site
 
 #卷毛鼠
-HOST-KEYWORD,usa1.jmsooo
-HOST-KEYWORD,usa2.jmsooo
-HOST-KEYWORD,usa3.jmsooo
+DOMAIN-KEYWORD,usa1.jmsooo
+DOMAIN-KEYWORD,usa2.jmsooo
+DOMAIN-KEYWORD,usa3.jmsooo
 
 ##终点站欧美
-HOST-KEYWORD,pub1back.emby.wtf
-HOST-KEYWORD,pub2back.emby.wtf
-HOST-KEYWORD,pub3back.emby.wtf
+DOMAIN-KEYWORD,pub1back.emby.wtf
+DOMAIN-KEYWORD,pub2back.emby.wtf
+DOMAIN-KEYWORD,pub3back.emby.wtf
 
 #TAG服
-HOST-KEYWORD,emby.riches.cloud
+DOMAIN-KEYWORD,emby.riches.cloud
 
 #Misty小型免费公益服
-HOST-KEYWORD,emby-us.ssky.me
+DOMAIN-KEYWORD,emby-us.ssky.me
 
 IP-CIDR,172.65.60.104/32
 IP-CIDR,198.204.247.154/32
