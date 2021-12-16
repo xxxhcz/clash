@@ -1,20 +1,10 @@
 #香港自定义
 IP-CIDR,104.27.207.0/24,no-resolve
-USER-AGENT,*kdtmb.com*
-USER-AGENT,hkdtmb.com*
-DOMAIN-KEYWORD,hkdtmb.com
-DOMAIN-SUFFIX,hkdtmb.com
-DOMAIN,hkdtmb.com
+#hkdtmb
+HOST-KEYWORD,hkdtmb.com,HK
 
-USER-AGENT,*mby.cjpc.c*
-USER-AGENT,emby.cjpc.c*
-DOMAIN-KEYWORD,emby.cjpc.cc
-DOMAIN-SUFFIX,emby.cjpc.cc
-DOMAIN,emby.cjpc.cc
+#超级跑车公益服
+HOST-KEYWORD,emby.cjpc.cc,HK
 
-USER-AGENT,*sv4.userapi.co*
-USER-AGENT,psv4.userapi.co*
+#appstorrent  mac app下载服务器
 DOMAIN-KEYWORD,psv4.userapi.com
-DOMAIN-SUFFIX,psv4.userapi.com
-DOMAIN,psv4.userapi.com
-
