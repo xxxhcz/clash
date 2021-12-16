@@ -6,12 +6,6 @@ DOMAIN-KEYWORD,hkdtmb.com
 DOMAIN-SUFFIX,hkdtmb.com
 DOMAIN,hkdtmb.com
 
-USER-AGENT,*pub1.emby*
-USER-AGENT,pub1.emby*
-DOMAIN-KEYWORD,pub1.emby
-DOMAIN-SUFFIX,pub1.emby
-DOMAIN,pub1.emby
-
 USER-AGENT,*k.jmsooo.com*
 USER-AGENT,hk.jmsooo.com*
 DOMAIN-KEYWORD,hk.jmsooo.com
