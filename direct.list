@@ -1,15 +1,12 @@
-USER-AGENT,*ikoumi.co*
-USER-AGENT,ikoumi.co*
+#IKOUMI服
 DOMAIN-KEYWORD,ikoumi.com
-DOMAIN-SUFFIX,ikoumi.com
-DOMAIN,ikoumi.com
 
 IP-CIDR,198.18.3.247/32
 
-
-USER-AGENT,*pi.revenuecat.co*
-USER-AGENT,api.revenuecat.co*
+#filebox订阅服务器直连
 DOMAIN-KEYWORD,api.revenuecat.com
-DOMAIN-SUFFIX,api.revenuecat.com
-DOMAIN,api.revenuecat.com
 
+#终点站直连
+DOMAIN-KEYWORD,pub1.emby.wtf
+DOMAIN-KEYWORD,pub2.emby.wtf
+DOMAIN-KEYWORD,pub3.emby.wtf
