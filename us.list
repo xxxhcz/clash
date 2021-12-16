@@ -1,77 +1,30 @@
 #美区自定义
 IP-CIDR,157.245.49.0/24,no-resolve
-USER-AGENT,*f.odysseyplus*
-USER-AGENT,cf.odysseyplus*
-DOMAIN-KEYWORD,cf.odysseyplus
-DOMAIN-SUFFIX,cf.odysseyplus.site
-DOMAIN,cf.odysseyplus.site
 
+#奥德赛
+HOST-KEYWORD,cf.odysseyplus.site
+HOST-KEYWORD,us.odysseyplus.site
+HOST-KEYWORD,sp.odysseyplus.site
 
-USER-AGENT,*mby.wt*
-USER-AGENT,emby.wt*
-DOMAIN-KEYWORD,emby.wtf
-DOMAIN-SUFFIX,emby.wtf
-DOMAIN,emby.wtf
+#卷毛鼠
+HOST-KEYWORD,usa1.jmsooo
+HOST-KEYWORD,usa2.jmsooo
+HOST-KEYWORD,usa3.jmsooo
 
-USER-AGENT,*emby.riches.clou*
-USER-AGENT,emby.riches.clou*
-DOMAIN-KEYWORD,emby.riches.cloud
-DOMAIN-SUFFIX,emby.riches.cloud
-DOMAIN,emby.riches.cloud
+##终点站欧美
+HOST-KEYWORD,pub1back.emby.wtf
+HOST-KEYWORD,pub2back.emby.wtf
+HOST-KEYWORD,pub3back.emby.wtf
 
-USER-AGENT,*mby.ssky.m*
-USER-AGENT,emby.ssky.m*
-DOMAIN-KEYWORD,emby.ssky.me
-DOMAIN-SUFFIX,emby.ssky.me
-DOMAIN,emby.ssky.me
+#TAG服
+HOST-KEYWORD,emby.riches.cloud
 
-USER-AGENT,*mby-us.ssky.m*
-USER-AGENT,emby-us.ssky.m*
-DOMAIN-KEYWORD,emby-us.ssky.me
-DOMAIN-SUFFIX,emby-us.ssky.me
-DOMAIN,emby-us.ssky.me
-
-USER-AGENT,*mby.riches.clou*
-USER-AGENT,emby.riches.clou*
-DOMAIN-KEYWORD,emby.riches.cloud
-DOMAIN-SUFFIX,emby.riches.cloud
-DOMAIN,emby.riches.cloud
-
-USER-AGENT,*ornemby.club*
-USER-AGENT,pornemby.club*
-DOMAIN-KEYWORD,pornemby.club
-DOMAIN-SUFFIX,pornemby.club
-DOMAIN,pornemby.club
-
-USER-AGENT,*s.odysseyplus*
-USER-AGENT,us.odysseyplus*
-DOMAIN-KEYWORD,us.odysseyplus
-DOMAIN-SUFFIX,us.odysseyplus.site
-DOMAIN,us.odysseyplus.site
-
-USER-AGENT,*p.odysseyplus*
-USER-AGENT,sp.odysseyplus.site*
-DOMAIN-KEYWORD,sp.odysseyplus.site
-DOMAIN-SUFFIX,sp.odysseyplus.site
-DOMAIN,sp.odysseyplus.site
+#Misty小型免费公益服
+HOST-KEYWORD,emby-us.ssky.me
 
 IP-CIDR,172.65.60.104/32
 IP-CIDR,198.204.247.154/32
 
-USER-AGENT,*otakudrive*
-USER-AGENT,otakudrive*
+#otakudrive服
 DOMAIN-KEYWORD,otakudrive
-DOMAIN-SUFFIX,otakudrive
-DOMAIN,otakudrive
 
-USER-AGENT,*f1.jmsooo*
-USER-AGENT,cf1.jmsooo*
-DOMAIN-KEYWORD,cf1.jmsooo
-DOMAIN-SUFFIX,cf1.jmsooo
-DOMAIN,cf1.jmsooo
-
-USER-AGENT,*ub1back.emby.wtfs*
-USER-AGENT,pub1back.emby.wtf*
-DOMAIN-KEYWORD,pub1back.emby.wtf
-DOMAIN-SUFFIX,pub1back.emby.wtf
-DOMAIN,pub1back.emby.wtf
