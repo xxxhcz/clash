@@ -4,7 +4,7 @@ IP-CIDR,104.27.207.0/24,no-resolve
 DOMAIN-KEYWORD,hkdtmb.com
 
 #超级跑车公益服
-HOST-KEYWORD,emby.cjpc.cc
+DOMAIN-KEYWORD,emby.cjpc.cc
 
 #appstorrent  mac app下载服务器
 DOMAIN-KEYWORD,psv4.userapi.com
