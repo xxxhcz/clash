@@ -7,6 +7,6 @@ IP-CIDR,198.18.3.247/32
 DOMAIN-KEYWORD,api.revenuecat.com
 
 #终点站直连
-DOMAIN-KEYWORD,pub1.emby.wtf
-DOMAIN-KEYWORD,pub2.emby.wtf
-DOMAIN-KEYWORD,pub3.emby.wtf
+DOMAIN-KEYWORD,pub1ha2.emby.wtf
+DOMAIN-KEYWORD,pub2ha2.emby.wtf
+DOMAIN-KEYWORD,pub3ha2.emby.wtf
