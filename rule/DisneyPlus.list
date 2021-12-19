@@ -1,4 +1,4 @@
-#disney分流
+#disney+分流
 PROCESS-NAME,com.disney.disneyplus
 DOMAIN-SUFFIX,bamgrid.com
 DOMAIN-SUFFIX,disneyplus.com
