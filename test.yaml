@@ -26,14 +26,14 @@ rules:
 - RULE-SET,Spotify,🌍 国外媒体
 - RULE-SET,YouTube,🌍 国外媒体
 - RULE-SET,Disney Plus,🌍 国外媒体
-- RULE-SET,Bilibili,🎯 直连政策
-- RULE-SET,IQ,🎯 直连政策
-- RULE-SET,IQIYI,🎯 直连政策
-- RULE-SET,Letv,🎯 直连政策
-- RULE-SET,Netease Music,🎯 直连政策
-- RULE-SET,Tencent Video,🎯 直连政策
-- RULE-SET,Youku,🎯 直连政策
-- RULE-SET,WeTV,🎯 直连政策
+- RULE-SET,Bilibili,💫 全球直连
+- RULE-SET,IQ,💫 全球直连
+- RULE-SET,IQIYI,💫 全球直连
+- RULE-SET,Letv,💫 全球直连
+- RULE-SET,Netease Music,💫 全球直连
+- RULE-SET,Tencent Video,💫 全球直连
+- RULE-SET,Youku,💫 全球直连
+- RULE-SET,WeTV,💫 全球直连
 - RULE-SET,ABC,🌍 国外媒体
 - RULE-SET,Abema TV,🌍 国外媒体
 - RULE-SET,Amazon,🌍 国外媒体
@@ -61,16 +61,16 @@ rules:
 - RULE-SET,Soundcloud,🌍 国外媒体
 - RULE-SET,ViuTV,🌍 国外媒体
 - RULE-SET,Reject,🆎 广告拦截
-- RULE-SET,Special,🎯 直连政策
+- RULE-SET,Special,💫 全球直连
 - RULE-SET,Telegram,📲 电报信息
-- RULE-SET,Speedtest,🚀 节点选择
+- RULE-SET,Speedtest,🌀 节点测速
 - RULE-SET,Apple,🍎 苹果服务
 - RULE-SET,PROXY,🚀 节点选择
-- RULE-SET,Domestic,🎯 直连政策
-- RULE-SET,Domestic IPs,🎯 直连政策
-- RULE-SET,LAN,🎯 直连政策
-- GEOIP,CN,🎯 直连政策
-- MATCH,🐟 兜底政策
+- RULE-SET,Domestic,💫 全球直连
+- RULE-SET,Domestic IPs,💫 全球直连
+- RULE-SET,LAN,💫 全球直连
+- GEOIP,CN,💫 全球直连
+- MATCH,🕸 漏网之鱼
 
 rule-providers:
   Reject:
