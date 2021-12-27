@@ -87,7 +87,7 @@ rule-providers:
   GlobalMax_Classical:
     type: http
     behavior: classical
-    url: hhttps://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GlobalMax/GlobalMax_Classical.yaml
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GlobalMax/GlobalMax_Classical.yaml
     path: ./Rules/GlobalMax_Classical
     interval: 86400
   ChinaMax_Classical:
