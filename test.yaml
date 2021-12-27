@@ -31,7 +31,7 @@ rules:
 - RULE-SET,YouTube,📺 油管视频
 - RULE-SET,Speedtest,🌀 节点测速
 - RULE-SET,GlobalMax_Classical,🚀 节点选择
-- RULE-SET,ChinaMax_Classical💫 全球直连
+- RULE-SET,ChinaMax_Classical,💫 全球直连
 - GEOIP,CN,💫 全球直连
 - MATCH,🕸 漏网之鱼
 
