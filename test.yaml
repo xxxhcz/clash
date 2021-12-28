@@ -117,7 +117,7 @@ rule-providers:
   Disney Plus:
     type: http
     behavior: classical
-    url: https://cdn.jsdelivr.net/gh/lhie1/Rules@master/Clash/Provider/Media/Disney%20Plus.yaml
+    url: https://raw.githubusercontent.com/Hackl0us/SS-Rule-Snippet/master/Rulesets/Clash/App/stream/DisneyPlus.yaml
     path: ./Rules/Disney_Plus
     interval: 86400
   Speedtest:
