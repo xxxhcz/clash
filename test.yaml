@@ -140,7 +140,7 @@ rule-providers:
     interval: 86400
     
 mitm:
-  enable: true  # 是否开启
+  enable: true
   hostnames:
   - '*.iydsj.com'
   - '*.k.sohu.com'
