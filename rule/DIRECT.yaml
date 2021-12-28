@@ -1,7 +1,7 @@
 payload:
+
 #IKOUMI服
   - DOMAIN-KEYWORD,ikoumi.com
-
   - IP-CIDR,198.18.3.0/24,no-resolve
 
 #filebox订阅服务器直连
