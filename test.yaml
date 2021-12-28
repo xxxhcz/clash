@@ -139,8 +139,8 @@ rule-providers:
     path: ./Rules/ChinaMax_Classical
     interval: 86400
     
-#mitm:
-  enable: true
+mitm:
+  enable: false
   hostnames:
   - '*.iydsj.com'
   - '*.k.sohu.com'
