@@ -118,7 +118,7 @@ rule-providers:
     type: http
     behavior: classical
     url: https://cdn.jsdelivr.net/gh/lhie1/Rules@master/Clash/Provider/Media/Disney%20Plus.yaml
-    path: ./Rules/Media/Disney_Plus
+    path: ./Rules/Disney_Plus
     interval: 86400
   Speedtest:
     type: http
