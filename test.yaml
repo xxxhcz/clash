@@ -24,7 +24,12 @@ dns:
 rules:
 - RULE-SET,LAN,💫 全球直连
 - RULE-SET,Direct,💫 全球直连
+- RULE-SET,DIRCET,💫 全球直连
 - RULE-SET,SG,🇸🇬 狮城节点
+- RULE-SET,HK,🇭🇰 香港节点
+- RULE-SET,US,🇺🇲 美国节点
+- RULE-SET,JP,🇯🇵 日本节点
+- RULE-SET,REJECT,🚫 广告拦截
 - RULE-SET,Advertising_Classical,🚫 广告拦截
 - RULE-SET,Apple,🍎 苹果服务
 - RULE-SET,Netflix,🎥 奈飞视频
@@ -49,12 +54,42 @@ rule-providers:
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Direct/Direct.yaml
     path: ./Rules/Direct
     interval: 86400
+  DIRCET:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/hongcz1104/clash/main/rule/DIRCET.yaml
+    path: ./Rules/DIRCET
+    interval: 86400
   SG:
     type: http
     behavior: classical
     url: https://raw.githubusercontent.com/hongcz1104/clash/main/rule/SG.yaml
     path: ./Rules/SG
     interval: 86400
+  HK:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/hongcz1104/clash/main/rule/HK.yaml
+    path: ./Rules/HK
+    interval: 86400
+  US:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/hongcz1104/clash/main/rule/US.yaml
+    path: ./Rules/US
+    interval: 86400
+  JP:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/hongcz1104/clash/main/rule/JP.yaml
+    path: ./Rules/JP
+    interval: 86400
+  REJECT:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/hongcz1104/clash/main/rule/REJECT.yaml
+    path: ./Rules/REJECT
+    interval: 86400   
   Advertising_Classical:
     type: http
     behavior: classical
