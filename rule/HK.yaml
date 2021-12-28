@@ -6,6 +6,7 @@ payload:
 
 #超级跑车公益服
   - DOMAIN-KEYWORD,emby.cjpc.cc
+  - IP-CIDR,134.195.101.0/24,no-resolve
 
 #appstorrent  mac app下载服务器
   - DOMAIN-KEYWORD,psv4.userapi.com
