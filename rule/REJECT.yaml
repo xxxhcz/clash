@@ -1,0 +1,4 @@
+payload:
+#xbox拦截列表
+  - DOMAIN-KEYWORD,new.iskcd.com
+  - DOMAIN-KEYWORD,api.jhdyw.vip
