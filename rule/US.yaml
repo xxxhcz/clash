@@ -19,14 +19,10 @@ payload:
   - DOMAIN-KEYWORD,pub2back.emby.wtf
   - DOMAIN-KEYWORD,pub3back.emby.wtf
 
-#TAG服
-  - DOMAIN-KEYWORD,emby.riches.cloud
-
 #Misty小型免费公益服
   - DOMAIN-KEYWORD,emby-us.ssky.me
   
   - IP-CIDR,172.65.60.0/24,no-resolve
-  - IP-CIDR,198.204.247.0/24,no-resolve
 
 #otakudrive服
   - DOMAIN-KEYWORD,otakudrive
