@@ -1,7 +1,7 @@
 #新加坡自定义
 payload:
   - IP-CIDR,157.245.49.0/24,no-resolve
-  - IP-CIDR,143.198.94.163/32
+  - IP-CIDR,143.198.94.163/32,no-resolve
 
 #奥德赛
   - DOMAIN-KEYWORD,sg.odysseyplus.site
