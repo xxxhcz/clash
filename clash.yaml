@@ -40,7 +40,7 @@ rules:
 - RULE-SET,ChinaMax_Classical,💫 全球直连
 - GEOIP,CN,💫 全球直连
 - MATCH,🕸 漏网之鱼
-
+- IP-CIDR,122.122.0.0/16,💫 全球直连
 rule-providers:
   LAN:
     type: http
