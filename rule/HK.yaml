@@ -1,0 +1,20 @@
+#香港自定义
+payload:
+  - IP-CIDR,104.27.207.0/24,no-resolve
+#hkdtmb
+  - DOMAIN-KEYWORD,hkdtmb.com
+
+#超级跑车公益服
+  - DOMAIN-KEYWORD,emby.cjpc.cc
+  - IP-CIDR,134.195.101.0/24,no-resolve
+
+#appstorrent  mac app下载服务器
+  - DOMAIN-KEYWORD,psv4.userapi.com
+
+#pornemby
+  - DOMAIN-KEYWORD,pornemby.club
+
+#终端站亚洲入口
+  - DOMAIN-KEYWORD,pub1.emby.wtf
+  - DOMAIN-KEYWORD,pub2.emby.wtf
+  - DOMAIN-KEYWORD,pub3.emby.wtf

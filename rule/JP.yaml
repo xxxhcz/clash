@@ -1,0 +1,12 @@
+payload:
+# jp分流
+
+  - DOMAIN-SUFFIX,mediafire.com
+
+#Misty服
+  - DOMAIN-SUFFIX,aaa.ax
+  - DOMAIN-KEYWORD,jp.ssky.me
+
+#TAG服
+  - DOMAIN-KEYWORD,emby.riches.cloud
+  - IP-CIDR,198.204.247.0/24,no-resolve
