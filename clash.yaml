@@ -33,8 +33,8 @@ rules:
 - RULE-SET,Advertising_Classical,🚫 广告拦截
 - RULE-SET,Apple,🍎 苹果服务
 - RULE-SET,Netflix,🎥 奈飞视频
-- RULE-SET,DisneyPlus,❄️ 迪士尼➕
-- RULE-SET,YouTube,📺 油管视频
+#- RULE-SET,DisneyPlus,❄️ 迪士尼➕
+#- RULE-SET,YouTube,📺 油管视频
 - RULE-SET,Speedtest,🌀 节点测速
 - RULE-SET,GlobalMax_Classical,🚀 节点选择
 - RULE-SET,ChinaMax_Classical,💫 全球直连
@@ -102,23 +102,23 @@ rule-providers:
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Apple/Apple.yaml
     path: ./Rules/Apple
     interval: 86400
-  YouTube:
-    type: http
-    behavior: classical
-    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/YouTube/YouTube.yaml
-    path: ./Rules/YouTube
-    interval: 86400
   Netflix:
     type: http
     behavior: classical
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Netflix/Netflix.yaml
     path: ./Rules//Netflix
-    interval: 86400   
-  DisneyPlus:
+    interval: 86400
+#  DisneyPlus:
     type: http
     behavior: classical
     url: https://raw.githubusercontent.com/Hackl0us/SS-Rule-Snippet/master/Rulesets/Clash/App/stream/DisneyPlus.yaml
     path: ./Rules/DisneyPlus
+    interval: 86400
+#  YouTube:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/YouTube/YouTube.yaml
+    path: ./Rules/YouTube
     interval: 86400
   Speedtest:
     type: http
