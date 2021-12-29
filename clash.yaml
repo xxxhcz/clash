@@ -57,37 +57,37 @@ rule-providers:
   DIRECT:
     type: http
     behavior: classical
-    url: https://raw.githubusercontent.com/hongcz1104/clash/main/rule/DIRECT.yaml
+    url: https://raw.githubusercontent.com/hongcz1104/clash/master/rule/DIRECT.yaml
     path: ./Rules/DIRECT
     interval: 86400
   SG:
     type: http
     behavior: classical
-    url: https://raw.githubusercontent.com/hongcz1104/clash/main/rule/SG.yaml
+    url: https://raw.githubusercontent.com/hongcz1104/clash/master/rule/SG.yaml
     path: ./Rules/SG
     interval: 86400
   HK:
     type: http
     behavior: classical
-    url: https://raw.githubusercontent.com/hongcz1104/clash/main/rule/HK.yaml
+    url: https://raw.githubusercontent.com/hongcz1104/clash/master/rule/HK.yaml
     path: ./Rules/HK
     interval: 86400
   US:
     type: http
     behavior: classical
-    url: https://raw.githubusercontent.com/hongcz1104/clash/main/rule/US.yaml
+    url: https://raw.githubusercontent.com/hongcz1104/clash/masterrule/US.yaml
     path: ./Rules/US
     interval: 86400
   JP:
     type: http
     behavior: classical
-    url: https://raw.githubusercontent.com/hongcz1104/clash/main/rule/JP.yaml
+    url: https://raw.githubusercontent.com/hongcz1104/clash/master/rule/JP.yaml
     path: ./Rules/JP
     interval: 86400
   REJECT:
     type: http
     behavior: classical
-    url: https://raw.githubusercontent.com/hongcz1104/clash/main/rule/REJECT.yaml
+    url: https://raw.githubusercontent.com/hongcz1104/clash/master/rule/REJECT.yaml
     path: ./Rules/REJECT
     interval: 86400   
   Advertising_Classical:
