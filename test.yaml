@@ -22,8 +22,7 @@ dns:
     - https://1.1.1.1/dns-query # DNS over HTTPS
     
 rules:
-- RULE-SET,LAN,💫 全球直连
-- RULE-SET,Direct,💫 全球直连
+- RULE-SET,Unbreak,💫 全球直连
 - RULE-SET,DIRECT,💫 全球直连
 - RULE-SET,SG,🇸🇬 狮城节点
 - RULE-SET,HK,🇭🇰 香港节点
@@ -36,58 +35,53 @@ rules:
 - RULE-SET,DisneyPlus,❄️ 迪士尼➕
 - RULE-SET,YouTube,📺 油管视频
 - RULE-SET,Speedtest,🌀 节点测速
-- RULE-SET,GlobalMax_Classical,🚀 节点选择
-- RULE-SET,ChinaMax_Classical,💫 全球直连
+- RULE-SET,Streaming,🚀 节点选择
+- RULE-SET,Global,🚀 节点选择
+- RULE-SET,China,💫 全球直连
 - GEOIP,CN,💫 全球直连
 - MATCH,🕸 漏网之鱼
 
 rule-providers:
-  LAN:
+  Unbreak:
     type: http
     behavior: classical
-    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Lan/Lan.yaml
-    path: ./Rules/LAN
-    interval: 86400
-  Direct:
-    type: http
-    behavior: classical
-    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Direct/Direct.yaml
-    path: ./Rules/Direct
+    url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Unbreak.yaml
+    path: ./Rules/Unbreak
     interval: 86400
   DIRECT:
     type: http
     behavior: classical
-    url: https://raw.githubusercontent.com/hongcz1104/clash/main/rule/DIRECT.yaml
+    url: https://raw.githubusercontent.com/hongcz1104/clash/master/rule/DIRECT.yaml
     path: ./Rules/DIRECT
     interval: 86400
   SG:
     type: http
     behavior: classical
-    url: https://raw.githubusercontent.com/hongcz1104/clash/main/rule/SG.yaml
+    url: https://raw.githubusercontent.com/hongcz1104/clash/master/rule/SG.yaml
     path: ./Rules/SG
     interval: 86400
   HK:
     type: http
     behavior: classical
-    url: https://raw.githubusercontent.com/hongcz1104/clash/main/rule/HK.yaml
+    url: https://raw.githubusercontent.com/hongcz1104/clash/master/rule/HK.yaml
     path: ./Rules/HK
     interval: 86400
   US:
     type: http
     behavior: classical
-    url: https://raw.githubusercontent.com/hongcz1104/clash/main/rule/US.yaml
+    url: https://raw.githubusercontent.com/hongcz1104/clash/master/rule/US.yaml
     path: ./Rules/US
     interval: 86400
   JP:
     type: http
     behavior: classical
-    url: https://raw.githubusercontent.com/hongcz1104/clash/main/rule/JP.yaml
+    url: https://raw.githubusercontent.com/hongcz1104/clash/masterrule/JP.yaml
     path: ./Rules/JP
     interval: 86400
   REJECT:
     type: http
     behavior: classical
-    url: https://raw.githubusercontent.com/hongcz1104/clash/main/rule/REJECT.yaml
+    url: https://raw.githubusercontent.com/hongcz1104/clash/master/rule/REJECT.yaml
     path: ./Rules/REJECT
     interval: 86400   
   Advertising_Classical:
@@ -99,25 +93,25 @@ rule-providers:
   Apple:
     type: http
     behavior: classical
-    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Apple/Apple.yaml
+    url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Extra/Apple/Apple.yaml
     path: ./Rules/Apple
     interval: 86400
   YouTube:
     type: http
     behavior: classical
-    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/YouTube/YouTube.yaml
+    url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/StreamingMedia/Video/YouTube.yaml
     path: ./Rules/YouTube
     interval: 86400
   Netflix:
     type: http
     behavior: classical
-    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Netflix/Netflix.yaml
+    url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/StreamingMedia/Video/Netflix.yaml
     path: ./Rules//Netflix
     interval: 86400   
   DisneyPlus:
     type: http
     behavior: classical
-    url: https://raw.githubusercontent.com/Hackl0us/SS-Rule-Snippet/master/Rulesets/Clash/App/stream/DisneyPlus.yaml
+    url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/StreamingMedia/Video/DisneyPlus.yaml
     path: ./Rules/DisneyPlus
     interval: 86400
   Speedtest:
@@ -126,17 +120,23 @@ rule-providers:
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Speedtest/Speedtest.yaml
     path: ./Rules/Speedtest
     interval: 86400
-  GlobalMax_Classical:
+  Streaming:
     type: http
     behavior: classical
-    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GlobalMax/GlobalMax_Classical.yaml
-    path: ./Rules/GlobalMax_Classical
+    url: https://github.com/DivineEngine/Profiles/blob/master/Clash/RuleSet/StreamingMedia/Streaming.yaml
+    path: ./Rules/Streaming
     interval: 86400
-  ChinaMax_Classical:
+ Global:
     type: http
     behavior: classical
-    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaMax/ChinaMax_Classical.yaml
-    path: ./Rules/ChinaMax_Classical
+    url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Global.yaml
+    path: ./Rules/Global
+    interval: 86400
+  China:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/China.yaml
+    path: ./Rules/China
     interval: 86400
     
 mitm:
