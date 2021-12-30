@@ -131,14 +131,14 @@ rules:
 - RULE-SET,US,🇺🇲 美国节点
 - RULE-SET,JP,🇯🇵 日本节点
 - RULE-SET,REJECT,🚫 广告拦截
-- RULE-SET,Advertising_Classical,🚫 广告拦截
+- RULE-SET,Advertising,🚫 广告拦截
 - RULE-SET,Apple,🍎 苹果服务
 - RULE-SET,Netflix,🎥 奈飞视频
 #- RULE-SET,DisneyPlus,❄️ 迪士尼➕
 #- RULE-SET,YouTube,📺 油管视频
 - RULE-SET,Speedtest,🌀 节点测速
-- RULE-SET,GlobalMax_Classical,🚀 节点选择
-- RULE-SET,ChinaMax_Classical,💫 全球直连
+- RULE-SET,Global,🚀 节点选择
+- RULE-SET,China,💫 全球直连
 - GEOIP,CN,💫 全球直连
 - MATCH,🕸 漏网之鱼
 
@@ -191,11 +191,11 @@ rule-providers:
     url: https://raw.githubusercontent.com/hongcz1104/clash/master/rule/REJECT.yaml
     path: ./Rules/REJECT
     interval: 86400   
-  Advertising_Classical:
+  Advertising:
     type: http
     behavior: classical
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Advertising/Advertising_Classical.yaml
-    path: ./Rules/Advertising_Classical
+    path: ./Rules/Advertising
     interval: 86400
   Apple:
     type: http
@@ -227,17 +227,17 @@ rule-providers:
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Speedtest/Speedtest.yaml
     path: ./Rules/Speedtest
     interval: 86400
-  GlobalMax_Classical:
+  Global:
     type: http
     behavior: classical
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GlobalMax/GlobalMax_Classical.yaml
-    path: ./Rules/GlobalMax_Classical
+    path: ./Rules/Global
     interval: 86400
-  ChinaMax_Classical:
+  China:
     type: http
     behavior: classical
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaMax/ChinaMax_Classical.yaml
-    path: ./Rules/ChinaMax_Classical
+    path: ./Rules/China
     interval: 86400
     
 mitm:
