@@ -18,5 +18,5 @@ payload:
   - DOMAIN-KEYWORD,pub3back.emby.wtf
 
 #Misty小型免费公益服
-  - DOMAIN-KEYWORD,emby-us.ssky.me
+  - DOMAIN-KEYWORD,us.aaa.ax
   - IP-CIDR,172.65.60.0/24,no-resolve
