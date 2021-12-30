@@ -10,21 +10,25 @@ external-controller: 127.0.0.1:9090
 # This section is optional. When not present, the DNS server will be disabled.
 dns:
   enable: true
+  
   listen: 0.0.0.0:53
+  
   default-nameserver:
     - 114.114.114.114
     - 8.8.8.8
+    
   enhanced-mode: fake-ip
   # 支持 UDP / TCP / DoT / DoH 协议的 DNS 服务，可以指明具体的连接端口号。
   # 所有 DNS 请求将会直接发送到服务器，不经过任何代理。
   # Clash 会使用最先获得的解析记录回复 DNS 请求
-  nameserver:
-    # 不建议配置超过 2 个 DNS 服务器，会增加系统功耗
+  
+  nameserver:   # 不建议配置超过 2 个 DNS 服务器，会增加系统功耗
     - https://doh.pub/dns-query
     - https://dns.alidns.com/dns-query
   ipv6: true # 当此选项为 false 时, AAAA 请求将返回空
-  fake-ip-range: 198.18.0.1/16 # Fake IP addresses pool CIDR
-  # use-hosts: true # lookup hosts and return IP record
+  
+  fake-ip-range: 198.18.0.1/16  # Fake IP addresses pool CIDR
+  
   fake-ip-filter:   # 在以下列表的域名将不会被解析为 fake ip，这些域名相关的解析请求将会返回它们真实的 IP 地址
     # 以下域名列表参考自 vernesong/OpenClash 项目，并由 Hackl0us 整理补充
     - "*.lan"
