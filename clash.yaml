@@ -170,7 +170,7 @@ rule-providers:
   US:
     type: http
     behavior: classical
-    url: https://raw.githubusercontent.com/hongcz1104/clash/masterrule/US.yaml
+    url: https://raw.githubusercontent.com/hongcz1104/clash/master/rule/US.yaml
     path: ./Rules/US
     interval: 86400
   JP:
