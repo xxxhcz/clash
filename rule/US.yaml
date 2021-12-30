@@ -1,7 +1,5 @@
 payload:
 #美区自定义
-  - IP-CIDR,157.245.49.0/24,no-resolve
-
 #奥德赛
   - DOMAIN-KEYWORD,cf.odysseyplus.site
   - DOMAIN-KEYWORD,us.odysseyplus.site
@@ -21,8 +19,4 @@ payload:
 
 #Misty小型免费公益服
   - DOMAIN-KEYWORD,emby-us.ssky.me
-  
   - IP-CIDR,172.65.60.0/24,no-resolve
-
-#otakudrive服
-  - DOMAIN-KEYWORD,otakudrive
