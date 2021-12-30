@@ -3,7 +3,7 @@ port: 8888
 socks-port: 8889
 mixed-port: 8899
 mode: rule
-log-level: error
+log-level: info
 external-controller: 127.0.0.1:9090
 
 # DNS server settings
@@ -15,10 +15,13 @@ dns:
     - 114.114.114.114
     - 8.8.8.8
   enhanced-mode: fake-ip
+  # 支持 UDP / TCP / DoT / DoH 协议的 DNS 服务，可以指明具体的连接端口号。
+  # 所有 DNS 请求将会直接发送到服务器，不经过任何代理。
+  # Clash 会使用最先获得的解析记录回复 DNS 请求
   nameserver:
+    # 不建议配置超过 2 个 DNS 服务器，会增加系统功耗
     - https://doh.pub/dns-query
     - https://dns.alidns.com/dns-query
-
   # 在以下列表的域名将不会被解析为 fake ip，这些域名相关的解析请求将会返回它们真实的 IP 地址
   fake-ip-filter:
     # 以下域名列表参考自 vernesong/OpenClash 项目，并由 Hackl0us 整理补充
