@@ -2,22 +2,22 @@
 payload:
   - IP-CIDR,104.27.207.0/24,no-resolve
 #hkdtmb
-  - DOMAIN-SUFFIX,hkdtmb.com
+  - DOMAIN-KEYWORD,hkdtmb.com
 
 #超级跑车公益服
-  - DOMAIN-SUFFIX,emby.cjpc.cc
+  - DOMAIN-KEYWORD,emby.cjpc.cc
   - IP-CIDR,134.195.101.0/24,no-resolve
 
 #appstorrent  mac app下载服务器
-  - DOMAIN-SUFFIX,psv4.userapi.com
+  - DOMAIN-KEYWORD,psv4.userapi.com
 
 #pornemby
-  - DOMAIN-SUFFIX,pornemby.club
+  - DOMAIN-KEYWORD,pornemby.club
 
 #终端站亚洲入口
-  - DOMAIN-SUFFIX,pub1.emby.wtf
-  - DOMAIN-SUFFIX,pub2.emby.wtf
-  - DOMAIN-SUFFIX,pub3.emby.wtf
+  - DOMAIN-KEYWORD,pub1.emby.wtf
+  - DOMAIN-KEYWORD,pub2.emby.wtf
+  - DOMAIN-KEYWORD,pub3.emby.wtf
 
 #Misty香港中转
   - DOMAIN-KEYWORD,hk.aaa
