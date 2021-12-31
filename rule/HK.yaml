@@ -19,5 +19,5 @@ payload:
   - DOMAIN-KEYWORD,pub2.emby.wtf
   - DOMAIN-KEYWORD,pub3.emby.wtf
 
-#Misty香港中转
-  - DOMAIN-KEYWORD,hk.aaa
+# Misty香港中转
+#  - DOMAIN-KEYWORD,hk.aaa
