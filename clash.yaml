@@ -1,30 +1,25 @@
 ---
-port: 8888
-socks-port: 8889
-mixed-port: 8899
+port: 7890
+socks-port: 7891
+mixed-port: 7893
 mode: rule
-log-level: info
+log-level: error
 external-controller: 127.0.0.1:9090
 
 # DNS server settings
 # This section is optional. When not present, the DNS server will be disabled.
 dns:
   enable: true
-  
   listen: 0.0.0.0:53
-  
   default-nameserver:
     - 114.114.114.114
     - 8.8.8.8
-    
   enhanced-mode: fake-ip
-  # 支持 UDP / TCP / DoT / DoH 协议的 DNS 服务，可以指明具体的连接端口号。
-  # 所有 DNS 请求将会直接发送到服务器，不经过任何代理。
-  # Clash 会使用最先获得的解析记录回复 DNS 请求
-  
-  nameserver:   # 不建议配置超过 2 个 DNS 服务器，会增加系统功耗
-    - https://doh.pub/dns-query
-    - https://dns.alidns.com/dns-query
+  nameserver:
+    - 114.114.114.114 # default value
+    - 8.8.8.8 # default value
+    - tls://dns.rubyfish.cn:853 # DNS over TLS
+    - https://1.1.1.1/dns-query # DNS over HTTPS
   
   fake-ip-filter:
     - '*.lan'
