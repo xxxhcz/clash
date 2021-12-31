@@ -18,5 +18,6 @@ payload:
   - DOMAIN-KEYWORD,pub1.emby.wtf
   - DOMAIN-KEYWORD,pub2.emby.wtf
   - DOMAIN-KEYWORD,pub3.emby.wtf
+  
 #Misty HK线路
   - DOMAIN-KEYWORD,hk.aaa.ax
