@@ -37,7 +37,7 @@ dns:
     - '*.battle.net'
 
 rules:
-- RULE-SET,Global-diy,🚀 节点选择
+- RULE-SET,diy,🚀 节点选择
 - RULE-SET,LAN,💫 全球直连
 - RULE-SET,Direct,💫 全球直连
 - RULE-SET,DIRECT,💫 全球直连
@@ -58,11 +58,11 @@ rules:
 - MATCH,🕸 漏网之鱼
 
 rule-providers:
-  Global-diy:
+  diy:
     type: http
     behavior: classical
-    url: https://raw.githubusercontent.com/hongcz1104/clash/master/rule/Global.yaml
-    path: ./Rules/Global-diy
+    url: https://raw.githubusercontent.com/hongcz1104/clash/master/rule/diy.yaml
+    path: ./Rules/diy
     interval: 86400
   LAN:
     type: http
