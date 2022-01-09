@@ -18,8 +18,6 @@ dns:
   nameserver:
     - 114.114.114.114 # default value
     - 8.8.8.8 # default value
-    - tls://dns.rubyfish.cn:853 # DNS over TLS
-    - https://1.1.1.1/dns-query # DNS over HTTPS
   
   fake-ip-filter:
     - '*.lan'
