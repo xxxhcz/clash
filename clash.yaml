@@ -5,9 +5,6 @@ mixed-port: 7893
 mode: rule
 log-level: error
 external-controller: 127.0.0.1:9090
-
-# DNS server settings
-# This section is optional. When not present, the DNS server will be disabled.
 dns:
   enable: true
   listen: 0.0.0.0:53
@@ -15,9 +12,6 @@ dns:
     - 114.114.114.114
     - 8.8.8.8
   enhanced-mode: fake-ip
-  nameserver:
-    - 114.114.114.114 # default value
-    - 8.8.8.8 # default value
   
   fake-ip-filter:
     - '*.lan'
