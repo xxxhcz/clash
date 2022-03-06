@@ -19,7 +19,7 @@ DOMAIN-KEYWORD,pub3back.emby.wtf
 DOMAIN-KEYWORD,emby-us.ssky.me
 
 IP-CIDR,172.65.60.104/32
-IP-CIDR,198.204.247.154/32
+IP-CIDR,157.245.49.0/24,no-resolve
 
 #otakudrive服
 DOMAIN-KEYWORD,otakudrive
