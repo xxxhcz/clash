@@ -25,4 +25,4 @@ DOMAIN-KEYWORD,sg.odysseyplus.site
 
 #TAG服
 DOMAIN-KEYWORD,emby.riches.cloud
-IP-CIDR,157.245.49.0/24,no-resolve
+IP-CIDR,198.204.247.154/no-resolve
