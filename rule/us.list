@@ -1,5 +1,4 @@
 #美区自定义
-IP-CIDR,157.245.49.0/24,no-resolve
 
 #奥德赛
 DOMAIN-KEYWORD,cf.odysseyplus.site
@@ -15,9 +14,6 @@ DOMAIN-KEYWORD,usa3.jmsooo
 DOMAIN-KEYWORD,pub1back.emby.wtf
 DOMAIN-KEYWORD,pub2back.emby.wtf
 DOMAIN-KEYWORD,pub3back.emby.wtf
-
-#TAG服
-DOMAIN-KEYWORD,emby.riches.cloud
 
 #Misty小型免费公益服
 DOMAIN-KEYWORD,emby-us.ssky.me
