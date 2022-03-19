@@ -15,8 +15,8 @@ DOMAIN-KEYWORD,pub1back.emby.wtf
 DOMAIN-KEYWORD,pub2back.emby.wtf
 DOMAIN-KEYWORD,pub3back.emby.wtf
 
-#Misty小型免费公益服
-DOMAIN-KEYWORD,emby-us.ssky.me
+#Misty美国线路
+DOMAIN-KEYWORD,us.aaa.ax
 
 IP-CIDR,172.65.60.104/32
 IP-CIDR,157.245.49.0/24,no-resolve
