@@ -23,3 +23,10 @@ DOMAIN-KEYWORD,hk.aaa.ax
 #香港台直播线路
 DOMAIN-KEYWORD,hklive.tv
 
+#MisakaF公益服
+DOMAIN-KEYWORD,misakaF.xyz
+IP-CIDR,194.180.179.0/24,no-resolve
+
+#黑山公益服
+DOMAIN-KEYWORD,gcx920110.com
+IP-CIDR,185.197.194.0/24,no-resolve
