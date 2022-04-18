@@ -240,14 +240,6 @@ proxy-groups:
       - Proxy
       - DIRECT
 
-proxy-providers:
-  provider1:
-    url: https://raw.githubusercontent.com/STASH-NETWORKS-LIMITED/stash-example/main/config.yaml
-    interval: 3600
-    health-check:
-      enable: true
-      interval: 600
-      url: http://www.gstatic.com/generate_204
 
 rule-providers:
   proxy-domain:
