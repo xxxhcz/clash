@@ -46,30 +46,16 @@ proxy-providers:
     <<: *All
     filter: 新|🇸🇬|SG|Sing|新坡
     
-# DNS 服务器配置(可选；若不配置，程序内置的 DNS 服务会被关闭)
 dns:
-  # 以下填写的 DNS 服务器将会被用来解析 DNS 服务的域名
-  # 仅填写 DNS 服务器的 IP 地址
+  enable: true
+  ipv6: true
+  listen: 0.0.0.0:53
   default-nameserver:
+    - 119.29.29.29
     - 223.5.5.5
-    - 114.114.114.114
-    - system # 使用 iOS 系统 DNS
-  # 支持 UDP / TCP / DoT / DoH 协议的 DNS 服务，可以指明具体的连接端口号。
-  # 所有 DNS 请求将会直接发送到服务器，不经过任何代理。
-  # Clash 会使用最先获得的解析记录回复 DNS 请求
-  nameserver:
-    # 不建议配置超过 2 个 DNS 服务器，会增加系统功耗
-    - https://doh.pub/dns-query
-    - https://dns.alidns.com/dns-query
-    - quic://dns.adguard.com:784
-    - system # 使用 iOS 系统 DNS
-
-  # 对部分域名使用单独的 DNS 服务器
-  nameserver-policy:
-    "www.baidu.com": 114.114.114.114
-    "+.internal.crop.com": system
-
-  # 在以下列表的域名将不会被解析为 fake ip，这些域名相关的解析请求将会返回它们真实的 IP 地址
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  
   fake-ip-filter:
     # 以下域名列表参考自 vernesong/OpenClash 项目，并由 Hackl0us 整理补充
     - "*.lan"
@@ -162,86 +148,152 @@ dns:
     - "*.square-enix.com"
     - "*.finalfantasyxiv.com"
     - "*.ffxiv.com"
-
+  nameserver:
+    - https://doh.pub/dns-query
+    - https://dns.alidns.com/dns-query
+    
 proxies:
 
 proxy-groups:
-  # 代理的转发链, 在 proxies 中不应该包含 relay. 不支持 UDP.
-  # 流量: clash <-> http <-> vmess <-> ss1 <-> ss2 <-> 互联网
-  - name: "relay"
-    type: relay
-    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Direct.png
-    proxies:
-      - http
-      - vmess
-      - ss1
-      - ss2
-
-  # url-test 可以自动选择与指定 URL 测速后，延迟最短的服务器
-  - name: "auto"
-    type: url-test
-    proxies:
-      - ss1
-      - ss2
-      - vmess
-    url: "http://www.gstatic.com/generate_204"
-    interval: 300
-
-  # fallback 可以尽量按照用户书写的服务器顺序，在确保服务器可用的情况下，自动选择服务器
-  - name: "fallback-auto"
-    type: fallback
-    proxies:
-      - ss1
-      - ss2
-      - vmess
-    url: "http://www.gstatic.com/generate_204"
-    interval: 300
-
-  # load-balance 可以使相同 eTLD 请求在同一条代理线路上
-  - name: "load-balance"
-    type: load-balance
-    proxies:
-      - ss1
-      - ss2
-      - vmess
-    url: "http://www.gstatic.com/generate_204"
-    interval: 300
-
-  # select 用来允许用户手动选择 代理服务器 或 服务器组
-  # 您也可以使用 RESTful API 去切换服务器，这种方式推荐在 GUI 中使用
-  - name: Proxy
-    type: select
-    proxies:
-      - ss1
-      - ss2
-      - vmess
-      - auto
-
-  # 基于 SSID 的策略，方便在特殊网络环境下使用特定的代理
-  - name: ssid-group
-    type: select # 类型必须为 select，兼容原版 clash 配置
-    proxies:
-      - ss1
-      - ss2
-      - DIRECT
-    ssid-policy:
-      # 在 SSID 为 office 的 Wi-Fi 中自动切换为 ss1 策略
-      # 在 SSID 为 home 的 Wi-Fi 中自动切换为 ss2 策略
-      # 其他的 SSID 以及蜂窝数据，默认为 DIRECT
-      office: ss1
-      home: ss2
-      default: DIRECT
-
-  - name: UseProvider
+  - name: 🚀 节点选择
     type: select
     use:
-      - provider1
+      - All
     proxies:
-      - Proxy
+      - ♻️ 自动选择
+      - 🛠 故障转移
+      - ⚖️ 负载均衡
+      - 💫 全球直连
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
+      - 🇯🇵 日本节点
+      - 🇺🇲 美国节点
+
+  - name: ♻️ 自动选择
+    type: url-test
+    use: 
+       - All
+    url: "http://www.gstatic.com/generate_204"
+    interval: 300
+
+  - name: 🛠 故障转移
+    type: fallback
+    proxies:
+      - All
+    url: "http://www.gstatic.com/generate_204"
+    interval: 300
+
+  - name: ⚖️ 负载均衡
+    type: load-balance
+    proxies:
+      - All
+    url: "http://www.gstatic.com/generate_204"
+    interval: 300
+
+  - name: 🎥 奈飞视频
+    type: select
+    proxies:
+      - 🇭🇰 香港节点
+      - 🇸🇬 狮城节点
+      - 🇨🇳 台湾节点
+      - 🇯🇵 日本节点
+      - 🇺🇲 美国节点
+
+  - name: 🎬 媒体自选
+    type: select
+    proxies:
+      - 🇭🇰 香港节点
+      - 🇸🇬 狮城节点
+      - 🇨🇳 台湾节点
+      - 🇯🇵 日本节点
+      - 🇺🇲 美国节点
+
+  - name: 🍎 苹果服务
+    type: select
+    proxies:
+      - 💫 全球直连
+      - 🚀 节点选择
+      - 🇭🇰 香港节点
+      - 🇸🇬 狮城节点
+      - 🇨🇳 台湾节点
+      - 🇯🇵 日本节点
+      - 🇺🇲 美国节点
+
+  - name: 🕸 漏网之鱼
+    type: select
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Final.png
+    proxies:
+      - 💫 全球直连
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - 🇭🇰 香港节点
+      - 🇸🇬 狮城节点
+      - 🇨🇳 台湾节点
+      - 🇯🇵 日本节点
+      - 🇺🇲 美国节点
+
+  - name: 🌀 节点测速
+    type: select
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Final.png
+    proxies:
+      - 💫 全球直连
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - 🇭🇰 香港节点
+      - 🇸🇬 狮城节点
+      - 🇨🇳 台湾节点
+      - 🇯🇵 日本节点
+      - 🇺🇲 美国节点
+
+  - name: 🇭🇰 香港节点
+    type: url-test
+    use: 
+       - HK
+    url: "http://www.gstatic.com/generate_204"
+    interval: 300
+
+  - name: 🇯🇵 日本节点
+    type: url-test
+    use: 
+       - JP
+    url: "http://www.gstatic.com/generate_204"
+    interval: 300
+     
+  - name: 🇨🇳 台湾节点
+    type: url-test
+    use: 
+       - TW
+    url: "http://www.gstatic.com/generate_204"
+    interval: 300
+
+  - name: 🇺🇸 美国节点
+    type: url-test
+    use: 
+       - US
+    url: "http://www.gstatic.com/generate_204"
+    interval: 300
+
+  - name: 🇸🇬 狮城节点
+    type: url-test
+    use: 
+       - SG
+    url: "http://www.gstatic.com/generate_204"
+    interval: 300
+
+  - name: 🚫 广告拦截
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+
+  - name: 💫 全球直连
+    type: select
+    proxies:
       - DIRECT
 
 
-rule-providers:
+  rule-providers:
   proxy-domain:
     behavior: domain # 使用 domain 类规则集，可以使匹配更高效
     url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/proxy.txt
