@@ -11,7 +11,7 @@ proxy-providers:
   #全部节点
   All: &All #建立锚点
     type: http
-    url: "https://api.v1.mk/sub?target=clash&url=你的订阅链接&list=true&udp=true"
+    url: "https://api.xdmyyds.com/api/v1/client/subscribe?token=0e5ae1f33c3cb75757838aa28f1d9a7e"
     # 可以使用任意类型的链接替换上面文字，多个链接使用英文符号的竖杠|隔开一起写上即可；
     # 或者将Clash订阅链接替换掉整个引号""内的链接
     interval: 3600
@@ -41,7 +41,7 @@ proxy-providers:
     <<: *All
     filter: 台|🇨🇳|🇹🇼|湾|TW|(?i)Taiwan
     
-     #新加坡节点
+  #新加坡节点
   SG:
     <<: *All
     filter: 新|🇸🇬|SG|Sing|新坡
@@ -173,7 +173,7 @@ proxy-groups:
   - name: ♻️ 自动选择
     type: url-test
     use: 
-       - All
+      - All
     url: "http://www.gstatic.com/generate_204"
     interval: 300
 
