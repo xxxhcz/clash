@@ -39,12 +39,12 @@ proxy-providers:
   #台湾节点
   TW:
     <<: *All
-    filter: 台|🇨🇳|🇹🇼|湾|TW|(?i)Taiwan
+    filter: 台|🇨🇳|湾|TW|(?i)Taiwan
     
   #新加坡节点
   SG:
     <<: *All
-    filter: 新|🇸🇬|SG|Sing|新坡
+    filter: 新|🇸🇬|SG|(?i)Sing
     
 dns:
   enable: true
