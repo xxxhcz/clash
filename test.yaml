@@ -1,3 +1,5 @@
+# 将proxy-providers里面链接中的“你的订阅链接”替换即可
+
 mixed-port: 7890
 allow-lan: true
 bind-address: '*'
@@ -11,7 +13,7 @@ proxy-providers:
   #全部节点
   All: &All #建立锚点
     type: http
-    url: "https://api.xdmyyds.com/api/v1/client/subscribe?token=0e5ae1f33c3cb75757838aa28f1d9a7e"
+    url: "替换订阅链接"
     # 可以使用任意类型的链接替换上面文字，多个链接使用英文符号的竖杠|隔开一起写上即可；
     # 或者将Clash订阅链接替换掉整个引号""内的链接
     interval: 3600
@@ -21,31 +23,31 @@ proxy-providers:
       interval: 600
       url: http://www.gstatic.com/generate_204
 
-  #美国节点    
+  #🇺🇸 美国节点    
   US:
     <<: *All #引用锚点内容
     filter: 美|🇺🇲|US|(?i)States|American
     
-  #香港节点
+  #🇭🇰 香港节点
   HK:
     <<: *All
     filter: 港|🇭🇰|HK|(?i)Hong
 
-  #日本节点
+  #🇯🇵 日本节点
   JP:
     <<: *All
     filter: 日|🇯🇵|东京|JP|(?i)Japan
  
-  #台湾节点
+  #🇨🇳 台湾节点
   TW:
     <<: *All
-    filter: 台|🇨🇳|湾|TW|(?i)Taiwan
-    
-  #狮城节点
+    filter: 台|🇨🇳|🇹🇼|湾|TW|(?i)Taiwan
+   
+  #🇸🇬 狮城节点
   SG:
     <<: *All
-    filter: 新|🇸🇬|SG|(?i)Singapore
-    
+    filter: 新|狮城|SG|(?i)Sing
+
 dns:
   enable: true
   ipv6: true
@@ -55,104 +57,26 @@ dns:
     - 223.5.5.5
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
-  
   fake-ip-filter:
-    - "*.lan"
-    - "*.localdomain"
-    - "*.example"
-    - "*.invalid"
-    - "*.localhost"
-    - "*.test"
-    - "*.local"
-    - "*.home.arpa"
-    - "time.*.com"
-    - "time.*.gov"
-    - "time.*.edu.cn"
-    - "time.*.apple.com"
-    - "time1.*.com"
-    - "time2.*.com"
-    - "time3.*.com"
-    - "time4.*.com"
-    - "time5.*.com"
-    - "time6.*.com"
-    - "time7.*.com"
-    - "ntp.*.com"
-    - "ntp1.*.com"
-    - "ntp2.*.com"
-    - "ntp3.*.com"
-    - "ntp4.*.com"
-    - "ntp5.*.com"
-    - "ntp6.*.com"
-    - "ntp7.*.com"
-    - "*.time.edu.cn"
-    - "*.ntp.org.cn"
-    - "+.pool.ntp.org"
-    - "time1.cloud.tencent.com"
-    - "music.163.com"
-    - "*.music.163.com"
-    - "*.126.net"
-    - "musicapi.taihe.com"
-    - "music.taihe.com"
-    - "songsearch.kugou.com"
-    - "trackercdn.kugou.com"
-    - "*.kuwo.cn"
-    - "api-jooxtt.sanook.com"
-    - "api.joox.com"
-    - "joox.com"
-    - "y.qq.com"
-    - "*.y.qq.com"
-    - "streamoc.music.tc.qq.com"
-    - "mobileoc.music.tc.qq.com"
-    - "isure.stream.qqmusic.qq.com"
-    - "dl.stream.qqmusic.qq.com"
-    - "aqqmusic.tc.qq.com"
-    - "amobile.music.tc.qq.com"
-    - "*.xiami.com"
-    - "*.music.migu.cn"
-    - "music.migu.cn"
-    - "*.msftconnecttest.com"
-    - "*.msftncsi.com"
-    - "msftconnecttest.com"
-    - "msftncsi.com"
-    - "localhost.ptlogin2.qq.com"
-    - "localhost.sec.qq.com"
-    - "+.srv.nintendo.net"
-    - "+.stun.playstation.net"
-    - "xbox.*.microsoft.com"
-    - "xnotify.xboxlive.com"
-    - "+.battlenet.com.cn"
-    - "+.wotgame.cn"
-    - "+.wggames.cn"
-    - "+.wowsgame.cn"
-    - "+.wargaming.net"
-    - "proxy.golang.org"
-    - "stun.*.*"
-    - "stun.*.*.*"
-    - "+.stun.*.*"
-    - "+.stun.*.*.*"
-    - "+.stun.*.*.*.*"
-    - "heartbeat.belkin.com"
-    - "*.linksys.com"
-    - "*.linksyssmartwifi.com"
-    - "*.router.asus.com"
-    - "mesu.apple.com"
-    - "swscan.apple.com"
-    - "swquery.apple.com"
-    - "swdownload.apple.com"
-    - "swcdn.apple.com"
-    - "swdist.apple.com"
-    - "lens.l.google.com"
-    - "stun.l.google.com"
-    - "+.nflxvideo.net"
-    - "*.square-enix.com"
-    - "*.finalfantasyxiv.com"
-    - "*.ffxiv.com"
+    - '*.lan'
+    - localhost.ptlogin2.qq.com
+    - '+.srv.nintendo.net'
+    - '+.stun.playstation.net'
+    - '+.msftconnecttest.com'
+    - '+.msftncsi.com'
+    - '+.xboxlive.com'
+    - 'msftconnecttest.com'
+    - 'xbox.*.microsoft.com'
+    - '*.battlenet.com.cn'
+    - '*.battlenet.com'
+    - '*.blzstatic.cn'
+    - '*.battle.net'
   nameserver:
     - https://doh.pub/dns-query
     - https://dns.alidns.com/dns-query
-    
-proxies:
 
+proxies:
+            
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -160,141 +84,207 @@ proxy-groups:
       - All
     proxies:
       - ♻️ 自动选择
-      - 🛠 故障转移
-      - ⚖️ 负载均衡
-      - 💫 全球直连
-      - 🇭🇰 香港节点
-      - 🇨🇳 台湾节点
-      - 🇸🇬 狮城节点
-      - 🇯🇵 日本节点
-      - 🇺🇲 美国节点
 
   - name: ♻️ 自动选择
     type: url-test
     use: 
-      - All
+       - All
     url: "http://www.gstatic.com/generate_204"
     interval: 300
-
-  - name: 🛠 故障转移
-    type: fallback
-    use: 
-      - All
-    url: "http://www.gstatic.com/generate_204"
-    interval: 300
-
-  - name: ⚖️ 负载均衡
-    type: load-balance
-    use: 
-      - All
-    url: "http://www.gstatic.com/generate_204"
-    interval: 300
-
-  - name: 🎥 奈飞视频
+      
+  - name: YouTube
     type: select
     proxies:
-      - 🇭🇰 香港节点
-      - 🇸🇬 狮城节点
-      - 🇨🇳 台湾节点
-      - 🇯🇵 日本节点
-      - 🇺🇲 美国节点
-
-  - name: 🎬 媒体自选
-    type: select
-    proxies:
-      - 🇭🇰 香港节点
-      - 🇸🇬 狮城节点
-      - 🇨🇳 台湾节点
-      - 🇯🇵 日本节点
-      - 🇺🇲 美国节点
-
-  - name: 🍎 苹果服务
-    type: select
-    proxies:
-      - 💫 全球直连
-      - 🚀 节点选择
-      - 🇭🇰 香港节点
-      - 🇸🇬 狮城节点
-      - 🇨🇳 台湾节点
-      - 🇯🇵 日本节点
-      - 🇺🇲 美国节点
-
-  - name: 🕸 漏网之鱼
-    type: select
-    proxies:
-      - 💫 全球直连
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🇭🇰 香港节点
-      - 🇸🇬 狮城节点
-      - 🇨🇳 台湾节点
       - 🇯🇵 日本节点
-      - 🇺🇲 美国节点
+      - 🇺🇸 美国节点
+      - 🇨🇳 台湾节点
+      - DIRECT
 
-  - name: 🌀 节点测速
+  - name: NETFLIX
     type: select
     proxies:
-      - 💫 全球直连
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🇭🇰 香港节点
-      - 🇸🇬 狮城节点
-      - 🇨🇳 台湾节点
       - 🇯🇵 日本节点
-      - 🇺🇲 美国节点
+      - 🇺🇸 美国节点
+      - 🇨🇳 台湾节点
+      - DIRECT
 
-  - name: 🇭🇰 香港节点
-    type: url-test
-    use: 
-       - HK
-    url: "http://www.gstatic.com/generate_204"
-    interval: 300
+  - name: Disney+
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - 🇭🇰 香港节点
+      - 🇯🇵 日本节点
+      - 🇺🇸 美国节点
+      - 🇨🇳 台湾节点
+      - DIRECT
 
-  - name: 🇯🇵 日本节点
-    type: url-test
-    use: 
-       - JP
-    url: "http://www.gstatic.com/generate_204"
-    interval: 300
-     
-  - name: 🇨🇳 台湾节点
-    type: url-test
-    use: 
-       - TW
-    url: "http://www.gstatic.com/generate_204"
-    interval: 300
+  - name: 巴哈姆特
+    type: select
+    proxies:
+      - 🇨🇳 台湾节点
+      - 🇭🇰 香港节点
+      - 🇯🇵 日本节点
+      - 🇺🇸 美国节点
+      - ♻️ 自动选择
+      - 🚀 节点选择
+      - DIRECT
 
-  - name: 🇺🇸 美国节点
-    type: url-test
-    use: 
-       - US
-    url: "http://www.gstatic.com/generate_204"
-    interval: 300
-
-  - name: 🇸🇬 狮城节点
-    type: url-test
-    use: 
-       - SG
-    url: "http://www.gstatic.com/generate_204"
-    interval: 300
-
-  - name: 🚫 广告拦截
+  - name: AdBlock
     type: select
     proxies:
       - REJECT
+
+  - name: 国外网站
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - 🇭🇰 香港节点
+      - 🇯🇵 日本节点
+      - 🇺🇸 美国节点
+      - 🇨🇳 台湾节点
       - DIRECT
 
-  - name: 💫 全球直连
+  - name: 苹果服务
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - 🇭🇰 香港节点
+      - 🇯🇵 日本节点
+      - 🇺🇸 美国节点
+      - 🇨🇳 台湾节点
+      - DIRECT
+
+  - name: 微软服务
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - 🇭🇰 香港节点
+      - 🇯🇵 日本节点
+      - 🇺🇸 美国节点
+      - 🇨🇳 台湾节点
+      - DIRECT
+
+  - name: 网易音乐
     type: select
     proxies:
       - DIRECT
-      
+
+  - name: 哔哩哔哩
+    type: select
+    proxies:
+      - DIRECT
+      - ♻️ 自动选择
+      - 🚀 节点选择
+      - 🇭🇰 香港节点
+      - 🇯🇵 日本节点
+      - 🇺🇸 美国节点
+      - 🇨🇳 台湾节点
+
+  - name: 游戏平台
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - 🇭🇰 香港节点
+      - 🇯🇵 日本节点
+      - 🇺🇸 美国节点
+      - 🇨🇳 台湾节点
+      - DIRECT
+
+  - name: 国内网站
+    type: select
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/China_Map.png
+    proxies:
+      - DIRECT
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - 🇭🇰 香港节点
+      - 🇯🇵 日本节点
+      - 🇺🇸 美国节点
+      - 🇨🇳 台湾节点
+
+  - name: 漏网之鱼
+    type: select
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Final.png
+    proxies:
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - 🇭🇰 香港节点
+      - 🇯🇵 日本节点
+      - 🇺🇸 美国节点
+      - 🇨🇳 台湾节点
+      - DIRECT
+
+  - name: 🇭🇰 香港节点
+    type: select
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Hong_Kong.png
+    use:
+      - HK
+    proxies:
+      - DIRECT
+
+  - name: 🇸🇬 狮城节点
+    type: select
+    use:
+      - SG
+    proxies:
+      - DIRECT
+
+  - name: 🇯🇵 日本节点
+    type: select
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Japan.png
+    use:
+      - JP
+    proxies:
+      - DIRECT
+     
+  - name: 🇨🇳 台湾节点
+    type: select
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Taiwan.png
+    use:
+      - TW
+    proxies:
+      - DIRECT
+
+  - name: 🇺🇸 美国节点
+    type: select
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/United_States.png
+    use:
+      - US
+    proxies:
+      - DIRECT
+
 rule-providers:
-  Apple:
+
+  Direct:
     type: http
     behavior: classical
-    url: "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Apple/Apple.yaml"
-    path: ./ruleset/Apple.yaml
+    url: "https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Direct/Direct.yaml"
+    path: ./ruleset/direct.yaml
+    interval: 86400
+
+  Adblock-Domain:
+    type: http
+    behavior: domain
+    url: "https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AdvertisingLite/AdvertisingLite_Domain.yaml"
+    path: ./ruleset/AdDomain.yaml
+    interval: 86400
+        
+  YouTube:
+    type: http
+    behavior: classical
+    url: "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/YouTube/YouTube.yaml"
+    path: ./ruleset/YouTube.yaml
     interval: 86400
 
   Netflix:
@@ -303,101 +293,99 @@ rule-providers:
     url: "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Netflix/Netflix.yaml"
     path: ./ruleset/Netflix.yaml
     interval: 86400
- 
-  LAN:
-    behavior: ipcidr
-    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/lancidr.txt"
+
+  Disney:
+    type: http
+    behavior: classical
+    url: "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Disney/Disney.yaml"
+    path: ./ruleset/Disney.yaml
     interval: 86400
-    
+
+  Bahamut:
+    type: http
+    behavior: classical
+    url: "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Bahamut/Bahamut.yaml"
+    path: ./ruleset/Bahamut.yaml
+    interval: 86400
+
+  Apple:
+    type: http
+    behavior: classical
+    url: "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Apple/Apple.yaml"
+    path: ./ruleset/Apple.yaml
+    interval: 86400
+
+  Microsoft:
+    type: http
+    behavior: classical
+    url: "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Microsoft/Microsoft.yaml"
+    path: ./ruleset/Microsoft.yaml
+    interval: 86400
+
+  NetEaseMusic:
+    type: http
+    behavior: classical
+    url: "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/NetEaseMusic/NetEaseMusic.yaml"
+    path: ./ruleset/NetEaseMusic.yaml
+    interval: 86400
+
+  BiliBili:
+    type: http
+    behavior: classical
+    url: "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/BiliBili/BiliBili.yaml"
+    path: ./ruleset/BiliBili.yaml
+    interval: 86400
+
+  Game:
+    type: http
+    behavior: classical
+    url: "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Game/Game.yaml"
+    path: ./ruleset/Game.yaml
+    interval: 86400
+
   China:
     type: http
     behavior: classical
     url: "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/China/China.yaml"
     path: ./ruleset/China.yaml
     interval: 86400
-    
-  ChinaIPs_IP:
-    behavior: ipcidr
-    url: "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/ChinaIPs/ChinaIPs_IP.yaml"
-    path: ./ruleset/ChinaIPs_IP.yaml
-    interval: 86400
-    
+
   Global:
     type: http
-    behavior: domain
-    url: "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Global/Global_Domain.yaml"
+    behavior: classical
+    url: "https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Global/Global.yaml"
     path: ./ruleset/Global.yaml
     interval: 86400
 
-  Advertising:
+  Global-Domain:
     type: http
     behavior: domain
-    url: "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Advertising/Advertising_Domain.yaml"
-    path: ./ruleset/Advertising.yaml
+    url: "https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Global/Global_Domain.yaml"
+    path: ./ruleset/Global-Domain.yaml
     interval: 86400
 
-  Direct:
+  Lan:
     type: http
     behavior: classical
-    url: "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Direct/Direct.yaml"
-    path: ./ruleset/direct.yaml
+    url: "https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Lan/Lan.yaml"
+    path: ./ruleset/lan.yaml
     interval: 86400
     
-  DIRECT:
-    type: http
-    behavior: domain-text
-    url: "https://raw.githubusercontent.com/hongcz1104/clash/master/rule/DIRECT.txt"
-    path: ./ruleset/DIRECT.yaml
-    interval: 86400
-  SG:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/hongcz1104/clash/master/rule/SG.yaml"
-    path: ./ruleset/SG.yaml
-    interval: 86400
-  HK:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/hongcz1104/clash/master/rule/HK.yaml"
-    path: ./ruleset/HK.yaml
-    interval: 86400
-  US:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/hongcz1104/clash/master/rule/US.yaml"
-    path: ./ruleset/US.yaml
-    interval: 86400
-  JP:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/hongcz1104/clash/master/rule/JP.yaml"
-    path: ./ruleset/JP.yaml
-    interval: 86400
-  
-  DIY:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/hongcz1104/clash/master/rule/diy.yaml"
-    path: ./ruleset/DIY.yaml
-    interval: 86400
-
 rules:
-- RULE-SET,LAN,💫 全球直连
-- RULE-SET,Direct,💫 全球直连
-- RULE-SET,DIRECT,💫 全球直连
-- RULE-SET,SG,🇸🇬 狮城节点
-- RULE-SET,HK,🇭🇰 香港节点
-- RULE-SET,US,🇺🇲 美国节点
-- RULE-SET,JP,🇯🇵 日本节点
-- RULE-SET,TW,🇨🇳 台湾节点
-- RULE-SET,DIY,🎬 媒体自选
-- RULE-SET,REJECT,🚫 广告拦截
-- RULE-SET,Advertising,🚫 广告拦截
-- RULE-SET,Apple,🍎 苹果服务
-- RULE-SET,Netflix,🎥 奈飞视频
-- RULE-SET,Speedtest,🌀 节点测速
-- RULE-SET,Global,🚀 节点选择
-- RULE-SET,China,💫 全球直连
-- RULE-SET,ChinaIPs_IP,💫 全球直连
-- GEOIP,CN,💫 全球直连
-- MATCH,🕸 漏网之鱼
+  - RULE-SET,Direct,DIRECT
+  - RULE-SET,Adblock-Domain,AdBlock
+  - RULE-SET,YouTube,YouTube
+  - RULE-SET,Netflix,NETFLIX
+  - RULE-SET,Disney,Disney+
+  - RULE-SET,Bahamut,巴哈姆特
+  - RULE-SET,Apple,苹果服务
+  - RULE-SET,Microsoft,微软服务
+  - RULE-SET,NetEaseMusic,网易音乐
+  - RULE-SET,BiliBili,哔哩哔哩
+  - RULE-SET,Game,游戏平台
+  - RULE-SET,Global,国外网站
+  - RULE-SET,Global-Domain,国外网站
+  - RULE-SET,China,国内网站
+  - RULE-SET,Lan,DIRECT
+  - GEOIP,CN,国内网站
+  - MATCH,漏网之鱼
