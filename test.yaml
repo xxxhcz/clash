@@ -41,10 +41,10 @@ proxy-providers:
     <<: *All
     filter: 台|🇨🇳|湾|TW|(?i)Taiwan
     
-  #新加坡节点
+  #狮城节点
   SG:
     <<: *All
-    filter: 新|🇸🇬|SG|(?i)Sing
+    filter: 新|🇸🇬|SG|(?i)Singapore
     
 dns:
   enable: true
@@ -57,7 +57,6 @@ dns:
   fake-ip-range: 198.18.0.1/16
   
   fake-ip-filter:
-    # 以下域名列表参考自 vernesong/OpenClash 项目，并由 Hackl0us 整理补充
     - "*.lan"
     - "*.localdomain"
     - "*.example"
@@ -179,14 +178,14 @@ proxy-groups:
 
   - name: 🛠 故障转移
     type: fallback
-    proxies:
+    use: 
       - All
     url: "http://www.gstatic.com/generate_204"
     interval: 300
 
   - name: ⚖️ 负载均衡
     type: load-balance
-    proxies:
+    use: 
       - All
     url: "http://www.gstatic.com/generate_204"
     interval: 300
