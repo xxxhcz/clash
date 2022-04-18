@@ -347,38 +347,38 @@ rule-providers:
     type: http
     behavior: domain-text
     url: "https://raw.githubusercontent.com/hongcz1104/clash/master/rule/DIRECT.txt"
-    path: ./Rules/DIRECT.yaml
+    path: ./ruleset/DIRECT.yaml
     interval: 86400
   SG:
     type: http
     behavior: classical
     url: "https://raw.githubusercontent.com/hongcz1104/clash/master/rule/SG.yaml"
-    path: ./Rules/SG.yaml
+    path: ./ruleset/SG.yaml
     interval: 86400
   HK:
     type: http
     behavior: classical
     url: "https://raw.githubusercontent.com/hongcz1104/clash/master/rule/HK.yaml"
-    path: ./Rules/HK.yaml
+    path: ./ruleset/HK.yaml
     interval: 86400
   US:
     type: http
     behavior: classical
     url: "https://raw.githubusercontent.com/hongcz1104/clash/master/rule/US.yaml"
-    path: ./Rules/US.yaml
+    path: ./ruleset/US.yaml
     interval: 86400
   JP:
     type: http
     behavior: classical
     url: "https://raw.githubusercontent.com/hongcz1104/clash/master/rule/JP.yaml"
-    path: ./Rules/JP.yaml.yaml
+    path: ./ruleset/JP.yaml
     interval: 86400
   
   DIY:
     type: http
     behavior: classical
     url: "https://raw.githubusercontent.com/hongcz1104/clash/master/rule/diy.yaml"
-    path: ./Rules/DIY.yaml
+    path: ./ruleset/DIY.yaml
     interval: 86400
 
 rules:
