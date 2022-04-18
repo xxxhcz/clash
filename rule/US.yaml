@@ -1,13 +1,12 @@
 payload:
 #美区自定义
+
 #奥德赛
   - DOMAIN-KEYWORD,cf.odysseyplus.site
   - DOMAIN-KEYWORD,us.odysseyplus.site
   - DOMAIN-KEYWORD,sp.odysseyplus.site
 
 #卷毛鼠
-  - DOMAIN-KEYWORD,sp.odysseyplus.site
-  - DOMAIN-KEYWORD,sp.odysseyplus.site
   - DOMAIN-KEYWORD,usa1.jmsooo
   - DOMAIN-KEYWORD,usa2.jmsooo
   - DOMAIN-KEYWORD,usa3.jmsooo
@@ -17,6 +16,11 @@ payload:
   - DOMAIN-KEYWORD,pub2back.emby.wtf
   - DOMAIN-KEYWORD,pub3back.emby.wtf
 
-#Misty小型免费公益服
+#Misty美国线路
   - DOMAIN-KEYWORD,us.aaa.ax
-  - IP-CIDR,172.65.60.0/24,no-resolve
+
+  - IP-CIDR,172.65.60.104/32
+  - IP-CIDR,157.245.49.0/24,no-resolve
+
+#otakudrive服
+  - DOMAIN-KEYWORD,otakudrive
