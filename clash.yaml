@@ -155,12 +155,6 @@ rule-providers:
     url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/StreamingMedia/Video/DisneyPlus.yaml
     path: ./Rules/DisneyPlus
     interval: 86400
-#  YouTube:
-#    type: http
-#    behavior: classical
-#    url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/StreamingMedia/Video/YouTube.yaml
-#    path: ./Rules/YouTube
-#    interval: 86400
   Speedtest:
     type: http
     behavior: classical
