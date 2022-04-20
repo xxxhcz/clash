@@ -219,7 +219,7 @@ rule-providers:
     
   direct2:
     type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/hongcz1104/clash/master/rule/JP.yaml"
+    behavior: domain
+    url: "https://raw.githubusercontent.com/hongcz1104/clash/master/rule/DIRECT.txt"
     path: ./ruleset/direct2.yaml
     interval: 86400
