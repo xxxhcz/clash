@@ -111,6 +111,8 @@ dns:
     - https://dns.alidns.com/dns-query
     
 rules:
+  - RULE-SET,Speedtest,🌀 节点测速
+  - RULE-SET,DisneyPlus,❄️ 迪士尼➕
   - RULE-SET,direct2,💫 全球直连
   - RULE-SET, YouTube,📺 油管视频
   - RULE-SET,Netflix,🎥 奈飞视频
@@ -236,10 +238,23 @@ rule-providers:
     path: ./ruleset/direct2.yaml
     interval: 86400
 
+
+  Speedtest:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Semporia/ClashX-Pro/master/Filter/Speedtest.yaml"
+    path: ./ruleset/YouTube.yaml
+    interval: 86400
   YouTube:
     type: http
     behavior: classical
     url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/YouTube/YouTube.yaml"
+    path: ./ruleset/YouTube.yaml
+    interval: 86400
+  DisneyPlus:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/StreamingMedia/Video/DisneyPlus.yaml"
     path: ./ruleset/YouTube.yaml
     interval: 86400
   Netflix:
