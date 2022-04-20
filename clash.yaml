@@ -128,7 +128,7 @@ rules:
   - RULE-SET,greatfire,🚀 节点选择
   - RULE-SET,telegramcidr,🚀 节点选择
   - RULE-SET,Netflix,🎥 奈飞视频
-# - RULE-SET,YouTube,📺 油管视频
+  - RULE-SET,YouTube,📺 油管视频
   - RULE-SET,DisneyPlus,❄️ 迪士尼➕
   - RULE-SET,apple,🍎 苹果服务
   - RULE-SET,icloud,🍎 苹果服务
