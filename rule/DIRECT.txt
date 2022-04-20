@@ -1,12 +1,7 @@
-#filebox订阅服务器直连
 pi.revenuecat.com
-
-#终点站直连
 pub1ha2.emby.wtf
 pub2ha2.emby.wtf
 pub3ha2.emby.wtf
-
-#obox直连列表
 rm-license.youku.com
 youku.com
 l.qq.com
