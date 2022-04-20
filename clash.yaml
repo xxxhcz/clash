@@ -127,6 +127,7 @@ rules:
   - RULE-SET,apple,🍎 苹果服务
   - RULE-SET,icloud,🍎 苹果服务
   - RULE-SET,tld-not-cn,🚀 节点选择
+  - RULE-SET,Speedtest, 🌀 节点测速
   - RULE-SET,DIY,🎬 媒体自选
   - RULE-SET,SG,🇸🇬 狮城节点
   - RULE-SET,HK,🇭🇰 香港节点
