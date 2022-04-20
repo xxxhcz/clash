@@ -9,7 +9,7 @@ payload:
   - DOMAIN-KEYWORD,sg1.jmsooo
   - DOMAIN-KEYWORD,sg2.jmsooo
 
-misty服新加坡线路
+#misty服新加坡线路
   - DOMAIN-KEYWORD,sg.aaa.ax
 
 #奥德赛SG
