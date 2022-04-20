@@ -7,127 +7,150 @@ port: 8888
 socks-port: 8889
 mixed-port: 8899
 mode: rule
-log-level: error
+log-level: info
+ipv6: true
 external-controller: 127.0.0.1:9090
 
 # DNS server settings
 # This section is optional. When not present, the DNS server will be disabled.
 dns:
   enable: true
+  ipv6: true
   listen: 0.0.0.0:53
   default-nameserver:
-    - 114.114.114.114
-    - 8.8.8.8
+    - 119.29.29.29
+    - 223.5.5.5
   enhanced-mode: fake-ip
-  nameserver:
-    - 114.114.114.114 # default value
-    - 8.8.8.8 # default value
-    - tls://dns.rubyfish.cn:853 # DNS over TLS
-    - https://1.1.1.1/dns-query # DNS over HTTPS
-
+  fake-ip-range: 198.18.0.1/16
   fake-ip-filter:
-    - '*.lan'
-    - localhost.ptlogin2.qq.com
-    - '+.srv.nintendo.net'
-    - '+.stun.playstation.net'
-    - '+.msftconnecttest.com'
-    - '+.msftncsi.com'
-    - '+.xboxlive.com'
-    - 'msftconnecttest.com'
-    - 'xbox.*.microsoft.com'
-    - '*.battlenet.com.cn'
-    - '*.battlenet.com'
-    - '*.blzstatic.cn'
-    - '*.battle.net'
-
+    - "*.lan"
+    - "*.localdomain"
+    - "*.example"
+    - "*.invalid"
+    - "*.localhost"
+    - "*.test"
+    - "*.local"
+    - "*.home.arpa"
+    - "time.*.com"
+    - "time.*.gov"
+    - "time.*.edu.cn"
+    - "time.*.apple.com"
+    - "time1.*.com"
+    - "time2.*.com"
+    - "time3.*.com"
+    - "time4.*.com"
+    - "time5.*.com"
+    - "time6.*.com"
+    - "time7.*.com"
+    - "ntp.*.com"
+    - "ntp1.*.com"
+    - "ntp2.*.com"
+    - "ntp3.*.com"
+    - "ntp4.*.com"
+    - "ntp5.*.com"
+    - "ntp6.*.com"
+    - "ntp7.*.com"
+    - "*.time.edu.cn"
+    - "*.ntp.org.cn"
+    - "+.pool.ntp.org"
+    - "time1.cloud.tencent.com"
+    - "music.163.com"
+    - "*.music.163.com"
+    - "*.126.net"
+    - "musicapi.taihe.com"
+    - "music.taihe.com"
+    - "songsearch.kugou.com"
+    - "trackercdn.kugou.com"
+    - "*.kuwo.cn"
+    - "api-jooxtt.sanook.com"
+    - "api.joox.com"
+    - "joox.com"
+    - "y.qq.com"
+    - "*.y.qq.com"
+    - "streamoc.music.tc.qq.com"
+    - "mobileoc.music.tc.qq.com"
+    - "isure.stream.qqmusic.qq.com"
+    - "dl.stream.qqmusic.qq.com"
+    - "aqqmusic.tc.qq.com"
+    - "amobile.music.tc.qq.com"
+    - "*.xiami.com"
+    - "*.music.migu.cn"
+    - "music.migu.cn"
+    - "*.msftconnecttest.com"
+    - "*.msftncsi.com"
+    - "msftconnecttest.com"
+    - "msftncsi.com"
+    - "localhost.ptlogin2.qq.com"
+    - "localhost.sec.qq.com"
+    - "+.srv.nintendo.net"
+    - "+.stun.playstation.net"
+    - "xbox.*.microsoft.com"
+    - "xnotify.xboxlive.com"
+    - "+.battlenet.com.cn"
+    - "+.wotgame.cn"
+    - "+.wggames.cn"
+    - "+.wowsgame.cn"
+    - "+.wargaming.net"
+    - "proxy.golang.org"
+    - "stun.*.*"
+    - "stun.*.*.*"
+    - "+.stun.*.*"
+    - "+.stun.*.*.*"
+    - "+.stun.*.*.*.*"
+    - "heartbeat.belkin.com"
+    - "*.linksys.com"
+    - "*.linksyssmartwifi.com"
+    - "*.router.asus.com"
+    - "mesu.apple.com"
+    - "swscan.apple.com"
+    - "swquery.apple.com"
+    - "swdownload.apple.com"
+    - "swcdn.apple.com"
+    - "swdist.apple.com"
+    - "lens.l.google.com"
+    - "stun.l.google.com"
+    - "+.nflxvideo.net"
+    - "*.square-enix.com"
+    - "*.finalfantasyxiv.com"
+    - "*.ffxiv.com"
+  nameserver:
+    - https://doh.pub/dns-query
+    - https://dns.alidns.com/dns-query
+    
 rules:
-- RULE-SET,LAN,💫 全球直连
-- RULE-SET,Direct,💫 全球直连
-- RULE-SET,DIRECT,💫 全球直连
-- RULE-SET,SG,🇸🇬 狮城节点
-- RULE-SET,HK,🇭🇰 香港节点
-- RULE-SET,US,🇺🇲 美国节点
-- RULE-SET,JP,🇯🇵 日本节点
-- RULE-SET,REJECT,🚫 广告拦截
-- RULE-SET,Advertising,🚫 广告拦截
-- RULE-SET,Apple,🍎 苹果服务
-- RULE-SET,Netflix,🎥 奈飞视频
-#- RULE-SET,DisneyPlus,❄️ 迪士尼➕
-#- RULE-SET,YouTube,📺 油管视频
-- RULE-SET,Speedtest,🌀 节点测速
-- RULE-SET,Global,🚀 节点选择
-- RULE-SET,China,💫 全球直连
-- GEOIP,CN,💫 全球直连
-- MATCH,🕸 漏网之鱼
+  - RULE-SET,DIRECT,💫 全球直连
+  - RULE-SET,applications,💫 全球直连
+  - DOMAIN,clash.razord.top,💫 全球直连
+  - DOMAIN,yacd.haishan.me,💫 全球直连
+  - RULE-SET,private,💫 全球直连
+  - RULE-SET,reject,🚫 广告拦截
+  - RULE-SET,gfw,🚀 节点选择
+  - RULE-SET,greatfire,🚀 节点选择
+  - RULE-SET,telegramcidr,🚀 节点选择
+  - RULE-SET,Netflix,🎥 奈飞视频
+  - RULE-SET,Disney,❄️ 迪士尼➕
+  - RULE-SET,apple,🍎 苹果服务
+  - RULE-SET,icloud,🍎 苹果服务
+  - RULE-SET,tld-not-cn,🚀 节点选择
+  - RULE-SET,DIY,🎬 媒体自选
+  - RULE-SET,SG,🇸🇬 狮城节点
+  - RULE-SET,HK,🇭🇰 香港节点
+  - RULE-SET,US,🇺🇸 美国节点
+  - RULE-SET,JP,🇯🇵 日本节点
+  - RULE-SET,direct,💫 全球直连
+  - GEOIP,CN,💫 全球直连
+  - MATCH,🕸 漏网之鱼
+# - RULE-SET,DisneyPlus,❄️ 迪士尼➕
+# - RULE-SET,YouTube,📺 油管视频
+
 
 rule-providers:
-  LAN:
-    type: http
-    behavior: classical
-    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Lan/Lan.yaml
-    path: ./Rules/LAN
-    interval: 86400
-  Direct:
-    type: http
-    behavior: classical
-    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Direct/Direct.yaml
-    path: ./Rules/Direct
-    interval: 86400
-  DIRECT:
-    type: http
-    behavior: classical
-    url: https://raw.githubusercontent.com/hongcz1104/clash/master/rule/DIRECT.yaml
-    path: ./Rules/DIRECT
-    interval: 86400
-  SG:
-    type: http
-    behavior: classical
-    url: https://raw.githubusercontent.com/hongcz1104/clash/master/rule/SG.yaml
-    path: ./Rules/SG
-    interval: 86400
-  HK:
-    type: http
-    behavior: classical
-    url: https://raw.githubusercontent.com/hongcz1104/clash/master/rule/HK.yaml
-    path: ./Rules/HK
-    interval: 86400
-  US:
-    type: http
-    behavior: classical
-    url: https://raw.githubusercontent.com/hongcz1104/clash/master/rule/US.yaml
-    path: ./Rules/US
-    interval: 86400
-  JP:
-    type: http
-    behavior: classical
-    url: https://raw.githubusercontent.com/hongcz1104/clash/master/rule/JP.yaml
-    path: ./Rules/JP
-    interval: 86400
   REJECT:
     type: http
     behavior: classical
     url: https://raw.githubusercontent.com/hongcz1104/clash/master/rule/REJECT.yaml
     path: ./Rules/REJECT
     interval: 86400   
-  Advertising:
-    type: http
-    behavior: classical
-    url: https://cdn.jsdelivr.net/gh/lhie1/Rules@master/Clash/Provider/Reject.yaml
-#https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Advertising/Advertising_Classical.yaml
-    path: ./Rules/Advertising
-    interval: 86400
-  Apple:
-    type: http
-    behavior: classical
-    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Apple/Apple.yaml
-    path: ./Rules/Apple
-    interval: 86400
-  Netflix:
-    type: http
-    behavior: classical
-    url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/StreamingMedia/Video/Netflix.yaml
-    path: ./Rules//Netflix
-    interval: 86400
 #  DisneyPlus:
 #    type: http
 #    behavior: classical
@@ -146,16 +169,142 @@ rule-providers:
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Speedtest/Speedtest.yaml
     path: ./Rules/Speedtest
     interval: 86400
-  Global:
+  reject:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/reject.txt"
+    path: ./ruleset/reject.yaml
+    interval: 86400
+  icloud:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/icloud.txt"
+    path: ./ruleset/icloud.yaml
+    interval: 86400
+  apple:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/apple.txt"
+    path: ./ruleset/apple.yaml
+    interval: 86400
+  google:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/google.txt"
+    path: ./ruleset/google.yaml
+    interval: 86400
+  proxy:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/proxy.txt"
+    path: ./ruleset/proxy.yaml
+    interval: 86400
+  direct:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/direct.txt"
+    path: ./ruleset/direct.yaml
+    interval: 86400
+  private:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/private.txt"
+    path: ./ruleset/private.yaml
+    interval: 86400
+  gfw:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/gfw.txt"
+    path: ./ruleset/gfw.yaml
+    interval: 86400
+  greatfire:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/greatfire.txt"
+    path: ./ruleset/greatfire.yaml
+    interval: 86400
+  tld-not-cn:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/tld-not-cn.txt"
+    path: ./ruleset/tld-not-cn.yaml
+    interval: 86400
+  telegramcidr:
+    type: http
+    behavior: ipcidr
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/telegramcidr.txt"
+    path: ./ruleset/telegramcidr.yaml
+    interval: 86400
+  cncidr:
+    type: http
+    behavior: ipcidr
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/cncidr.txt"
+    path: ./ruleset/cncidr.yaml
+    interval: 86400
+  lancidr:
+    type: http
+    behavior: ipcidr
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/lancidr.txt"
+    path: ./ruleset/lancidr.yaml
+    interval: 86400
+  applications:
     type: http
     behavior: classical
-    url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Global.yaml
-    path: ./Rules/Global
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/applications.txt"
+    path: ./ruleset/applications.yaml
+    interval: 86400 
+  DIRECT:
+    type: http
+    behavior: domain
+    url: "https://raw.githubusercontent.com/hongcz1104/clash/master/rule/DIRECT.txt"
+    path: ./ruleset/DIRECT.yaml
     interval: 86400
-  China:
+  YouTube:
     type: http
     behavior: classical
-    url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/China.yaml
-    path: ./Rules/China
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/YouTube/YouTube.yaml"
+    path: ./ruleset/YouTube.yaml
     interval: 86400
-    
+  Netflix:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Netflix/Netflix.yaml"
+    path: ./ruleset/Netflix.yaml
+    interval: 86400
+  Disney:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Disney/Disney.yaml"
+    path: ./ruleset/Disney.yaml
+    interval: 86400
+  SG:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/hongcz1104/clash/master/rule/SG.yaml"
+    path: ./ruleset/SG.yaml
+    interval: 86400
+  HK:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/hongcz1104/clash/master/rule/HK.yaml"
+    path: ./ruleset/HK.yaml
+    interval: 86400
+  US:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/hongcz1104/clash/master/rule/US.yaml"
+    path: ./ruleset/US.yaml
+    interval: 86400
+  JP:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/hongcz1104/clash/master/rule/JP.yaml"
+    path: ./ruleset/JP.yaml
+    interval: 86400
+  DIY:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/hongcz1104/clash/master/rule/diy.yaml"
+    path: ./ruleset/DIY.yaml
+    interval: 86400
+
