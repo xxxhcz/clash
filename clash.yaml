@@ -111,18 +111,19 @@ dns:
     - https://dns.alidns.com/dns-query
     
 rules:
+rules:
   - RULE-SET,DIRECT,💫 全球直连
   - RULE-SET,applications,💫 全球直连
   - DOMAIN,clash.razord.top,💫 全球直连
   - DOMAIN,yacd.haishan.me,💫 全球直连
   - RULE-SET,private,💫 全球直连
   - RULE-SET,reject,🚫 广告拦截
+  - RULE-SET,proxy,🚀 节点选择
   - RULE-SET,gfw,🚀 节点选择
   - RULE-SET,greatfire,🚀 节点选择
   - RULE-SET,telegramcidr,🚀 节点选择
   - RULE-SET,Netflix,🎥 奈飞视频
-  - RULE-SET,YouTube,📺 油管视频
-  - RULE-SET,DisneyPlus,❄️ 迪士尼➕
+  - RULE-SET,Disney,❄️ 迪士尼➕
   - RULE-SET,apple,🍎 苹果服务
   - RULE-SET,icloud,🍎 苹果服务
   - RULE-SET,tld-not-cn,🚀 节点选择
