@@ -116,10 +116,6 @@ rules:
   - RULE-SET,direct2,💫 全球直连
   - RULE-SET, YouTube,📺 油管视频
   - RULE-SET,Netflix,🎥 奈飞视频
-  - RULE-SET,SG,🇸🇬 狮城节点
-  - RULE-SET,HK,🇭🇰 香港节点
-  - RULE-SET,US,🇺🇸 美国节点
-  - RULE-SET,JP,🇯🇵 日本节点
   - RULE-SET,DIY,🎬 媒体自选
   - RULE-SET,applications,💫 全球直连
   - DOMAIN,clash.razord.top,💫 全球直连
@@ -263,30 +259,7 @@ rule-providers:
     url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Netflix/Netflix.yaml"
     path: ./ruleset/Netflix.yaml
     interval: 86400
-  SG:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/hongcz1104/clash/master/rule/SG.yaml"
-    path: ./ruleset/SG.yaml
-    interval: 86400
-  HK:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/hongcz1104/clash/master/rule/HK.yaml"
-    path: ./ruleset/HK.yaml
-    interval: 86400
-  US:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/hongcz1104/clash/master/rule/US.yaml"
-    path: ./ruleset/US.yaml
-    interval: 86400
-  JP:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/hongcz1104/clash/master/rule/JP.yaml"
-    path: ./ruleset/JP.yaml
-    interval: 86400
+
   DIY:
     type: http
     behavior: classical
