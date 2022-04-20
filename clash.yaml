@@ -133,7 +133,7 @@ rules:
   - RULE-SET,DIY,🎬 媒体自选
   - RULE-SET,SG,🇸🇬 狮城节点
   - RULE-SET,HK,🇭🇰 香港节点
-  - RULE-SET,US,🇺🇸 美国节点
+  - RULE-SET,us,🇺🇸 美国节点
   - RULE-SET,JP,🇯🇵 日本节点
   - RULE-SET,direct,💫 全球直连
   - GEOIP,CN,💫 全球直连
@@ -272,11 +272,11 @@ rule-providers:
     url: "https://raw.githubusercontent.com/hongcz1104/clash/master/rule/HK.yaml"
     path: ./ruleset/HK.yaml
     interval: 86400
-  US:
+  us:
     type: http
     behavior: classical
     url: "https://raw.githubusercontent.com/hongcz1104/clash/master/rule/US.yaml"
-    path: ./ruleset/US.yaml
+    path: ./ruleset/USA.yaml
     interval: 86400
   JP:
     type: http
