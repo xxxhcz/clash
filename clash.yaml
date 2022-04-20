@@ -127,6 +127,7 @@ rules:
   - RULE-SET,icloud,🍎 苹果服务
   - RULE-SET,tld-not-cn,🚀 节点选择
   - RULE-SET,direct,💫 全球直连
+  - RULE-SET,direct2,💫 全球直连
   - GEOIP,CN,💫 全球直连
   - MATCH,🕸 漏网之鱼
   
@@ -216,4 +217,9 @@ rule-providers:
     path: ./ruleset/applications.yaml
     interval: 86400 
     
-    
+  direct2:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/hongcz1104/clash/master/rule/JP.yaml"
+    path: ./ruleset/direct2.yaml
+    interval: 86400
