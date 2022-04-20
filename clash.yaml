@@ -129,7 +129,7 @@ rules:
   - RULE-SET,telegramcidr,🚀 节点选择
   - RULE-SET,Netflix,🎥 奈飞视频
 # - RULE-SET,YouTube,📺 油管视频
-  - RULE-SET,Disney,❄️ 迪士尼➕
+  - RULE-SET,DisneyPlus,❄️ 迪士尼➕
   - RULE-SET,apple,🍎 苹果服务
   - RULE-SET,icloud,🍎 苹果服务
   - RULE-SET,tld-not-cn,🚀 节点选择
@@ -149,12 +149,12 @@ rule-providers:
     url: https://raw.githubusercontent.com/hongcz1104/clash/master/rule/REJECT.yaml
     path: ./Rules/REJECT
     interval: 86400   
-#  DisneyPlus:
-#    type: http
-#    behavior: classical
-#    url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/StreamingMedia/Video/DisneyPlus.yaml
-#    path: ./Rules/DisneyPlus
-#    interval: 86400
+  DisneyPlus:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/StreamingMedia/Video/DisneyPlus.yaml
+    path: ./Rules/DisneyPlus
+    interval: 86400
 #  YouTube:
 #    type: http
 #    behavior: classical
@@ -268,12 +268,6 @@ rule-providers:
     behavior: classical
     url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Netflix/Netflix.yaml"
     path: ./ruleset/Netflix.yaml
-    interval: 86400
-  Disney:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Disney/Disney.yaml"
-    path: ./ruleset/Disney.yaml
     interval: 86400
   SG:
     type: http
