@@ -9,7 +9,6 @@ payload:
 #卷毛鼠
   - DOMAIN-KEYWORD,usa1.jmsooo
   - DOMAIN-KEYWORD,usa2.jmsooo
-  - DOMAIN-KEYWORD,usa3.jmsooo
 
 ##终点站欧美
   - DOMAIN-KEYWORD,pub1back.emby.wtf
@@ -18,9 +17,3 @@ payload:
 
 #Misty美国线路
   - DOMAIN-KEYWORD,us.aaa.ax
-
-  - IP-CIDR,172.65.60.104/32
-  - IP-CIDR,157.245.49.0/24,no-resolve
-
-#otakudrive服
-  - DOMAIN-KEYWORD,otakudrive
