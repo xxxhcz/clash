@@ -111,6 +111,7 @@ dns:
     - https://dns.alidns.com/dns-query
     
 rules:
+  - RULE-SET,SG,🇸🇬 狮城节点
   - RULE-SET,HK,🇭🇰 香港节点
   - RULE-SET,Speedtest,🌀 节点测速
   - RULE-SET,DisneyPlus,❄️ 迪士尼➕
@@ -264,10 +265,16 @@ rule-providers:
     url: "https://raw.githubusercontent.com/hongcz1104/clash/master/rule/diy.yaml"
     path: ./ruleset/DIY.yaml
     interval: 86400
-
   HK:
     type: http
     behavior: classical
     url: "https://raw.githubusercontent.com/hongcz1104/clash/master/rule/HK.yaml"
     path: ./ruleset/HK.yaml
+    interval: 86400
+
+  SG:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/hongcz1104/clash/master/rule/SG.yaml"
+    path: ./ruleset/SG.yaml
     interval: 86400
