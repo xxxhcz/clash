@@ -111,7 +111,6 @@ dns:
     - https://dns.alidns.com/dns-query
     
 rules:
-  - RULE-SET,direct2,💫 全球直连
   - RULE-SET,applications,💫 全球直连
   - DOMAIN,clash.razord.top,💫 全球直连
   - DOMAIN,yacd.haishan.me,💫 全球直连
@@ -216,9 +215,3 @@ rule-providers:
     url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/applications.txt"
     path: ./ruleset/applications.yaml
     interval: 86400  
-  direct2:
-    type: http
-    behavior: domain
-    url: "https://raw.githubusercontent.com/hongcz1104/clash/master/rule/DIRECT.txt"
-    path: ./ruleset/direct2.yaml
-    interval: 86400
