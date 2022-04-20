@@ -1,18 +1,11 @@
-
-   
-### subscription-url {{ request.url }}
-
----
-port: 8888
-socks-port: 8889
-mixed-port: 8899
+mixed-port: 7890
+allow-lan: true
+bind-address: '*'
 mode: rule
 log-level: info
 ipv6: true
 external-controller: 127.0.0.1:9090
 
-# DNS server settings
-# This section is optional. When not present, the DNS server will be disabled.
 dns:
   enable: true
   ipv6: true
