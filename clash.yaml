@@ -111,7 +111,6 @@ dns:
     - https://dns.alidns.com/dns-query
     
 rules:
-rules:
   - RULE-SET,DIRECT,💫 全球直连
   - RULE-SET,applications,💫 全球直连
   - DOMAIN,clash.razord.top,💫 全球直连
@@ -125,6 +124,9 @@ rules:
   - RULE-SET,Netflix,🎥 奈飞视频
   - RULE-SET,Disney,❄️ 迪士尼➕
   - RULE-SET,apple,🍎 苹果服务
+  - RULE-SET,google,💫 全球直连
+  - RULE-SET,lancidr,💫 全球直连
+  - RULE-SET,cncidr,💫 全球直连
   - RULE-SET,icloud,🍎 苹果服务
   - RULE-SET,tld-not-cn,🚀 节点选择
   - RULE-SET,Speedtest, 🌀 节点测速
@@ -136,7 +138,7 @@ rules:
   - RULE-SET,direct,💫 全球直连
   - GEOIP,CN,💫 全球直连
   - MATCH,🕸 漏网之鱼
-
+  
 rule-providers:
   REJECT:
     type: http
