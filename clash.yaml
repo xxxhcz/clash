@@ -274,6 +274,13 @@ rule-providers:
     url: "https://cdn.jsdelivr.net/gh/hongcz1104/clash@master/rule/diy.yaml"
     path: ./ruleset/DIY.yaml
     interval: 86400
+  REJECT:
+    type: http
+    behavior: classical
+    url: "https://cdn.jsdelivr.net/gh/hongcz1104/clash@master/rule/REJECT.yaml"
+    path: ./ruleset/REJECT.yaml
+    interval: 86400
+
  
 rules:
   - RULE-SET,Speedtest,🌀 节点测速
@@ -285,6 +292,7 @@ rules:
   - RULE-SET,HK,🇭🇰 香港节点
   - RULE-SET,US,🇺🇸 美国节点
   - RULE-SET,JP,🇯🇵 日本节点
+  - RULE-SET,REJECT,🚫 广告拦截
   - RULE-SET,DIRECT,💫 全球直连
   - RULE-SET,applications,💫 全球直连
   - DOMAIN,clash.razord.top,💫 全球直连
