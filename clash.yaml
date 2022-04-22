@@ -194,6 +194,11 @@ rules:
   - RULE-SET,Netflix,🎥 奈飞视频
   - RULE-SET,YouTube,📺 油管视频
   - RULE-SET,DisneyPlus,❄️ 迪士尼➕
+  - RULE-SET,apple,🍎 苹果服务
+  - RULE-SET,google,💫 全球直连
+  - RULE-SET,lancidr,💫 全球直连
+  - RULE-SET,cncidr,💫 全球直连
+  - RULE-SET,icloud,🍎 苹果服务
   - RULE-SET,applications,💫 全球直连
   - RULE-SET,private,💫 全球直连
   - RULE-SET,reject,🚫 广告拦截
@@ -201,11 +206,6 @@ rules:
   - RULE-SET,gfw,🚀 节点选择
   - RULE-SET,greatfire,🚀 节点选择
   - RULE-SET,telegramcidr,🚀 节点选择
-  - RULE-SET,apple,🍎 苹果服务
-  - RULE-SET,google,💫 全球直连
-  - RULE-SET,lancidr,💫 全球直连
-  - RULE-SET,cncidr,💫 全球直连
-  - RULE-SET,icloud,🍎 苹果服务
   - RULE-SET,tld-not-cn,🚀 节点选择
   - RULE-SET,Speedtest,🌀 节点测速
   - RULE-SET,direct,💫 全球直连
