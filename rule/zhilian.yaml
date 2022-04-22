@@ -1,34 +1,34 @@
 # 直连列表
 payload:
 # filebox订阅服务器直连
-  - DOMAIN-SUFFIX,,api.revenuecat.com
+  - DOMAIN-SUFFIX,api.revenuecat.com
 # 终点站直连
-  - DOMAIN-SUFFIX,,pub1ha2.emby.wtf
-  - DOMAIN-SUFFIX,,pub2ha2.emby.wtf
-  - DOMAIN-SUFFIX,,pub3ha2.emby.wtf
+  - DOMAIN-SUFFIX,pub1ha2.emby.wtf
+  - DOMAIN-SUFFIX,pub2ha2.emby.wtf
+  - DOMAIN-SUFFIX,pub3ha2.emby.wtf
 # obox直连列表
-  - DOMAIN-SUFFIX,,drm-license.youku.com
-  - DOMAIN-SUFFIX,,youku.com
-  - DOMAIN-SUFFIX,,l.qq.com
-  - DOMAIN-SUFFIX,,valipl.cp31.ott.cibntv.net
-  - DOMAIN-SUFFIX,,mgtv.com
-  - DOMAIN-SUFFIX,,iqiyi.com
-  - DOMAIN-SUFFIX,,ptqy.gitv.tv
-  - DOMAIN-SUFFIX,,jk.55fc63.com
-  - DOMAIN-SUFFIX,,500k.blqqg.cn
-  - DOMAIN-SUFFIX,,tp.xmlt88.com
-  - DOMAIN-SUFFIX,,bttwo.com
-  - DOMAIN-SUFFIX,,api.miued.com
-  - DOMAIN-SUFFIX,,fendou.duoduozy.com
-  - DOMAIN-SUFFIX,,w7tv.com
-  - DOMAIN-SUFFIX,,mp4er.com
-  - DOMAIN-SUFFIX,,bde4.cc
-  - DOMAIN-SUFFIX,,fositv.com
-  - DOMAIN-SUFFIX,,cdn2.bzjupinhang.com
-  - DOMAIN-SUFFIX,,loli.magedn.com
-  - DOMAIN-SUFFIX,,ddrk.me
-  - DOMAIN-SUFFIX,,qqgame.gzc.svp.tencent-cloud.com
-  - DOMAIN-SUFFIX,,ddrk.oss-cn-shanghai.aliyuncs.com
-  - DOMAIN-SUFFIX,,novipnoad.com
-  - DOMAIN-SUFFIX,,nfmovies.com
-  - DOMAIN-SUFFIX,,wy.bigmao.top
+  - DOMAIN-SUFFIX,drm-license.youku.com
+  - DOMAIN-SUFFIX,youku.com
+  - DOMAIN-SUFFIX,l.qq.com
+  - DOMAIN-SUFFIX,valipl.cp31.ott.cibntv.net
+  - DOMAIN-SUFFIX,mgtv.com
+  - DOMAIN-SUFFIX,iqiyi.com
+  - DOMAIN-SUFFIX,ptqy.gitv.tv
+  - DOMAIN-SUFFIX,jk.55fc63.com
+  - DOMAIN-SUFFIX,500k.blqqg.cn
+  - DOMAIN-SUFFIX,tp.xmlt88.com
+  - DOMAIN-SUFFIX,bttwo.com
+  - DOMAIN-SUFFIX,api.miued.com
+  - DOMAIN-SUFFIX,fendou.duoduozy.com
+  - DOMAIN-SUFFIX,w7tv.com
+  - DOMAIN-SUFFIX,mp4er.com
+  - DOMAIN-SUFFIX,bde4.cc
+  - DOMAIN-SUFFIX,fositv.com
+  - DOMAIN-SUFFIX,cdn2.bzjupinhang.com
+  - DOMAIN-SUFFIX,loli.magedn.com
+  - DOMAIN-SUFFIX,ddrk.me
+  - DOMAIN-SUFFIX,qqgame.gzc.svp.tencent-cloud.com
+  - DOMAIN-SUFFIX,ddrk.oss-cn-shanghai.aliyuncs.com
+  - DOMAIN-SUFFIX,novipnoad.com
+  - DOMAIN-SUFFIX,nfmovies.com
+  - DOMAIN-SUFFIX,wy.bigmao.top
