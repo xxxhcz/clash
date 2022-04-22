@@ -1,9 +1,6 @@
 payload:
-
 # jp分流
-
   - DOMAIN-SUFFIX,mediafire.com
-  - DOMAIN-KEYWORD,jp.ssky.me
-
+  - DOMAIN-SUFFIX,jp.ssky.me
 # misty服日本线路
-  - DOMAIN-KEYWORD,jp-az.aaa.ax
+  - DOMAIN-SUFFIX,jp-az.aaa.ax
