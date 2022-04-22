@@ -1,33 +1,25 @@
 payload:
-#香港自定义
+# 香港自定义
   - IP-CIDR,104.27.207.0/24,no-resolve
-#hkdtmb
-  - DOMAIN-KEYWORD,hkdtmb.com
-
-#超级跑车公益服
-  - DOMAIN-KEYWORD,emby.cjpc.cc
-
-#appstorrent  mac app下载服务器
-  - DOMAIN-KEYWORD,psv4.userapi.com
-
-#pornemby
-  - DOMAIN-KEYWORD,pornemby.club
-
-#终端站亚洲入口
-  - DOMAIN-KEYWORD,pub1.emby.wtf
-  - DOMAIN-KEYWORD,pub2.emby.wtf
-  - DOMAIN-KEYWORD,pub3.emby.wtf
-
-#misty服香港线路
-  - DOMAIN-KEYWORD,hk.aaa.ax
-
-#香港台直播线路
-  - DOMAIN-KEYWORD,hklive.tv
-
-#MisakaF公益服
-  - DOMAIN-KEYWORD,misakaF.xyz
+# hkdtmb
+  - DOMAIN-SUFFIX,hkdtmb.com
+# 超级跑车公益服
+  - DOMAIN-SUFFIX,emby.cjpc.cc
+# appstorrent  mac app下载服务器
+  - DOMAIN-SUFFIX,psv4.userapi.com
+# pornemby
+  - DOMAIN-SUFFIX,pornemby.club
+# 终端站亚洲入口
+  - DOMAIN-SUFFIX,pub1.emby.wtf
+  - DOMAIN-SUFFIX,pub2.emby.wtf
+  - DOMAIN-SUFFIX,pub3.emby.wtf
+# misty服香港线路
+  - DOMAIN-SUFFIX,hk.aaa.ax
+# 香港台直播线路
+  - DOMAIN-SUFFIX,hklive.tv
+# MisakaF公益服
+  - DOMAIN-SUFFIX,misakaF.xyz
   - IP-CIDR,194.180.179.0/24,no-resolve
-
-#黑山公益服
-  - DOMAIN-KEYWORD,gcx920110.com
+# 黑山公益服
+  - DOMAIN-SUFFIX,gcx920110.com
   - IP-CIDR,185.197.194.0/24,no-resolve
