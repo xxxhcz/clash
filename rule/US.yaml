@@ -1,19 +1,16 @@
+
+# 美区自定义
+# 奥德赛
 payload:
-#美区自定义
-
-#奥德赛
-  - DOMAIN-KEYWORD,cf.odysseyplus.site
-  - DOMAIN-KEYWORD,us.odysseyplus.site
-  - DOMAIN-KEYWORD,sp.odysseyplus.site
-
-#卷毛鼠
-  - DOMAIN-KEYWORD,usa1.jmsooo
-  - DOMAIN-KEYWORD,usa2.jmsooo
-
-##终点站欧美
-  - DOMAIN-KEYWORD,pub1back.emby.wtf
-  - DOMAIN-KEYWORD,pub2back.emby.wtf
-  - DOMAIN-KEYWORD,pub3back.emby.wtf
-
-#Misty美国线路
-  - DOMAIN-KEYWORD,us.aaa.ax
+  - DOMAIN-SUFFIX,cf.odysseyplus.site
+  - DOMAIN-SUFFIX,us.odysseyplus.site
+  - DOMAIN-SUFFIX,sp.odysseyplus.site
+# 卷毛鼠
+  - DOMAIN-SUFFIX,usa1.jmsooo
+  - DOMAIN-SUFFIX,usa2.jmsooo
+# 终点站欧美
+  - DOMAIN-SUFFIX,pub1back.emby.wtf
+  - DOMAIN-SUFFIX,pub2back.emby.wtf
+  - DOMAIN-SUFFIX,pub3back.emby.wtf
+# Misty美国线路
+  - DOMAIN-SUFFIX,us.aaa.ax
