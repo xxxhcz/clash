@@ -1,7 +1,6 @@
 payload:
 # misty
   - DOMAIN-SUFFIX,aaa.ax
-
-#TAG
-  - DOMAIN-KEYWORD,emby.riches.cloud
+# TAG
+  - DOMAIN-SUFFIX,emby.riches.cloud
   - IP-CIDR,198.204.247.154/24
