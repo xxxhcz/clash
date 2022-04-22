@@ -1,16 +1,12 @@
-#新加坡自定义
+# 新加坡自定义
 payload:
-#新加坡自定义
+# 新加坡自定义
   - IP-CIDR,157.245.49.0/24,no-resolve
-
   - IP-CIDR,143.198.94.163/32
-
-#卷毛鼠
-  - DOMAIN-KEYWORD,sg1.jmsooo
-  - DOMAIN-KEYWORD,sg2.jmsooo
-
-#misty服新加坡线路
-  - DOMAIN-KEYWORD,sg.aaa.ax
-
-#奥德赛SG
-  - DOMAIN-KEYWORD,sg.odysseyplus.site
+# 卷毛鼠
+  - DOMAIN-SUFFIX,sg1.jmsooo
+  - DOMAIN-SUFFIX,sg2.jmsooo
+# misty服新加坡线路
+  - DOMAIN-SUFFIX,sg.aaa.ax
+# 奥德赛SG
+  - DOMAIN-SUFFIX,sg.odysseyplus.site
