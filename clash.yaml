@@ -98,12 +98,12 @@ rule-providers:
     url: "https://ghproxy.com/https://raw.githubusercontent.com/hongcz1104/clash/master/rule/zhilian.yaml"
     path: ./ruleset/zhilian.yaml
     interval: 86400
-  direct:
-    type: http
-    behavior: domain
-    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/direct.txt"
-    path: ./ruleset/direct.yaml
-    interval: 86400
+#  direct:
+#    type: http
+#    behavior: domain
+#    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/direct.txt"
+#    path: ./ruleset/direct.yaml
+#    interval: 86400
   reject:
     type: http
     behavior: domain
@@ -179,7 +179,7 @@ rules:
   - RULE-SET,apple,🍎 苹果服务
   - RULE-SET,lancidr,💫 全球直连
   - RULE-SET,icloud,🍎 苹果服务
-  - RULE-SET,direct,💫 全球直连
+#  - RULE-SET,direct,💫 全球直连
   - RULE-SET,applications,💫 全球直连
   - RULE-SET,private,💫 全球直连
   - RULE-SET,reject,🚫 广告拦截
