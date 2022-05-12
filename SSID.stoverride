@@ -1,0 +1,13 @@
+name: SSID Auto Mode
+desc: 根据 SSID 自动切换代理策略
+
+proxy-groups:
+  - name: 🚦 SSID Auto Mode
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - DIRECT
+    ssid-policy:
+       ssid-name: dx1401-5g # 需要直连的 SSID
+      cellular: 🚀 节点选择
+      default: 🚀 节点选择
