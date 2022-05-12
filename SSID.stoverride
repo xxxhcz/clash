@@ -8,6 +8,6 @@ proxy-groups:
       - 🚀 节点选择
       - DIRECT
     ssid-policy:
-       ssid-name: dx1401-5g # 需要直连的 SSID
+      dx1401-5g: DIRECT # 需要直连的 SSID
       cellular: 🚀 节点选择
       default: 🚀 节点选择
