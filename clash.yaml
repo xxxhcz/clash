@@ -195,4 +195,4 @@ rules:
   - RULE-SET,tld-not-cn,🚀 节点选择
   - RULE-SET,telegramcidr,🚀 节点选择
   - GEOIP,CN,💫 全球直连
-  - MATCH,🕸 漏网之鱼
+  - Match,🕸 漏网之鱼
