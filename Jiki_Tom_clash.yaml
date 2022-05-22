@@ -161,4 +161,4 @@ rules:
   - RULE-SET,Speedtest,🌀 节点测速
   - RULE-SET,direct,💫 全球直连
   - GEOIP,CN,💫 全球直连
-  - Match,🕸 漏网之鱼
+  - MATCH,🕸 漏网之鱼
