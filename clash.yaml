@@ -124,8 +124,8 @@ rule-providers:
     interval: 86400
   apple:
     type: http
-    behavior: domain
-    url: "https://ghproxy.com/https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/apple.txt"
+    behavior: classical
+    url: "https://ghproxy.com/https://raw.githubusercontent.com/Semporia/ClashX-Pro/master/Filter/Apple.yaml"
     path: ./ruleset/apple.yaml
     interval: 86400
   private:
