@@ -38,11 +38,11 @@ rule-providers:
     url: "https://ghproxy.com/https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/reject.txt"
     path: ./ruleset/reject.yaml
     interval: 86400
-  apple:
+  appletv:
     type: http
     behavior: classical
-    url: "https://ghproxy.com/https://raw.githubusercontent.com/Semporia/ClashX-Pro/master/Filter/Apple.yaml"
-    path: ./ruleset/apple.yaml
+    url: "https://ghproxy.com/https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Extra/Apple/TV.yaml"
+    path: ./ruleset/appletv.yaml
     interval: 86400
   google:
     type: http
@@ -133,7 +133,7 @@ rules:
   - RULE-SET,Netflix,🎥 奈飞视频
   - RULE-SET,YouTube,📺 油管视频
   - RULE-SET,DisneyPlus,❄️ 迪士尼➕
-  - RULE-SET,apple,🍎 苹果服务
+  - RULE-SET,appletv,🍎 苹果TV
   - RULE-SET,google,💫 全球直连
   - RULE-SET,lancidr,💫 全球直连
   - RULE-SET,cncidr,💫 全球直连
