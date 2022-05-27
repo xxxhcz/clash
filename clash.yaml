@@ -158,12 +158,12 @@ rule-providers:
     url: "https://ghproxy.com/https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/lancidr.txt"
     path: ./ruleset/lancidr.yaml
     interval: 86400
-  applications:
-    type: http
-    behavior: classical
-    url: "https://ghproxy.com/https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/applications.txt"
-    path: ./ruleset/applications.yaml
-    interval: 86400       
+#  applications:
+#    type: http
+#    behavior: classical
+#    url: "https://ghproxy.com/https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/applications.txt"
+#    path: ./ruleset/applications.yaml
+#    interval: 86400       
 rules:
   - RULE-SET,zhilian,💫 全球直连
   - RULE-SET,guanggao,🚫 广告拦截
@@ -180,7 +180,7 @@ rules:
 #  - RULE-SET,apple,🍎 苹果服务
   - RULE-SET,lancidr,💫 全球直连
 #  - RULE-SET,direct,💫 全球直连
-  - RULE-SET,applications,💫 全球直连
+#  - RULE-SET,applications,💫 全球直连
   - RULE-SET,private,💫 全球直连
   - RULE-SET,reject,🚫 广告拦截
   - RULE-SET,gfw,🚀 节点选择
