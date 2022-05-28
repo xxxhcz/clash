@@ -50,6 +50,12 @@ rule-providers:
     url: "https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Netflix/Netflix.yaml"
     path: ./ruleset/Netflix.yaml
     interval: 86400
+  Spotify:
+    type: http
+    behavior: classical
+    url: "https://ghproxy.com/https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/StreamingMedia/Music/Spotify.yaml"
+    path: ./ruleset/Spotify.yaml
+    interval: 86400
   Speedtest:
     type: http
     behavior: classical
@@ -175,6 +181,7 @@ rules:
   - RULE-SET,JP,🇯🇵 日本节点
   - RULE-SET,Speedtest,🌀 节点测速
   - RULE-SET,Netflix,🎥 奈飞视频
+  - RULE-SET,Spotify,🚀 节点选择
 #  - RULE-SET,YouTube,📺 油管视频
 #  - RULE-SET,DisneyPlus,❄️ 迪士尼➕
 #  - RULE-SET,apple,🍎 苹果服务
