@@ -7,13 +7,13 @@ payload:
   - DOMAIN-SUFFIX,pub2ha2.emby.wtf
   - DOMAIN-SUFFIX,pub3ha2.emby.wtf
 # obox直连列表
-  - DOMAIN-SUFFIX,drm-license.youku.com
   - DOMAIN-SUFFIX,youku.com
   - DOMAIN-SUFFIX,l.qq.com
   - DOMAIN-SUFFIX,valipl.cp31.ott.cibntv.net
   - DOMAIN-SUFFIX,mgtv.com
   - DOMAIN-SUFFIX,iqiyi.com
   - DOMAIN-SUFFIX,ptqy.gitv.tv
+  - DOMAIN-SUFFIX,bilibili.com
   - DOMAIN-SUFFIX,jk.55fc63.com
   - DOMAIN-SUFFIX,500k.blqqg.cn
   - DOMAIN-SUFFIX,tp.xmlt88.com
