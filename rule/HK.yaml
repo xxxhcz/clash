@@ -1,8 +1,6 @@
 payload:
 # 香港自定义
   - IP-CIDR,104.27.207.0/24,no-resolve
-# hkdtmb
-  - DOMAIN-SUFFIX,hkdtmb.com
 # 超级跑车公益服
   - DOMAIN-SUFFIX,emby.cjpc.cc
 # appstorrent  mac app下载服务器
@@ -15,8 +13,6 @@ payload:
   - DOMAIN-SUFFIX,pub3.emby.wtf
 # misty服香港线路
   - DOMAIN-SUFFIX,hk.aaa.ax
-# 香港台直播线路
-  - DOMAIN-SUFFIX,hklive.tv
 # MisakaF公益服
   - DOMAIN-SUFFIX,misakaF.xyz
   - IP-CIDR,194.180.179.0/24,no-resolve
