@@ -4,3 +4,6 @@ payload:
 # TAG
   - DOMAIN-SUFFIX,emby.riches.cloud
   - IP-CIDR,198.204.247.154/24
+# 香港台直播线路
+  - DOMAIN-SUFFIX,hklive.tv
+  - DOMAIN-SUFFIX,hkdtmb.com
