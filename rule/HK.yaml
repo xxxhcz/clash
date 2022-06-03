@@ -20,4 +20,4 @@ payload:
   - DOMAIN-SUFFIX,gcx920110.com
   - IP-CIDR,185.197.194.0/24,no-resolve
 # singularity公益服
-  - DOMAIN-SUFFIX,singularity.deja-vu.beauty/
+  - DOMAIN-SUFFIX,singularity.deja-vu.beauty
