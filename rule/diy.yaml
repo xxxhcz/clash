@@ -7,3 +7,5 @@ payload:
 # 香港台直播线路
   - DOMAIN-SUFFIX,hklive.tv
   - DOMAIN-SUFFIX,hkdtmb.com
+# blueseamusics线路
+  - DOMAIN-SUFFIX,blueseamusics.com
