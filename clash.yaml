@@ -146,12 +146,12 @@ rule-providers:
     url: "https://ghproxy.com/https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/greatfire.txt"
     path: ./ruleset/greatfire.yaml
     interval: 86400
-  tld-not-cn:
-    type: http
-    behavior: domain
-    url: "https://ghproxy.com/https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/tld-not-cn.txt"
-    path: ./ruleset/tld-not-cn.yaml
-    interval: 86400
+#  tld-not-cn:
+#    type: http
+#    behavior: domain
+#    url: "https://ghproxy.com/https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/tld-not-cn.txt"
+#    path: ./ruleset/tld-not-cn.yaml
+#    interval: 86400
   telegramcidr:
     type: http
     behavior: ipcidr
@@ -192,7 +192,7 @@ rules:
   - RULE-SET,reject,🚫 广告拦截
   - RULE-SET,gfw,🚀 节点选择
   - RULE-SET,greatfire,🚀 节点选择
-  - RULE-SET,tld-not-cn,🚀 节点选择
+#  - RULE-SET,tld-not-cn,🚀 节点选择
   - RULE-SET,telegramcidr,🚀 节点选择
   - GEOIP,CN,💫 全球直连
   - MATCH,🕸 漏网之鱼
