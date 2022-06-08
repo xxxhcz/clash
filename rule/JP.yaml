@@ -4,3 +4,5 @@ payload:
   - DOMAIN-SUFFIX,jp.ssky.me
 # misty服日本线路
   - DOMAIN-SUFFIX,jp-az.aaa.ax
+# jp.blueseamusicbox.best线路
+  - DOMAIN-SUFFIX,jp.blueseamusicbox.best
