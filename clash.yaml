@@ -98,18 +98,6 @@ dns:
     - https://dns.alidns.com/dns-query
     - https://doh.pub/dns-query
 rule-providers:
-#  YouTube:
-#    type: http
-#    behavior: classical
-#    url: "https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/YouTube/YouTube.yaml"
-#    path: ./ruleset/YouTube.yaml
-#    interval: 86400
-#  DisneyPlus:
-#    type: http
-#    behavior: classical
-#    url: "https://ghproxy.com/https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/StreamingMedia/Video/DisneyPlus.yaml"
-#    path: ./ruleset/DisneyPlus.yaml
-#    interval: 86400
   Netflix:
     type: http
     behavior: classical
@@ -176,12 +164,6 @@ rule-providers:
     url: "https://ghproxy.com/https://raw.githubusercontent.com/hongcz1104/clash/master/rule/zhilian.yaml"
     path: ./ruleset/zhilian.yaml
     interval: 86400
-#  direct:
-#    type: http
-#    behavior: domain
-#    url: "https://ghproxy.com/https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/direct.txt"
-#    path: ./ruleset/direct.yaml
-#    interval: 86400
   reject:
     type: http
     behavior: domain
@@ -212,12 +194,6 @@ rule-providers:
     url: "https://ghproxy.com/https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/greatfire.txt"
     path: ./ruleset/greatfire.yaml
     interval: 86400
-#  tld-not-cn:
-#    type: http
-#    behavior: domain
-#    url: "https://ghproxy.com/https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/tld-not-cn.txt"
-#    path: ./ruleset/tld-not-cn.yaml
-#    interval: 86400
   telegramcidr:
     type: http
     behavior: ipcidr
@@ -229,13 +205,7 @@ rule-providers:
     behavior: ipcidr
     url: "https://ghproxy.com/https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/lancidr.txt"
     path: ./ruleset/lancidr.yaml
-    interval: 86400
-#  applications:
-#    type: http
-#    behavior: classical
-#    url: "https://ghproxy.com/https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/applications.txt"
-#    path: ./ruleset/applications.yaml
-#    interval: 86400       
+    interval: 86400    
 rules:
   - RULE-SET,zhilian,💫 全球直连
   - RULE-SET,guanggao,🚫 广告拦截
@@ -248,17 +218,12 @@ rules:
   - RULE-SET,Speedtest,🌀 节点测速
   - RULE-SET,Netflix,🎥 奈飞视频
   - RULE-SET,Spotify,🚀 节点选择
-#  - RULE-SET,YouTube,📺 油管视频
-#  - RULE-SET,DisneyPlus,❄️ 迪士尼➕
   - RULE-SET,apple,🍎 苹果服务
   - RULE-SET,lancidr,💫 全球直连
-#  - RULE-SET,direct,💫 全球直连
-#  - RULE-SET,applications,💫 全球直连
   - RULE-SET,private,💫 全球直连
   - RULE-SET,reject,🚫 广告拦截
   - RULE-SET,gfw,🚀 节点选择
   - RULE-SET,greatfire,🚀 节点选择
-#  - RULE-SET,tld-not-cn,🚀 节点选择
   - RULE-SET,telegramcidr,🚀 节点选择
   - GEOIP,CN,💫 全球直连
   - MATCH,🕸 漏网之鱼
