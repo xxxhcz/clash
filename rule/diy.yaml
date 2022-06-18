@@ -9,6 +9,9 @@ payload:
   - DOMAIN-SUFFIX,hkdtmb.com
 # blueseamusics线路
   - DOMAIN-SUFFIX,blueseamusics.com
+  # singularity公益服
+  - DOMAIN-SUFFIX,singularity.deja-vu.beauty
+  - IP-CIDR,163.172.90.0/24,no-resolve
 # tiktok
   - PROCESS-NAME,com.ss.android.ugc.trill
   - DOMAIN-SUFFIX,byteoversea.com
