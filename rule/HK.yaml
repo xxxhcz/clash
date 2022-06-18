@@ -5,8 +5,6 @@ payload:
   - DOMAIN-SUFFIX,emby.cjpc.cc
 # appstorrent  mac app下载服务器
   - DOMAIN-SUFFIX,psv4.userapi.com
-# pornemby
-  - DOMAIN-SUFFIX,pornemby.club
 # 终端站亚洲入口
   - DOMAIN-SUFFIX,pub1.emby.wtf
   - DOMAIN-SUFFIX,pub2.emby.wtf
