@@ -17,4 +17,6 @@ payload:
 # 黑山公益服
   - DOMAIN-SUFFIX,gcx920110.com
   - IP-CIDR,185.197.194.0/24,no-resolve
+# HS
+  - IP-CIDR,65.108.140.0/24,no-resolve
 
