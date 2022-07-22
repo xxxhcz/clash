@@ -10,3 +10,5 @@ payload:
   - DOMAIN-SUFFIX,sg.aaa.ax
 # 奥德赛SG
   - DOMAIN-SUFFIX,sg.odysseyplus.site
+# HS
+  - DOMAIN-SUFFIX,nakonako.net
