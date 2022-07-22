@@ -24,3 +24,6 @@ payload:
   - DOMAIN-SUFFIX,tiktokcdn.com
   - DOMAIN-SUFFIX,tiktokv.com
   - DOMAIN-KEYWORD,tiktokcdn-
+# Nakonako
+  - DOMAIN-SUFFIX,nakonako.net
+  - IP-CIDR,95.217.228.0/24,no-resolve
