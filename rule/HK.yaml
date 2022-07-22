@@ -18,7 +18,4 @@ payload:
   - DOMAIN-SUFFIX,gcx920110.com
   - IP-CIDR,185.197.194.0/24,no-resolve
 # HS
-
-# Nakonako
-  - DOMAIN-SUFFIX,nakonako.net
-  - IP-CIDR,95.217.228.0/24,no-resolve
+  - IP-CIDR,65.108.140.0/24,no-resolve
