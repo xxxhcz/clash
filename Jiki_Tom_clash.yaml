@@ -142,7 +142,6 @@ rule-providers:
     interval: 86400
 rules:
   - RULE-SET,zhilian,💫 全球直连
-  - RULE-SET,zhilian,💫 全球直连
   - RULE-SET,Speedtest,🌀 节点测速
   - RULE-SET,Netflix,🎥 奈飞视频
   - RULE-SET,YouTube,📺 油管视频
