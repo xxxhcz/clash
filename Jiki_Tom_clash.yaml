@@ -32,12 +32,6 @@ dns:
     - https://doh.pub/dns-query
     - https://dns.alidns.com/dns-query
 rule-providers:
-  zhilian:
-    type: http
-    behavior: classical
-    url: "https://ghproxy.com/https://raw.githubusercontent.com/hongcz1104/clash/master/rule/zhilian.yaml"
-    path: ./ruleset/zhilian.yaml
-    interval: 86400
   reject:
     type: http
     behavior: domain
