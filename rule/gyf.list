@@ -4,3 +4,6 @@ DOMAIN-SUFFIX,aaa.ax
 #TAG服
 DOMAIN-KEYWORD,emby.riches.cloud
 IP-CIDR,198.204.247.154/24
+
+#blueseacdn.com服
+DOMAIN-SUFFIX,emby-pub1.blueseacdn.com
