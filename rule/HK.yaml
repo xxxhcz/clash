@@ -9,7 +9,8 @@ payload:
   - DOMAIN-SUFFIX,pub1.emby.wtf
   - DOMAIN-SUFFIX,pub2.emby.wtf
   - DOMAIN-SUFFIX,pub3.emby.wtf
-# misty
+# misty服香港线路
+  - DOMAIN-SUFFIX,hk.aaa.ax
 # MisakaF公益服
   - DOMAIN-SUFFIX,misakaF.xyz
   - IP-CIDR,194.180.179.0/24,no-resolve
