@@ -177,6 +177,7 @@ rules:
   - RULE-SET,lancidr,💫 全球直连
   - RULE-SET,private,💫 全球直连
   - RULE-SET,reject,🚫 广告拦截
+  - RULE-SET,Global,🚀 节点选择
   - RULE-SET,Global_Domain,🚀 节点选择
   - RULE-SET,telegramcidr,🚀 节点选择
   - GEOIP,CN,💫 全球直连
