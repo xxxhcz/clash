@@ -125,7 +125,7 @@ rule-providers:
   Global_Domain:
     type: http
     behavior: domain
-    url: "https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Global/Global_Domain.txt"
+    url: "https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Global/Global_Domain.yam"
     path: ./ruleset/Global_Domain.yaml
     interval: 86400
   telegramcidr:
