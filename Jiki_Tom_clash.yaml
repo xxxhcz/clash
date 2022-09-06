@@ -44,6 +44,12 @@ rule-providers:
     url: "https://ghproxy.com/https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/Extra/Apple/TV.yaml"
     path: ./ruleset/appletv.yaml
     interval: 86400
+  apple:
+    type: http
+    behavior: classical
+    url: https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Apple/Apple.yaml
+    path: ./ruleset/Apple.yaml
+    interval: 86400
   google:
     type: http
     behavior: domain
@@ -68,17 +74,11 @@ rule-providers:
     url: "https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaIPs/ChinaIPs_IP.yaml"
     path: ./ruleset/chinaIps.yaml
     interval: 86400
-  gfw:
+  Global_Domain:
     type: http
     behavior: domain
-    url: "https://ghproxy.com/https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/gfw.txt"
-    path: ./ruleset/gfw.yaml
-    interval: 86400
-  greatfire:
-    type: http
-    behavior: domain
-    url: "https://ghproxy.com/https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/greatfire.txt"
-    path: ./ruleset/greatfire.yaml
+    url: https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Global/Global_Domain.txt
+    path: ./ruleset/Global_Domain.yaml
     interval: 86400
   tld-not-cn:
     type: http
@@ -91,12 +91,6 @@ rule-providers:
     behavior: ipcidr
     url: "https://ghproxy.com/https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/telegramcidr.txt"
     path: ./ruleset/telegramcidr.yaml
-    interval: 86400
-  cncidr:
-    type: http
-    behavior: ipcidr
-    url: "https://ghproxy.com/https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/cncidr.txt"
-    path: ./ruleset/cncidr.yaml
     interval: 86400
   lancidr:
     type: http
@@ -148,14 +142,13 @@ rules:
   - RULE-SET,YouTube,📺 油管视频
   - RULE-SET,DisneyPlus,❄️ 迪士尼➕
   - RULE-SET,appletv,🍎 苹果TV
+  - RULE-SET,apple,💫 全球直连
   - RULE-SET,google,💫 全球直连
   - RULE-SET,lancidr,💫 全球直连
-  - RULE-SET,cncidr,💫 全球直连
   - RULE-SET,applications,💫 全球直连
   - RULE-SET,private,💫 全球直连
   - RULE-SET,reject,🚫 广告拦截
-  - RULE-SET,gfw,🚀 节点选择
-  - RULE-SET,greatfire,🚀 节点选择
+  - RULE-SET,Global_Domain,🚀 节点选择
   - RULE-SET,telegramcidr,🚀 节点选择
   - RULE-SET,tld-not-cn,🚀 节点选择
   - RULE-SET,Speedtest,🌀 节点测速
