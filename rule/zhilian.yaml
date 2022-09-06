@@ -25,3 +25,4 @@ payload:
   - DOMAIN-SUFFIX,novipnoad.com
   - DOMAIN-SUFFIX,nfmovies.com
   - DOMAIN-SUFFIX,wy.bigmao.top
+  - IP-CIDR,116.130.228.223/32
