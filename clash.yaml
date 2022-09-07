@@ -32,6 +32,12 @@ dns:
     - https://doh.pub/dns-query
     - https://dns.alidns.com/dns-query
 rule-providers:
+  Speedtest:
+    type: http
+    behavior: classical
+    url: "https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Speedtest/Speedtest.yaml"
+    path: ./ruleset/Speedtest.yaml
+    interval: 86400
   Netflix:
     type: http
     behavior: classical
@@ -43,12 +49,6 @@ rule-providers:
     behavior: classical
     url: "https://ghproxy.com/https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/StreamingMedia/Music/Spotify.yaml"
     path: ./ruleset/Spotify.yaml
-    interval: 86400
-  Speedtest:
-    type: http
-    behavior: classical
-    url: "https://ghproxy.com/https://raw.githubusercontent.com/Semporia/ClashX-Pro/master/Filter/Speedtest.yaml"
-    path: ./ruleset/Speedtest.yaml
     interval: 86400
   SG:
     type: http
@@ -146,12 +146,12 @@ rule-providers:
     url: "https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Global/Global_Domain.yaml"
     path: ./ruleset/Global_Domain.yaml
     interval: 86400
-  telegramcidr:
-    type: http
-    behavior: ipcidr
-    url: "https://ghproxy.com/https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/telegramcidr.txt"
-    path: ./ruleset/telegramcidr.yaml
-    interval: 86400
+#  telegramcidr:
+#    type: http
+#    behavior: ipcidr
+#    url: "https://ghproxy.com/https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/telegramcidr.txt"
+#    path: ./ruleset/telegramcidr.yaml
+#    interval: 86400
   lancidr:
     type: http
     behavior: ipcidr
@@ -159,6 +159,7 @@ rule-providers:
     path: ./ruleset/lancidr.yaml
     interval: 86400
 rules:
+  - RULE-SET,Speedtest,🌀 节点测速
   - RULE-SET,ChinaMax_IP,💫 全球直连
   - RULE-SET,ChinaMax_Domain,💫 全球直连
   - RULE-SET,ChinaMax,💫 全球直连
@@ -170,7 +171,6 @@ rules:
   - RULE-SET,HK,🇭🇰 香港节点
   - RULE-SET,US,🇺🇸 美国节点
   - RULE-SET,JP,🇯🇵 日本节点
-  - RULE-SET,Speedtest,🌀 节点测速
   - RULE-SET,Netflix,🎥 奈飞视频
   - RULE-SET,Spotify,🚀 节点选择
 #  - RULE-SET,apple,🍎 苹果服务
@@ -179,6 +179,6 @@ rules:
   - RULE-SET,reject,🚫 广告拦截
   - RULE-SET,Global,🚀 节点选择
   - RULE-SET,Global_Domain,🚀 节点选择
-  - RULE-SET,telegramcidr,🚀 节点选择
+# - RULE-SET,telegramcidr,🚀 节点选择
   - GEOIP,CN,💫 全球直连
   - MATCH,🕸 漏网之鱼
