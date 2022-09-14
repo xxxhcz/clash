@@ -32,3 +32,6 @@ payload:
   - DOMAIN-SUFFIX,novipnoad.com
   - DOMAIN-SUFFIX,nfmovies.com
   - DOMAIN-SUFFIX,wy.bigmao.top
+  
+#群晖
+  - DOMAIN-SUFFIX,synology.com
