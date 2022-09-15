@@ -29,8 +29,3 @@ payload:
   - IP-CIDR,95.217.228.0/24,no-resolve
 # blueseacdn.com服
   - DOMAIN-SUFFIX,emby-pub1.blueseacdn.com
-# bianyuan
-  - DOMAIN-KEYWORD,bianyuan
-#syncnext
-  - DOMAIN-SUFFIX,olevod.com
-  - DOMAIN-SUFFIX,if101.tv
