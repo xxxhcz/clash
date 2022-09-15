@@ -35,3 +35,6 @@ payload:
   
 #群晖
   - DOMAIN-KEYWORD,synology
+
+#syncnext
+  - DOMAIN-SUFFIX,czspp.com
