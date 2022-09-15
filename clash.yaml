@@ -86,6 +86,12 @@ rule-providers:
     url: "https://ghproxy.com/https://raw.githubusercontent.com/hongcz1104/clash/master/rule/diy.yaml"
     path: ./ruleset/DIY.yaml
     interval: 86400
+  Proxy:
+    type: http
+    behavior: classical
+    url: "https://ghproxy.com/https://raw.githubusercontent.com/hongcz1104/clash/master/rule/proxy.yaml"
+    path: ./ruleset/Proxy.yaml
+    interval: 86400
   guanggao:
     type: http
     behavior: classical
@@ -156,6 +162,7 @@ rules:
   - RULE-SET,Speedtest,🌀 节点测速
   - RULE-SET,NetEaseMusic,🎧 网易音乐
   - RULE-SET,zhilian,💫 全球直连
+  - RULE-SET,Proxy,🚀 节点选择
   - RULE-SET,guanggao,🚫 广告拦截
   - RULE-SET,DIY,🎬 媒体自选
   - RULE-SET,SG,🇸🇬 狮城节点
