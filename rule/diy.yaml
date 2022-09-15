@@ -31,3 +31,6 @@ payload:
   - DOMAIN-SUFFIX,emby-pub1.blueseacdn.com
 # bianyuan
   - DOMAIN-KEYWORD,bianyuan
+#syncnext
+  - DOMAIN-SUFFIX,olevod.com
+  - DOMAIN-SUFFIX,if101.tv
