@@ -6,8 +6,7 @@ payload:
   - DOMAIN-SUFFIX,us.odysseyplus.site
   - DOMAIN-SUFFIX,sp.odysseyplus.site
 # 卷毛鼠
-  - DOMAIN-SUFFIX,usa1.jmsooo
-  - DOMAIN-SUFFIX,usa2.jmsooo
+  - DOMAIN-SUFFIX,cf.jmsooo.com
 # 终点站欧美
   - DOMAIN-SUFFIX,pub1back.emby.wtf
   - DOMAIN-SUFFIX,pub2back.emby.wtf
