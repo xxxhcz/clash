@@ -62,25 +62,25 @@ rule-providers:
   SG:
     type: http
     behavior: classical
-    url: "https://ghproxy.com/https://raw.githubusercontent.com/hongcz1104/clash/master/rule/SG.yaml"
+    url: "https://ghproxy.com/https://raw.githubusercontent.com/xxxhcz/clash/master/rule/SG.yaml"
     path: ./ruleset/SG.yaml
     interval: 86400
   HK:
     type: http
     behavior: classical
-    url: "https://ghproxy.com/https://raw.githubusercontent.com/hongcz1104/clash/master/rule/HK.yaml"
+    url: "https://ghproxy.com/https://raw.githubusercontent.com/xxxhcz/clash/master/rule/HK.yaml"
     path: ./ruleset/HK.yaml
     interval: 86400
   US:
     type: http
     behavior: classical
-    url: "https://ghproxy.com/https://raw.githubusercontent.com/hongcz1104/clash/master/rule/US.yaml"
+    url: "https://ghproxy.com/https://raw.githubusercontent.com/xxxhcz/clash/master/rule/US.yaml"
     path: ./ruleset/US.yaml
     interval: 86400
   JP:
     type: http
     behavior: classical
-    url: "https://ghproxy.com/https://raw.githubusercontent.com/hongcz1104/clash/master/rule/JP.yaml"
+    url: "https://ghproxy.com/https://raw.githubusercontent.com/xxxhcz/clash/master/rule/JP.yaml"
     path: ./ruleset/JP.yaml
     interval: 86400
   NetEaseMusic:
@@ -92,25 +92,25 @@ rule-providers:
   DIY:
     type: http
     behavior: classical
-    url: "https://ghproxy.com/https://raw.githubusercontent.com/hongcz1104/clash/master/rule/diy.yaml"
+    url: "https://ghproxy.com/https://raw.githubusercontent.com/xxxhcz/clash/master/rule/diy.yaml"
     path: ./ruleset/DIY.yaml
     interval: 86400
   Proxy:
     type: http
     behavior: classical
-    url: "https://ghproxy.com/https://raw.githubusercontent.com/hongcz1104/clash/master/rule/proxy.yaml"
+    url: "https://ghproxy.com/https://raw.githubusercontent.com/xxxhcz/clash/master/rule/proxy.yaml"
     path: ./ruleset/Proxy.yaml
     interval: 86400
   guanggao:
     type: http
     behavior: classical
-    url: "https://ghproxy.com/https://raw.githubusercontent.com/hongcz1104/clash/master/rule/guanggao.yaml"
+    url: "https://ghproxy.com/https://raw.githubusercontent.com/xxxhcz/clash/master/rule/guanggao.yaml"
     path: ./ruleset/guanggao.yaml
     interval: 86400
   zhilian:
     type: http
     behavior: classical
-    url: "https://ghproxy.com/https://raw.githubusercontent.com/hongcz1104/clash/master/rule/zhilian.yaml"
+    url: "https://ghproxy.com/https://raw.githubusercontent.com/xxxhcz/clash/master/rule/zhilian.yaml"
     path: ./ruleset/zhilian.yaml
     interval: 86400
   reject:
