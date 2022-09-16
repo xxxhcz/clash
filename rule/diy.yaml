@@ -31,3 +31,6 @@ payload:
   - DOMAIN-SUFFIX,emby-pub1.blueseacdn.com
 # 卷毛鼠高可用
   - DOMAIN-SUFFIX,ha.jmsooo.com
+# MisakaF公益服
+  - DOMAIN-SUFFIX,misakaf.org
+  - IP-CIDR,194.180.179.0/24,no-resolve
