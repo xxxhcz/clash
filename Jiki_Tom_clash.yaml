@@ -113,7 +113,7 @@ rule-providers:
   zhilian:
     type: http
     behavior: classical
-    url: "https://ghproxy.com/https://raw.githubusercontent.com/hongcz1104/clash/main/rule/zhilian.yaml"
+    url: "https://ghproxy.com/https://raw.githubusercontent.com/xxxhcz/clash/main/rule/zhilian.yaml"
     path: ./ruleset/zhilian.yaml
     interval: 86400
 rules:
