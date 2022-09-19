@@ -34,3 +34,9 @@ payload:
 # MisakaF公益服
   - DOMAIN-SUFFIX,misakaf.org
   - IP-CIDR,194.180.179.0/24,no-resolve
+#syncnext
+  - DOMAIN-SUFFIX,olevod.com
+  - DOMAIN-SUFFIX,if101.tv
+  - DOMAIN-SUFFIX,notion-api.splitbee.io
+  - DOMAIN-SUFFIX,kaooooo.com
+  - DOMAIN-SUFFIX,ghewig.com
