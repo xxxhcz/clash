@@ -43,3 +43,5 @@ payload:
   - DOMAIN-SUFFIX,czspp.com
   - DOMAIN-SUFFIX,agefans.app
   - DOMAIN-SUFFIX,olemovienews.com
+  - DOMAIN-SUFFIX,notion-api.splitbee.io
+  - DOMAIN-SUFFIX,syncnext-api.5mlstudio.com
