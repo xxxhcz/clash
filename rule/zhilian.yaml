@@ -26,3 +26,15 @@ payload:
   - DOMAIN-SUFFIX,nfmovies.com
   - DOMAIN-SUFFIX,wy.bigmao.top
   - IP-CIDR,116.130.228.223/32
+
+#syncnext
+  - DOMAIN-SUFFIX,mddcloud.com.cn
+  - DOMAIN-SUFFIX,ddys.tv
+  - DOMAIN-SUFFIX,czspp.com
+  - DOMAIN-SUFFIX,agefans.app
+  - DOMAIN-SUFFIX,olemovienews.com
+  - DOMAIN-SUFFIX,notion-api.splitbee.io
+  - DOMAIN-SUFFIX,syncnext-api.5mlstudio.com
+  
+  # bianyuan
+  - DOMAIN-KEYWORD,bianyuan
