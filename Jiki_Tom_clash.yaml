@@ -41,6 +41,12 @@ dns:
       - 240.0.0.0/4
    
 rule-providers:
+  media:
+    type: http
+    behavior: classical
+    url: "https://ghproxy.com/https://raw.githubusercontent.com/xxxhcz/clash/main/rule/media.yaml"
+    path: ./ruleset/media.yaml
+    interval: 86400
   Speedtest:
     type: http
     behavior: classical
@@ -127,6 +133,7 @@ rule-providers:
     interval: 86400
 rules:
   - RULE-SET,Speedtest,🌀 节点测速
+  - RULE-SET,media,🚀 节点选择
   - RULE-SET,ChinaMax_IP,💫 全球直连
   - RULE-SET,ChinaMax_Domain,💫 全球直连
   - RULE-SET,ChinaMax,💫 全球直连
