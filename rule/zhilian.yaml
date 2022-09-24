@@ -43,7 +43,7 @@ payload:
   - DOMAIN-SUFFIX,agefans.app
   - DOMAIN-SUFFIX,olemovienews.com
   - DOMAIN-SUFFIX,notion-api.splitbee.io
-syncnext-api.5mlstudio.com
+  - DOMAIN-SUFFIX,syncnext-api.5mlstudio.com
 
 #peach服直连线路
   - DOMAIN-SUFFIX,emby-peach.blueseacdn.com
