@@ -13,3 +13,5 @@ payload:
   - DOMAIN-SUFFIX,pub3back.emby.wtf
 # Misty美国线路
   - DOMAIN-SUFFIX,us.aaa.ax
+# google voice
+  - DOMAIN,lens.l.google.com
