@@ -46,7 +46,7 @@ payload:
   - DOMAIN-SUFFIX,syncnext-api.5mlstudio.com
 
 #peach服直连线路
-  - DOMAIN-SUFFIX,emby-peach.blueseacdn.com
+  - DOMAIN-SUFFIX,blueseacdn.com
 
 # blueseacdn.com服 暂时直连
-  - DOMAIN-SUFFIX,emby-pub1.blueseacdn.com
+  - DOMAIN-SUFFIX,blueseacdn.com
