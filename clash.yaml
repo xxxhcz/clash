@@ -31,6 +31,7 @@ dns:
   nameserver:
     - https://doh.pub/dns-query
     - https://dns.alidns.com/dns-query
+  skip-cert-verify: true
   fallback:
     - https://1.1.1.1/dns-query
     - https://dns.google/dns-query
