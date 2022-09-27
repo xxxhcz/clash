@@ -168,13 +168,13 @@ rule-providers:
     path: ./ruleset/lancidr.yaml
     interval: 86400
 rules:
+  - RULE-SET,zhilian,💫 全球直连
   - RULE-SET,SG,🇸🇬 狮城节点
   - RULE-SET,HK,🇭🇰 香港节点
   - RULE-SET,US,🇺🇸 美国节点
   - RULE-SET,JP,🇯🇵 日本节点
   - RULE-SET,Speedtest,🌀 节点测速
   - RULE-SET,NetEaseMusic,🎧 网易音乐
-  - RULE-SET,zhilian,💫 全球直连
   - RULE-SET,Proxy,🚀 节点选择
   - RULE-SET,media,🎬 媒体自选
   - RULE-SET,Netflix,🎥 奈飞视频
