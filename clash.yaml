@@ -176,18 +176,18 @@ rules:
   - RULE-SET,NetEaseMusic,🎧 网易音乐
   - RULE-SET,zhilian,💫 全球直连
   - RULE-SET,Proxy,🚀 节点选择
-  - RULE-SET,guanggao,🚫 广告拦截
   - RULE-SET,media,🎬 媒体自选
   - RULE-SET,Netflix,🎥 奈飞视频
   - RULE-SET,Spotify,🚀 节点选择
 #  - RULE-SET,apple,🍎 苹果服务
   - RULE-SET,lancidr,💫 全球直连
   - RULE-SET,private,💫 全球直连
-  - RULE-SET,reject,🚫 广告拦截
   - RULE-SET,ChinaMax_IP,💫 全球直连
   - RULE-SET,ChinaMax_Domain,💫 全球直连
   - RULE-SET,ChinaMax,💫 全球直连
   - RULE-SET,Global,🚀 节点选择
   - RULE-SET,Global_Domain,🚀 节点选择
+  - RULE-SET,guanggao,🚫 广告拦截
+  - RULE-SET,reject,🚫 广告拦截
   - GEOIP,CN,💫 全球直连
   - MATCH,🕸 漏网之鱼
