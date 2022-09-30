@@ -36,6 +36,7 @@ payload:
   - DOMAIN-SUFFIX,if101.tv
   - DOMAIN-SUFFIX,kaooooo.com
   - DOMAIN-SUFFIX,ghewig.com
+  - DOMAIN-SUFFIX,olehdtv.com
 # 404公益服
   - DOMAIN-SUFFIX,404.sb
 # 终端站4妹(infuse)
