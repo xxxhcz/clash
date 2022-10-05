@@ -41,7 +41,5 @@ payload:
   - DOMAIN-SUFFIX,404.sb
 # 终端站4妹(infuse)
   - DOMAIN-SUFFIX,pub4.emby.wtf
-# 翡翠台
-  - IP-CIDR,23.237.10.0/24,no-resolve
 # Orange服
   - DOMAIN-SUFFIX,embytv.cf
