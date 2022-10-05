@@ -17,6 +17,7 @@ dns:
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
   fake-ip-filter:
+    - '*.olehdtv.com'
     - '*.lan'
     - localhost.ptlogin2.qq.com
     - '+.srv.nintendo.net'
@@ -34,8 +35,6 @@ dns:
     - https://doh.pub/dns-query
     - https://dns.alidns.com/dns-query
   skip-cert-verify: true
-  nameserver-policy:
-    'www.olehdtv.com': 1.1.1.1
     
 rule-providers:
   Speedtest:
