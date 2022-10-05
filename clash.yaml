@@ -169,8 +169,8 @@ rule-providers:
     path: ./ruleset/lancidr.yaml
     interval: 86400
 rules:
-  - RULE-SET,zhilian,💫 全球直连
   - RULE-SET,Bilibili,🇭🇰 香港节点
+  - RULE-SET,zhilian,💫 全球直连
   - RULE-SET,SG,🇸🇬 狮城节点
   - RULE-SET,HK,🇭🇰 香港节点
   - RULE-SET,US,🇺🇸 美国节点
