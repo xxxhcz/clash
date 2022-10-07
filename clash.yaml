@@ -120,12 +120,12 @@ rule-providers:
     url: "https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AdvertisingLite/AdvertisingLite_Domain.yaml"
     path: ./ruleset/AdDomain.yaml
     interval: 86400
-#  apple:
-#    type: http
-#    behavior: classical
-#    url: https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Apple/Apple.yaml
-#    path: ./ruleset/Apple.yaml
-#    interval: 86400
+  apple:
+    type: http
+    behavior: classical
+    url: https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Apple/Apple.yaml
+    path: ./ruleset/Apple.yaml
+    interval: 86400
   private:
     type: http
     behavior: domain
@@ -181,7 +181,7 @@ rules:
   - RULE-SET,media,🎬 媒体自选
   - RULE-SET,Netflix,🎥 奈飞视频
   - RULE-SET,Spotify,🚀 节点选择
-#  - RULE-SET,apple,🍎 苹果服务
+  - RULE-SET,apple,🍎 苹果服务
   - RULE-SET,lancidr,💫 全球直连
   - RULE-SET,private,💫 全球直连
   - RULE-SET,ChinaMax_IP,💫 全球直连
