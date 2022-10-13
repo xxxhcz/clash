@@ -38,7 +38,6 @@ payload:
 #syncnext 主要 API
   - DOMAIN-SUFFIX,notion-api.splitbee.io
   - DOMAIN-SUFFIX,syncnext-api.5mlstudio.com
-
 #syncnext 次要 API
   - DOMAIN-SUFFIX,movie.douban.com # 首頁推薦內容
   - DOMAIN-SUFFIX,discord.com # 自動反饋錯誤
@@ -48,7 +47,6 @@ payload:
   - DOMAIN-SUFFIX,czspp.com
   - DOMAIN-SUFFIX,agefans.app
   - DOMAIN-SUFFIX,olemovienews.com #歐樂部分影片的播放域名，提示 SSL 錯誤既需要翻牆
-
 #syncnext其他域名
   - DOMAIN-SUFFIX, aliyundrive.asia
 #syncnex vod域名
