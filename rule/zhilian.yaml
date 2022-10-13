@@ -58,7 +58,7 @@ payload:
   - DOMAIN-SUFFIX,bljiex.com
   - DOMAIN-SUFFIX,lehootv.com
   - DOMAIN-SUFFIX,sdzyapi.com
-  - DOMAIN-SUFFIX,prinevillesda.org
+#  - DOMAIN-SUFFIX,prinevillesda.org
   - DOMAIN-SUFFIX,tangrenjie.tv
   - DOMAIN-SUFFIX,fqzy.cc
   - DOMAIN-SUFFIX,kuapi.cc
