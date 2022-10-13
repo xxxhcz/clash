@@ -1,14 +1,18 @@
 payload:
 # misty
   - DOMAIN-SUFFIX,aaa.ax
+  
 # 香港台直播线路
   - DOMAIN-SUFFIX,hklive.tv
   - DOMAIN-SUFFIX,hkdtmb.com
+  
 # blueseamusics线路
   - DOMAIN-SUFFIX,blueseamusics.com
+  
 # singularity公益服
   - DOMAIN-SUFFIX,singularity.deja-vu.beauty
   - IP-CIDR,163.172.90.0/24,no-resolve
+  
 # tiktok
   - PROCESS-NAME,com.ss.android.ugc.trill
   - DOMAIN-SUFFIX,byteoversea.com
@@ -21,31 +25,42 @@ payload:
   - DOMAIN-SUFFIX,tiktokcdn.com
   - DOMAIN-SUFFIX,tiktokv.com
   - DOMAIN-KEYWORD,tiktokcdn
+  
 # Nakonako
   - DOMAIN-SUFFIX,nakonako.net
   - IP-CIDR,95.217.228.0/24,no-resolve
+  
 # blueseacdn.com服 暂时直连
-#  - DOMAIN-SUFFIX,emby-pub1.blueseacdn.com
+  - DOMAIN-SUFFIX,emby-pub1.blueseacdn.com
+  
 # 卷毛鼠高可用
   - DOMAIN-SUFFIX,ha.jmsooo.com
+  
 # MisakaF公益服
   - DOMAIN-SUFFIX,misakaf.org
   - IP-CIDR,194.180.179.0/24,no-resolve
+  
 #syncnext
   - DOMAIN-SUFFIX,olevod.com
   - DOMAIN-SUFFIX,if101.tv
   - DOMAIN-SUFFIX,kaooooo.com
   - DOMAIN-SUFFIX,ghewig.com
   - DOMAIN-SUFFIX,olehdtv.com
+  
 # 404公益服
   - DOMAIN-SUFFIX,404.sb
+  
 # 终端站4妹(infuse)
   - DOMAIN-SUFFIX,pub4.emby.wtf
+  
 # Orange服
   - DOMAIN-SUFFIX,embytv.cf
+  
 # polo中转
   - DOMAIN-SUFFIX,sfzf2.poloemby.xyz
+  
 # peach服
   - DOMAIN-SUFFIX,embymv.tk
+  
 # Atvii服
   - DOMAIN-SUFFIX,atvii.com
