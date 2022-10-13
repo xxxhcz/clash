@@ -74,3 +74,6 @@ payload:
 
 # polo 直连
   - DOMAIN-SUFFIX,cu.poloemby.xyz
+
+# blueseacdn.com服
+  - DOMAIN-SUFFIX,emby-pub1.blueseacdn.com
