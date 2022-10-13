@@ -30,7 +30,7 @@ payload:
   - DOMAIN-SUFFIX,nakonako.net
   - IP-CIDR,95.217.228.0/24,no-resolve
   
-# blueseacdn.com服 暂时直连
+# blueseacdn.com服
   - DOMAIN-SUFFIX,emby-pub1.blueseacdn.com
   
 # 卷毛鼠高可用
