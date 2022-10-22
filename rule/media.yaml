@@ -43,7 +43,7 @@ payload:
   - DOMAIN-SUFFIX,kaooooo.com
   - DOMAIN-SUFFIX,ghewig.com
   - DOMAIN-SUFFIX,olehdtv.com
-  
+  - DOMAIN-SUFFIX,haiwaikan.com
 # 404公益服
   - DOMAIN-SUFFIX,404.sb
   
