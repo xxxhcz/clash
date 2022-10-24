@@ -71,6 +71,7 @@ payload:
   
 #peach服直连线路
   - DOMAIN-SUFFIX,emby-peach.blueseacdn.com
+  - DOMAIN-SUFFIX,sg.embymv.tk
 
 # polo 直连
   - DOMAIN-SUFFIX,cu.poloemby.xyz
