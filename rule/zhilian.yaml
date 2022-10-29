@@ -46,7 +46,7 @@ payload:
   - DOMAIN-SUFFIX,ddys.tv
   - DOMAIN-SUFFIX,czspp.com
   - DOMAIN-SUFFIX,agefans.app
-  - DOMAIN-SUFFIX,olemovienews.com #歐樂部分影片的播放域名，提示 SSL 錯誤既需要翻牆
+
 #syncnext其他域名
   - DOMAIN-SUFFIX, aliyundrive.asia
 #syncnex vod域名
