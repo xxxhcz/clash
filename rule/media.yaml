@@ -44,6 +44,7 @@ payload:
   - DOMAIN-SUFFIX,ghewig.com
   - DOMAIN-SUFFIX,olehdtv.com
   - DOMAIN-SUFFIX,haiwaikan.com
+  - DOMAIN-SUFFIX,olemovienews.com #歐樂部分影片的播放域名，提示 SSL 錯誤既需要翻牆
 # 404公益服
   - DOMAIN-SUFFIX,404.sb
   
