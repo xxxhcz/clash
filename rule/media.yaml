@@ -69,3 +69,4 @@ payload:
 
 # 翡翠台
   - IP-CIDR,23.237.10.0/24,no-resolve
+  - IP-CIDR,120.84.96.0/24,no-resolve
