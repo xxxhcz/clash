@@ -18,5 +18,3 @@ payload:
   - IP-CIDR,65.108.140.0/24,no-resolve
 # Orange服香港线路
   - DOMAIN-SUFFIX,emby.52.al
-# 翡翠台
-  - IP-CIDR,23.237.10.0/24,no-resolve
