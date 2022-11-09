@@ -66,3 +66,6 @@ payload:
   
 # Atvii服
   - DOMAIN-SUFFIX,atvii.com
+
+# 翡翠台
+  - IP-CIDR,23.237.10.0/24,no-resolve
