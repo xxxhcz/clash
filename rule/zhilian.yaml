@@ -78,3 +78,6 @@ payload:
 
 # blueseacdn.com服
   - DOMAIN-SUFFIX,emby-pub1.blueseacdn.com
+
+# supes
+  - DOMAIN-SUFFIX,supes.top
