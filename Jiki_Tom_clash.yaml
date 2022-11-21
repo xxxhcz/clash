@@ -63,7 +63,7 @@ rule-providers:
     type: http
     behavior: classical
     url: https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Apple/Apple.yaml
-    path: ./ruleset/Apple.yaml
+    path: ./ruleset/apple.yaml
     interval: 86400
   private:
     type: http
