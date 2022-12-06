@@ -13,8 +13,8 @@ dns:
   ipv6: true
   listen: 0.0.0.0:53
   default-nameserver:
+    - 119.29.29.29
     - 223.5.5.5
-    - 1.1.1.1
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
   fake-ip-filter:
