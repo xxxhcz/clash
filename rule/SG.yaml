@@ -6,7 +6,5 @@ payload:
 # 卷毛鼠
   - DOMAIN-SUFFIX,sg1.jmsooo
   - DOMAIN-SUFFIX,sg2.jmsooo
-# misty服新加坡线路
-  - DOMAIN-SUFFIX,sg.aaa.ax
 # 奥德赛SG
   - DOMAIN-SUFFIX,sg.odysseyplus.site
