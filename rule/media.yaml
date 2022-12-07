@@ -1,6 +1,6 @@
 payload:
 # misty
-  - DOMAIN-SUFFIX,aaa.ax
+  - DOMAIN-SUFFIX,misty.ltd
   
 # 香港台直播线路
   - DOMAIN-SUFFIX,hklive.tv
