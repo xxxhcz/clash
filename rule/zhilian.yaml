@@ -81,3 +81,6 @@ payload:
   
 # magpie服
   - DOMAIN-SUFFIX,magpie.eu.org
+
+# 卷毛鼠
+  - DOMAIN-SUFFIX,cf.jmsooo.com
