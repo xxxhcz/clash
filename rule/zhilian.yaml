@@ -78,6 +78,7 @@ payload:
 
 # blueseacdn.com服
   - DOMAIN-SUFFIX,emby-pub1.blueseacdn.com
+  - DOMAIN-SUFFIX,bsem.ddns.me
   
 # magpie服
   - DOMAIN-SUFFIX,magpie.eu.org
