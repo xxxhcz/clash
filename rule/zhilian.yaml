@@ -85,3 +85,6 @@ payload:
 
 # 卷毛鼠
   - DOMAIN-SUFFIX,cf.jmsooo.com
+
+# magpie 私人高清影视库jellyfin服
+  - DOMAIN-SUFFIX,magpie.eu.org
