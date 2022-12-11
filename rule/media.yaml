@@ -72,3 +72,6 @@ payload:
 
 # 翡翠台
   - IP-CIDR,23.237.10.0/24,no-resolve
+  
+# Nebula服  星云服
+  - DOMAIN-SUFFIX,direct.nebula-emby.com
