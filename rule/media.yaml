@@ -51,7 +51,7 @@ payload:
   - DOMAIN-SUFFIX,bfvvs.com #海外看
   - DOMAIN-SUFFIX,cdn.venus7202.com #海外看
   - DOMAIN-SUFFIX,cdn.ceres9350.com #海外看
-  
+  - DOMAIN-SUFFIX,vip.lz-cdn11.com #量子
 # 404公益服
   - DOMAIN-SUFFIX,404.sb
   
@@ -75,3 +75,4 @@ payload:
   
 # Nebula服  星云服
   - DOMAIN-SUFFIX,direct.nebula-emby.com
+
