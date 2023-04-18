@@ -61,8 +61,8 @@ payload:
 # Orange服
   - DOMAIN-SUFFIX,embytv.cf
   
-# polo中转
-  - DOMAIN-SUFFIX,sfzf2.poloemby.xyz
+# polo
+  - DOMAIN-SUFFIX,df.poloemby.xyz
   
 # peach服
   - DOMAIN-SUFFIX,embymv.tk
