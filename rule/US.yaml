@@ -11,3 +11,5 @@ payload:
   - DOMAIN-SUFFIX,pub3back.emby.wtf
 # google voice
   - DOMAIN,lens.l.google.com
+#polo cf
+  - DOMAIN-SUFFIX,cf.poloemby.xyz
