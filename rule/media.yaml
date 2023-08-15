@@ -75,4 +75,5 @@ payload:
   
 # Nebula服  星云服
   - DOMAIN-SUFFIX,direct.nebula-emby.com
-
+#剧狗
+  - DOMAIN-SUFFIX,ju.dog
