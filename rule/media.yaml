@@ -81,3 +81,6 @@ payload:
 
 #海豚
   - DOMAIN-SUFFIX,public.emby.ws
+
+#TreeDiagram服
+  - DOMAIN-SUFFIX,789.123456.al
