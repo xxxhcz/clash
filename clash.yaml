@@ -176,6 +176,7 @@ wechat:
     path: ./ruleset/lancidr.yaml
     interval: 86400
 rules:
+  - RULE-SET,wechat,✉️ WeChat
   - RULE-SET,Bilibili,🇭🇰 香港节点
   - RULE-SET,zhilian,💫 全球直连
   - RULE-SET,SG,🇸🇬 狮城节点
