@@ -1,4 +1,5 @@
 # WeChat 新加坡(ip位于新加坡）
+payload:
   - DOMAIN-SUFFIX,support.wechat.com
   - DOMAIN-SUFFIX,sgshort.wechat.com
   - DOMAIN-SUFFIX,sgshort.pay.wechat.com
