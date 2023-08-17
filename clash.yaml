@@ -37,7 +37,7 @@ dns:
   skip-cert-verify: true
     
 rule-providers:  
-wechat:
+  wechat:
     type: http
     behavior: classical
     url: "https://ghproxy.com/https://raw.githubusercontent.com/xxxhcz/clash/master/rule/wechat.yaml"
