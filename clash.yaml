@@ -36,7 +36,13 @@ dns:
     - https://dns.alidns.com/dns-query
   skip-cert-verify: true
     
-rule-providers:
+rule-providers:  
+wechat:
+    type: http
+    behavior: classical
+    url: "https://ghproxy.com/https://raw.githubusercontent.com/xxxhcz/clash/master/rule/wechat.yaml"
+    path: ./ruleset/wechat.yaml
+    interval: 86400
   Speedtest:
     type: http
     behavior: classical
