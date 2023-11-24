@@ -40,18 +40,6 @@ payload:
 # hs
   - IP-CIDR,65.108.140.0/24,no-resolve
 
-#syncnext
-  - DOMAIN-SUFFIX,olevod.com #欧乐
-  - DOMAIN-SUFFIX,olehdtv.com #欧乐
-  - DOMAIN-SUFFIX,olemovienews.com #欧乐
-  - DOMAIN-SUFFIX,if101.tv #if101
-  - DOMAIN-SUFFIX,kaooooo.com #if101
-  - DOMAIN-SUFFIX,ghewig.com #if101
-  - DOMAIN-SUFFIX,haiwaikan.com #海外看
-  - DOMAIN-SUFFIX,bfvvs.com #海外看
-  - DOMAIN-SUFFIX,cdn.venus7202.com #海外看
-  - DOMAIN-SUFFIX,cdn.ceres9350.com #海外看
-  - DOMAIN-SUFFIX,vip.lz-cdn11.com #量子
 # 404公益服
   - DOMAIN-SUFFIX,404.sb
   
