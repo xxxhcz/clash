@@ -55,6 +55,18 @@ rule-providers:
     url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Netflix/Netflix.yaml"
     path: ./ruleset/Netflix.yaml
     interval: 86400
+  SyncnextUnbreak:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/qoli/SyncnextClash/main/Unbreak-classical.yaml"
+    path: ./ruleset/SyncnextUnbreak.yaml
+    interval: 86400
+  SyncnextProxy:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/qoli/SyncnextClash/main/proxy-classical.yaml"
+    path: ./ruleset/SyncnextProxy.yaml
+    interval: 86400
   Bilibili:
     type: http
     behavior: classical
@@ -183,6 +195,8 @@ rules:
   - RULE-SET,HK,🇭🇰 香港节点
   - RULE-SET,US,🇺🇸 美国节点
   - RULE-SET,JP,🇯🇵 日本节点
+  - RULE-SET,SyncnextProxy,🎬 媒体自选
+  - RULE-SET,SyncnextUnbreak,💫 全球直连
   - RULE-SET,Speedtest,🌀 节点测速
   - RULE-SET,NetEaseMusic,🎧 网易音乐
   - RULE-SET,Proxy,🚀 节点选择
