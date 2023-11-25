@@ -6,8 +6,8 @@ log-level: silent
 ipv6: true
 external-controller: 127.0.0.1:9090
 hosts:
-  'www.github.com': 20.205.243.166
-  'raw.githubusercontent.com': 151.101.108.133
+  'www.github.com': 52.74.223.119
+  'raw.githubusercontent.com': 185.199.108.133
 dns:
   enable: true
   ipv6: true
