@@ -30,8 +30,8 @@ payload:
   - DOMAIN-SUFFIX,nakonako.net
   - IP-CIDR,95.217.228.0/24,no-resolve
   
-# 卷毛鼠高可用
-  - DOMAIN-SUFFIX,ha.jmsooo.com
+# 卷毛鼠
+  - DOMAIN-SUFFIX,cf.jmsooo.com
   
 # MisakaF公益服
   - DOMAIN-SUFFIX,misakaf.org
