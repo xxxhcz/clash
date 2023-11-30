@@ -9,10 +9,7 @@ payload:
 # blueseamusics线路
   - DOMAIN-SUFFIX,blueseamusics.com
   
-# singularity公益服
-  - DOMAIN-SUFFIX,singularity.deja-vu.beauty
-  - IP-CIDR,163.172.90.0/24,no-resolve
-  
+
 # tiktok
   - PROCESS-NAME,com.ss.android.ugc.trill
   - DOMAIN-SUFFIX,byteoversea.com
@@ -26,37 +23,25 @@ payload:
   - DOMAIN-SUFFIX,tiktokv.com
   - DOMAIN-KEYWORD,tiktokcdn
   
-# Nakonako
-  - DOMAIN-SUFFIX,nakonako.net
-  - IP-CIDR,95.217.228.0/24,no-resolve
-  
 # 卷毛鼠
   - DOMAIN-SUFFIX,cf.jmsooo.com
-  
-# MisakaF公益服
-  - DOMAIN-SUFFIX,misakaf.org
-  - IP-CIDR,194.180.179.0/24,no-resolve
   
 # hs
   - IP-CIDR,65.108.140.0/24,no-resolve
 
-# 404公益服
-  - DOMAIN-SUFFIX,404.sb
-  
+# misty服香港线路
+  - DOMAIN-SUFFIX,hk.aaa.ax
+# 终端站亚洲入口
+  - DOMAIN-SUFFIX,pub1.emby.wtf
+  - DOMAIN-SUFFIX,pub2.emby.wtf
+  - DOMAIN-SUFFIX,pub3.emby.wtf
 # 终端站4妹(infuse)
   - DOMAIN-SUFFIX,pub4.emby.wtf
-  
-# Orange服
-  - DOMAIN-SUFFIX,embytv.cf
-  
-# polo
-  - DOMAIN-SUFFIX,df.poloemby.xyz
-  
 # peach服
   - DOMAIN-SUFFIX,embymv.tk
   - IP-CIDR,193.123.232.0/24,no-resolve  
   
-  # Atvii服
+# Atvii服
   - DOMAIN-SUFFIX,atvii.com
 
 # 翡翠台
