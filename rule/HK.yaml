@@ -1,18 +1,8 @@
 payload:
 # 香港自定义
   - IP-CIDR,104.27.207.0/24,no-resolve
-# 超级跑车公益服
-  - DOMAIN-SUFFIX,emby.cjpc.cc
+
 # appstorrent  mac app下载服务器
   - DOMAIN-SUFFIX,psv4.userapi.com
-# 终端站亚洲入口
-  - DOMAIN-SUFFIX,pub1.emby.wtf
-  - DOMAIN-SUFFIX,pub2.emby.wtf
-  - DOMAIN-SUFFIX,pub3.emby.wtf
-# misty服香港线路
-  - DOMAIN-SUFFIX,hk.aaa.ax
-# 黑山公益服
-  - DOMAIN-SUFFIX,gcx920110.com
-  - IP-CIDR,185.197.194.0/24,no-resolve
-# Orange服香港线路
-  - DOMAIN-SUFFIX,emby.52.al
+
+
