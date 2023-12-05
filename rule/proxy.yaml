@@ -9,3 +9,5 @@ payload:
   - DOMAIN-SUFFIX,aixdzs.com
 #JM
 #  - DOMAIN-KEYWORD,jmapi
+#国外DNS
+  - IP-CIDR,1.1.1.0/24,no-resolve
