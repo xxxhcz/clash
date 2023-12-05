@@ -53,9 +53,9 @@ payload:
 # Nebula服  星云服
   - DOMAIN-SUFFIX,direct.nebula-emby.com
   
-#剧狗
-  - DOMAIN-SUFFIX,ju.dog
-
+#Temby
+  - IP-CIDR,104.21.30.0/24,no-resolve
+  - DOMAIN-SUFFIX,temby.285286.xyz
 #海豚
   - DOMAIN-SUFFIX,public.emby.ws
 
