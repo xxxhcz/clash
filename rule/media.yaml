@@ -43,7 +43,8 @@ payload:
 # peach服
   - DOMAIN-SUFFIX,embymv.tk
   - IP-CIDR,193.123.232.0/24,no-resolve  
-  
+  - IP-CIDR,141.147.166.0/24,no-resolve
+
 # Atvii服
   - DOMAIN-SUFFIX,atvii.com
 
