@@ -11,3 +11,5 @@ payload:
 #  - DOMAIN-KEYWORD,jmapi
 #国外DNS
   - IP-CIDR,1.1.1.0/24,no-resolve
+# buy.itunes.apple.com
+  - DOMAIN-SUFFIX,buy.itunes.apple.com
