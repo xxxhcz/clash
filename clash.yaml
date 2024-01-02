@@ -118,7 +118,7 @@ rule-providers:
   Proxy:
     type: http
     behavior: classical
-    url: "https://raw.gitmirror.com/xxxhcz/clash/master/rule/proxy.yaml"
+    url: "https://raw.githubusercontent.com/xxxhcz/clash/master/rule/proxy.yaml"
     path: ./ruleset/Proxy.yaml
     interval: 86400
   guanggao:
