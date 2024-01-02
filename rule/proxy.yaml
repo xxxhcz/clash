@@ -1,15 +1,11 @@
 payload:
-# bianyuan
-  - DOMAIN-KEYWORD,bianyuan
 # 红袖
   - DOMAIN-KEYWORD,hongxiua
 # supes
   - DOMAIN-SUFFIX,supes.top
 # aixdzs
   - DOMAIN-SUFFIX,aixdzs.com
-#JM
-#  - DOMAIN-KEYWORD,jmapi
 #国外DNS
   - IP-CIDR,1.1.1.0/24,no-resolve
 # buy.itunes.apple.com
-  - DOMAIN-SUFFIX,buy.itunes.apple.com
+  - DOMAIN-KEYWORD,buy.itunes
