@@ -40,7 +40,7 @@ payload:
 # 终端站4妹(infuse)
   - DOMAIN-SUFFIX,pub4.emby.wtf
 # peach服
-  - DOMAIN-SUFFIX,embymv.tk
+  - DOMAIN-SUFFIX,peachmv.me
   - IP-CIDR,193.123.232.0/24,no-resolve  
   - IP-CIDR,141.147.166.0/24,no-resolve
 
