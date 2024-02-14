@@ -29,9 +29,8 @@ payload:
 # hs
   - IP-CIDR,65.108.140.0/24,no-resolve
 # 奥德赛
-  - DOMAIN-SUFFIX,cf.odysseyplus.site
-  - DOMAIN-SUFFIX,us.odysseyplus.site
-  - DOMAIN-SUFFIX,sp.odysseyplus.site
+  - DOMAIN-SUFFIX,odysseyplus.site
+
 # misty服香港线路
   - DOMAIN-SUFFIX,hk.aaa.ax
 # 终端站亚洲入口
