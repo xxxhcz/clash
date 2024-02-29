@@ -1,14 +1,4 @@
 payload:
-# misty
-  - DOMAIN-SUFFIX,misty.ltd
-  
-# 香港台直播线路
-  - DOMAIN-SUFFIX,hklive.tv
-  - DOMAIN-SUFFIX,hkdtmb.com
-  
-# blueseamusics线路
-  - DOMAIN-SUFFIX,blueseamusics.com
-  
 
 # tiktok
   - PROCESS-NAME,com.ss.android.ugc.trill
@@ -26,13 +16,10 @@ payload:
 # 卷毛鼠
   - DOMAIN-SUFFIX,cf.jmsooo.com
   
-# hs
-  - IP-CIDR,65.108.140.0/24,no-resolve
 # 奥德赛
   - DOMAIN-SUFFIX,odysseyplus.site
 
-# misty服香港线路
-  - DOMAIN-SUFFIX,hk.aaa.ax
+
 # 终端站亚洲入口
   - DOMAIN-SUFFIX,pub1.emby.wtf
   - DOMAIN-SUFFIX,pub2.emby.wtf
@@ -40,24 +27,10 @@ payload:
 # 终端站4妹(infuse)
   - DOMAIN-SUFFIX,pub4.emby.wtf
 # peach服
+  - DOMAIN-SUFFIX,embymv.tk
   - DOMAIN-SUFFIX,peachmv.me
   - IP-CIDR,193.123.232.0/24,no-resolve  
   - IP-CIDR,141.147.166.0/24,no-resolve
-
-# Atvii服
-  - DOMAIN-SUFFIX,atvii.com
-
-# 翡翠台
-  - IP-CIDR,23.237.10.0/24,no-resolve
-  
-# Nebula服  星云服
-  - DOMAIN-SUFFIX,direct.nebula-emby.com
-  
-#Temby
-  - IP-CIDR,104.21.30.0/24,no-resolve
-  - DOMAIN-SUFFIX,temby.285286.xyz
-#海豚
-  - DOMAIN-SUFFIX,public.emby.ws
 
 #TreeDiagram服
   - DOMAIN-SUFFIX,789.123456.al
