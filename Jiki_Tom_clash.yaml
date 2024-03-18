@@ -57,7 +57,7 @@ rule-providers:
   media:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/xxxhcz/clash/main/rule/media.yaml"
+    url: "https://raw.githubusercontent.com/xxxhcz/clash/master/rule/media.yaml"
     path: ./ruleset/media.yaml
     interval: 86400
   Speedtest:
