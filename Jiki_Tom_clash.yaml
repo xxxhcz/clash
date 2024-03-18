@@ -36,6 +36,18 @@ dns:
     - https://dns.alidns.com/dns-query
   skip-cert-verify: true
 rule-providers:
+  SyncnextUnbreak:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/qoli/SyncnextClash/main/Unbreak-classical.yaml"
+    path: ./ruleset/SyncnextUnbreak.yaml
+    interval: 86400
+  SyncnextProxy:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/qoli/SyncnextClash/main/proxy-classical.yaml"
+    path: ./ruleset/SyncnextProxy.yaml
+    interval: 86400
   Google:
     type: http
     behavior: classical
@@ -146,6 +158,8 @@ rules:
   - RULE-SET,DisneyPlus,❄️ 迪士尼➕
   - RULE-SET,appletv,🍎 苹果TV
   - RULE-SET,apple,🍎 苹果服务
+  - RULE-SET,SyncnextProxy,🚀 节点选择
+  - RULE-SET,SyncnextUnbreak,💫 全球直连
   - RULE-SET,media,🚀 节点选择
   - RULE-SET,ChinaMax_IP,💫 全球直连
   - RULE-SET,ChinaMax_Domain,💫 全球直连
