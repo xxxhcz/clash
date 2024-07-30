@@ -13,9 +13,6 @@ payload:
   - DOMAIN-SUFFIX,tiktokv.com
   - DOMAIN-KEYWORD,tiktokcdn
   
-# 卷毛鼠
-  - DOMAIN-SUFFIX,cf.jmsooo.com
-  
 # 奥德赛
   - DOMAIN-SUFFIX,odysseyplus.site
 
