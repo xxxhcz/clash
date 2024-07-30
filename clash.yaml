@@ -91,6 +91,12 @@ rule-providers:
     url: "https://raw.githubusercontent.com/xxxhcz/clash/master/rule/HK.yaml"
     path: ./ruleset/HK.yaml
     interval: 86400
+  TW:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/xxxhcz/clash/master/rule/TW.yaml"
+    path: ./ruleset/TW.yaml
+    interval: 86400
   US:
     type: http
     behavior: classical
@@ -195,6 +201,7 @@ rules:
   - RULE-SET,HK,🇭🇰 香港节点
   - RULE-SET,US,🇺🇸 美国节点
   - RULE-SET,JP,🇯🇵 日本节点
+  - RULE-SET,TW, 日本节点
   - RULE-SET,SyncnextProxy,🎬 媒体自选
   - RULE-SET,SyncnextUnbreak,💫 全球直连
   - RULE-SET,Speedtest,🌀 节点测速
