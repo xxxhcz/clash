@@ -18,11 +18,11 @@ payload:
 
 
 # 终端站亚洲入口
-  - DOMAIN-SUFFIX,pub1.emby.wtf
-  - DOMAIN-SUFFIX,pub2.emby.wtf
-  - DOMAIN-SUFFIX,pub3.emby.wtf
+  - DOMAIN-KEYWORD,pub1
+  - DOMAIN-KEYWORD,pub2
+  - DOMAIN-KEYWORD,pub3
 # 终端站4妹(infuse)
-  - DOMAIN-SUFFIX,pub4.emby.wtf
+  - DOMAIN-KEYWORD,pub4
 # peach服
   - DOMAIN-SUFFIX,embymv.tk
   - DOMAIN-SUFFIX,peachmv.me
