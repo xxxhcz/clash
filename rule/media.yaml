@@ -1,5 +1,9 @@
 payload:
 
+# 123
+  - DOMAIN-KEYWORD,123av
+  - DOMAIN-KEYWORD,njav
+  
 # tiktok
   - PROCESS-NAME,com.ss.android.ugc.trill
   - DOMAIN-SUFFIX,byteoversea.com
