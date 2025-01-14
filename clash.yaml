@@ -76,7 +76,7 @@ rule-providers:
   Spotify:
     type: http
     behavior: classical
-    url: "https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/StreamingMedia/Music/Spotify.yaml"
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Ruleset/Spotify.list"
     path: ./ruleset/Spotify.yaml
     interval: 86400
   SG:
