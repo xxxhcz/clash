@@ -188,7 +188,7 @@ rule-providers:
     path: ./ruleset/lancidr.yaml
     interval: 86400
 rules:
-  - RULE-SET,OpenAI,✉️ OpenAI
+  - RULE-SET,OpenAI,🔗 OpenAI
   - RULE-SET,wechat,✉️ WeChat
   - RULE-SET,Bilibili,🇭🇰 香港节点
   - RULE-SET,zhilian,💫 全球直连
