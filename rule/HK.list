@@ -1,0 +1,5 @@
+# 香港自定义
+IP-CIDR,104.27.207.0/24,no-resolve
+
+# appstorrent  mac app下载服务器
+DOMAIN-SUFFIX,psv4.userapi.com
