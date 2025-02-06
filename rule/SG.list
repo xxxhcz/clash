@@ -1,0 +1,8 @@
+# 新加坡自定义
+IP-CIDR,157.245.49.0/24,no-resolve
+IP-CIDR,143.198.94.163/32
+# 卷毛鼠
+DOMAIN-SUFFIX,sg1.jmsooo
+DOMAIN-SUFFIX,sg2.jmsooo
+# 奥德赛SG
+DOMAIN-SUFFIX,sg.odysseyplus.site
