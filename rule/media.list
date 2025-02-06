@@ -1,0 +1,34 @@
+# 123
+DOMAIN-KEYWORD,123av
+DOMAIN-KEYWORD,njav
+  
+# tiktok
+PROCESS-NAME,com.ss.android.ugc.trill
+DOMAIN-SUFFIX,byteoversea.com
+DOMAIN-SUFFIX,ibytedtos.com
+DOMAIN-SUFFIX,ipstatp.com
+DOMAIN-SUFFIX,muscdn.com
+DOMAIN-SUFFIX,musical.ly
+DOMAIN-SUFFIX,tiktok.com
+DOMAIN-SUFFIX,tik-tokapi.com
+DOMAIN-SUFFIX,tiktokcdn.com
+DOMAIN-SUFFIX,tiktokv.com
+DOMAIN-KEYWORD,tiktokcdn
+  
+# 奥德赛
+DOMAIN-SUFFIX,odysseyplus.site
+
+# 终端站亚洲入口
+DOMAIN-KEYWORD,pub1
+DOMAIN-KEYWORD,pub2
+DOMAIN-KEYWORD,pub3
+# 终端站4妹(infuse)
+DOMAIN-KEYWORD,pub4
+# peach服
+DOMAIN-SUFFIX,embymv.tk
+DOMAIN-SUFFIX,peachmv.me
+IP-CIDR,193.123.232.0/24,no-resolve  
+IP-CIDR,141.147.166.0/24,no-resolve
+
+#TreeDiagram服
+DOMAIN-SUFFIX,789.123456.al
