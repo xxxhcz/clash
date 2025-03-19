@@ -206,7 +206,7 @@ rule-providers:
     path: ./ruleset/lancidr.yaml
     interval: 86400
 rules:
-  - RULE-SET,GoogleFCM,💫 全球直连
+  - RULE-SET,GoogleFCM,✨ GoogleFCM
   - RULE-SET,Samsung,📱 Samsung
   - RULE-SET,OpenAI,🔗 OpenAI
   - RULE-SET,Google,🪩 Google
