@@ -1,8 +1,0 @@
-
-# 美区自定义
-# 终点站欧美
-DOMAIN-SUFFIX,pub1back.emby.wtf
-DOMAIN-SUFFIX,pub2back.emby.wtf
-DOMAIN-SUFFIX,pub3back.emby.wtf
-# google voice
-DOMAIN,lens.l.google.com
