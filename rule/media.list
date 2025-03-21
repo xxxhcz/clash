@@ -1,6 +1,10 @@
 # 123
 DOMAIN-KEYWORD,123av
 DOMAIN-KEYWORD,njav
+DOMAIN-KEYWORD,1av
+DOMAIN-SUFFIX,1av.to
+DOMAIN-SUFFIX,123av.com
+DOMAIN-SUFFIX,njav.com
   
 # tiktok
 PROCESS-NAME,com.ss.android.ugc.trill
@@ -19,16 +23,12 @@ DOMAIN-KEYWORD,tiktokcdn
 DOMAIN-SUFFIX,odysseyplus.site
 
 # 终端站亚洲入口
+DOMAIN-SUFFIX,emby.wtf
+DOMAIN-SUFFIX,term.wtf
+
 DOMAIN-KEYWORD,pub1
 DOMAIN-KEYWORD,pub2
 DOMAIN-KEYWORD,pub3
 # 终端站4妹(infuse)
 DOMAIN-KEYWORD,pub4
-# peach服
-DOMAIN-SUFFIX,embymv.tk
-DOMAIN-SUFFIX,peachmv.me
-IP-CIDR,193.123.232.0/24,no-resolve  
-IP-CIDR,141.147.166.0/24,no-resolve
 
-#TreeDiagram服
-DOMAIN-SUFFIX,789.123456.al
