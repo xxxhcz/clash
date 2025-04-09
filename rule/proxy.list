@@ -35,3 +35,5 @@ DOMAIN-SUFFIX,aixdzs.com
 IP-CIDR,1.1.1.0/24,no-resolve
 # buy.itunes.apple.com
 DOMAIN-KEYWORD,buy.itunes
+# bocchi
+DOMAIN-SUFFIX,bocchi.site
