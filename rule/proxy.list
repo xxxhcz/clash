@@ -37,3 +37,5 @@ IP-CIDR,1.1.1.0/24,no-resolve
 DOMAIN-KEYWORD,buy.itunes
 # bocchi
 DOMAIN-SUFFIX,bocchi.site
+# wcc.best
+DOMAIN-SUFFIX,wcc.best
