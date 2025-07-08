@@ -7,6 +7,7 @@ payload:
   - DOMAIN-SUFFIX,1av.to
   - DOMAIN-SUFFIX,123av.com
   - DOMAIN-SUFFIX,njav.com
+  - DOMAIN-KEYWORD,surrit.online
   
 # tiktok
   - PROCESS-NAME,com.ss.android.ugc.trill
