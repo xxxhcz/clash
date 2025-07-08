@@ -9,3 +9,5 @@ payload:
   - IP-CIDR,1.1.1.0/24,no-resolve
 # buy.itunes.apple.com
   - DOMAIN-KEYWORD,buy.itunes
+# wcc.best
+  - DOMAIN-KEYWORD,wcc.best
