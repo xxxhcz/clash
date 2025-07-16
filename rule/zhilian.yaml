@@ -1,7 +1,7 @@
 # 直连列表
 payload:
 # 涂鸦us
-  - DOMAIN-KEYWORD,tuyaus
+  - DOMAIN-KEYWORD,tuya
 # filebox订阅服务器直连
   - DOMAIN-SUFFIX,api.revenuecat.com
 # 终点站直连
