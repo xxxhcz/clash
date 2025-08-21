@@ -21,7 +21,7 @@ DOMAIN-SUFFIX,tiktokv.com
 DOMAIN-KEYWORD,tiktokcdn
   
 # 奥德赛
-#DOMAIN-SUFFIX,odysseyplus.site
+DOMAIN-SUFFIX,odysseyplus.site
 
 # 终端站亚洲入口
 DOMAIN-SUFFIX,emby.wtf
