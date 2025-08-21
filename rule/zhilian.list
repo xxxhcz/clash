@@ -1,6 +1,4 @@
 # 直连列表
-# 涂鸦us
-DOMAIN-KEYWORD,tuya
 # filebox订阅服务器直连
 DOMAIN-SUFFIX,api.revenuecat.com
 # 终点站直连
