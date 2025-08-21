@@ -1,11 +1,10 @@
 # 123
-DOMAIN-KEYWORD,123av
-DOMAIN-KEYWORD,njav
-DOMAIN-KEYWORD,1av
+DOMAIN-SUFFIX,123av.com
+DOMAIN-SUFFIX,njav.tv
 DOMAIN-SUFFIX,1av.to
 DOMAIN-SUFFIX,123av.com
 DOMAIN-SUFFIX,njav.com
-DOMAIN-KEYWORD,surrit.online
+DOMAIN-SUFFIX,surrit.online
   
 # tiktok
 PROCESS-NAME,com.ss.android.ugc.trill
@@ -18,7 +17,6 @@ DOMAIN-SUFFIX,tiktok.com
 DOMAIN-SUFFIX,tik-tokapi.com
 DOMAIN-SUFFIX,tiktokcdn.com
 DOMAIN-SUFFIX,tiktokv.com
-DOMAIN-KEYWORD,tiktokcdn
   
 # 奥德赛
 DOMAIN-SUFFIX,odysseyplus.site
@@ -26,10 +24,4 @@ DOMAIN-SUFFIX,odysseyplus.site
 # 终端站亚洲入口
 DOMAIN-SUFFIX,emby.wtf
 DOMAIN-SUFFIX,term.wtf
-
-DOMAIN-KEYWORD,pub1
-DOMAIN-KEYWORD,pub2
-DOMAIN-KEYWORD,pub3
-# 终端站4妹(infuse)
-DOMAIN-KEYWORD,pub4
 
