@@ -149,7 +149,6 @@ rules:
   - RULE-SET,ChinaMax_Classical,💫 全球直连
   - RULE-SET,Global,🚀 节点选择
   - RULE-SET,Global_Domain,🚀 节点选择
-  - RULE-SET,guanggao,🚫 广告拦截
   - RULE-SET,reject,🚫 广告拦截
   - GEOIP,CN,💫 全球直连
   - MATCH,🕸 漏网之鱼
