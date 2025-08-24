@@ -2,11 +2,10 @@ payload:
 
 # 123
   - DOMAIN-KEYWORD,123av
-  - DOMAIN-KEYWORD,njav
   - DOMAIN-KEYWORD,1av
-  - DOMAIN-SUFFIX,1av.to
   - DOMAIN-SUFFIX,123av.com
-  - DOMAIN-SUFFIX,njav.com
+  - DOMAIN-KEYWORD,javxx
+  - DOMAIN-KEYWORD,njav
   - DOMAIN-KEYWORD,surrit.online
   
 # tiktok
