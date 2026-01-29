@@ -1,6 +1,7 @@
 name: stash-ad
 desc: APP启动页去广告
 category:ad
+icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Reject.png
 http:
   mitm:
     - "client-api-v2.oray.com"
