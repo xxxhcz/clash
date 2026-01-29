@@ -1,0 +1,7 @@
+name: stash-ad
+desc: APP启动页去广告
+http:
+  mitm:
+    - "client-api-v2.oray.com"
+  rewrite:
+    - ^https:\/\/client-api-v2\.oray\.com\/materials\/SLCC_iOS_DEVICE_FREE\? reject-dict
